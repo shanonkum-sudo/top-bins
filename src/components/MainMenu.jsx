@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PixelBall, PixelCrowdTop } from './PixelSprites';
 import { sound } from '../utils/audio';
+//update
 
 export default function MainMenu({ onStartDaily, hasPlayedToday, viewTodaysResults, stats }) {
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
