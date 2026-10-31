@@ -1,0 +1,308 @@
+[
+  {
+    "day": 0,
+    "fixtures": [
+      {
+        "id": "day0_fix1",
+        "title": "SAMBA AT THE BRIDGE",
+        "prompt": "Name a Brazilian footballer who has played for Chelsea.",
+        "validAnswers": [
+          { "id": "piazon_lucas", "name": "Lucas Piazon", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "mineiro", "name": "Mineiro", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "alcides", "name": "Alcides", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "nathan", "name": "Nathan", "meters": 92, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "kenedy", "name": "Kenedy", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "pato_alexandre", "name": "Alexandre Pato", "meters": 84, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "filipe_luis", "name": "Filipe Luis", "meters": 78, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "belletti_juliano", "name": "Juliano Belletti", "meters": 70, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "alex", "name": "Alex", "meters": 62, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "santos_andrey", "name": "Andrey Santos", "meters": 55, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "joao_pedro", "name": "Joao Pedro", "meters": 48, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "estevao", "name": "Estevao Willian", "meters": 42, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "ramires", "name": "Ramires", "meters": 36, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "oscar", "name": "Oscar", "meters": 25, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "david_luiz", "name": "David Luiz", "meters": 18, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "willian", "name": "Willian", "meters": 14, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "thiago_silva", "name": "Thiago Silva", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day0_fix2",
+        "title": "AFRICAN ROSSONERI",
+        "prompt": "Name an African footballer who has played for AC Milan.",
+        "validAnswers": [
+          { "id": "mesbah_djamel", "name": "Djamel Mesbah", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "constant_kevin", "name": "Kevin Constant", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "taiwo_taye", "name": "Taye Taiwo", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "traore_bakaye", "name": "Bakaye Traore", "meters": 92, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "sarr_mohamed", "name": "Mohamed Sarr", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "west_taribo", "name": "Taribo West", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "taarabt_adel", "name": "Adel Taarabt", "meters": 76, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "ballo_toure_fode", "name": "Fode Ballo-Toure", "meters": 68, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "muntari_sulley", "name": "Sulley Muntari", "meters": 58, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "essien_michael", "name": "Michael Essien", "meters": 48, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "aubameyang_pierre", "name": "Pierre-Emerick Aubameyang", "meters": 40, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "chukwueze_samuel", "name": "Samuel Chukwueze", "meters": 32, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "bennacer_ismael", "name": "Ismael Bennacer", "meters": 25, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "kessie_franck", "name": "Franck Kessie", "meters": 20, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "boateng_kevin_prince", "name": "Kevin-Prince Boateng", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "weah_george", "name": "George Weah", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day0_fix3",
+        "title": "ENGLISH DIVISION BALLON D'OR",
+        "prompt": "Name a player who won the Ballon d'Or while playing for an English club.",
+        "validAnswers": [
+          { "id": "matthews_stanley", "name": "Stanley Matthews", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "law_denis", "name": "Denis Law", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "charlton_bobby", "name": "Bobby Charlton", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "best_george", "name": "George Best", "meters": 65, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "owen_michael", "name": "Michael Owen", "meters": 35, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "rodri", "name": "Rodri", "meters": 18, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ronaldo_cristiano", "name": "Cristiano Ronaldo", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day0_fix4",
+        "title": "THE LONDON-MADRID BRIDGE",
+        "prompt": "Name a footballer who has played for both Chelsea and Real Madrid.",
+        "validAnswers": [
+          { "id": "geremi", "name": "Geremi", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "carvalho_ricardo", "name": "Ricardo Carvalho", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "lassana_diarra", "name": "Lassana Diarra", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "essien_michael", "name": "Michael Essien", "meters": 80, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "anelka_nicolas", "name": "Nicolas Anelka", "meters": 74, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "higuain_gonzalo", "name": "Gonzalo Higuain", "meters": 65, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "robben_arjen", "name": "Arjen Robben", "meters": 58, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "makelele_claude", "name": "Claude Makelele", "meters": 50, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "morata_alvaro", "name": "Alvaro Morata", "meters": 42, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "kovacic_mateo", "name": "Mateo Kovacic", "meters": 34, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "kepa_arrizabalaga", "name": "Kepa Arrizabalaga", "meters": 28, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "rudiger_antonio", "name": "Antonio Rudiger", "meters": 20, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "courtois_thibaut", "name": "Thibaut Courtois", "meters": 15, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "hazard_eden", "name": "Eden Hazard", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day0_fix5",
+        "title": "KINGS OF SPAIN",
+        "prompt": "Name a player who won La Liga Best Player / Player of the Season (2000–2026).",
+        "validAnswers": [
+          { "id": "valeron_juan_carlos", "name": "Juan Carlos Valeron", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "baraja_ruben", "name": "Ruben Baraja", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "tamudo_raul", "name": "Raul Tamudo", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "forlan_diego", "name": "Diego Forlan", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "vicente", "name": "Vicente", "meters": 78, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "oblak_jan", "name": "Jan Oblak", "meters": 66, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "ter_stegen_marc", "name": "Marc-Andre ter Stegen", "meters": 58, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "xavi", "name": "Xavi", "meters": 46, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "iniesta_andres", "name": "Andres Iniesta", "meters": 40, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "griezmann_antoine", "name": "Antoine Griezmann", "meters": 34, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "zidane_zinedine", "name": "Zinedine Zidane", "meters": 28, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ronaldinho", "name": "Ronaldinho", "meters": 24, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "benzema_karim", "name": "Karim Benzema", "meters": 20, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "bellingham_jude", "name": "Jude Bellingham", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "vinicius_junior", "name": "Vinicius Junior", "meters": 14, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ronaldo_cristiano", "name": "Cristiano Ronaldo", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "messi_lionel", "name": "Lionel Messi", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day0_fix6",
+        "title": "FRENCH GUNNERS",
+        "prompt": "Name a French footballer who has played for Arsenal.",
+        "validAnswers": [
+          { "id": "squillaci_sebastien", "name": "Sebastien Squillaci", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "aliadiere_jeremie", "name": "Jeremie Aliadiere", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "sanogo_yaya", "name": "Yaya Sanogo", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "cygan_pascal", "name": "Pascal Cygan", "meters": 92, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "grimandi_gilles", "name": "Gilles Grimandi", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "debuchy_mathieu", "name": "Mathieu Debuchy", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "flamini_mathieu", "name": "Mathieu Flamini", "meters": 76, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "diaby_abou", "name": "Abou Diaby", "meters": 68, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "clichy_gael", "name": "Gael Clichy", "meters": 62, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "sagna_bacary", "name": "Bacary Sagna", "meters": 55, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "wiltord_sylvain", "name": "Sylvain Wiltord", "meters": 48, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "nasri_samir", "name": "Samir Nasri", "meters": 42, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "koscielny_laurent", "name": "Laurent Koscielny", "meters": 36, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "lacazette_alexandre", "name": "Alexandre Lacazette", "meters": 30, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "pires_robert", "name": "Robert Pires", "meters": 25, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "giroud_olivier", "name": "Olivier Giroud", "meters": 20, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "vieira_patrick", "name": "Patrick Vieira", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "saliba_william", "name": "William Saliba", "meters": 14, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "henry_thierry", "name": "Thierry Henry", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day0_fix7",
+        "title": "BIG GAME HUNTERS",
+        "prompt": "Name a player who scored in a UEFA Champions League Final (2000–2026).",
+        "validAnswers": [
+          { "id": "alberto_carlos", "name": "Carlos Alberto", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "alichev_dmitri", "name": "Dmitri Alenichev", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "smicer_vladimir", "name": "Vladimir Smicer", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "belletti_juliano", "name": "Juliano Belletti", "meters": 92, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "carvajal_dani", "name": "Dani Carvajal", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "mandzukic_mario", "name": "Mario Mandzukic", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "milito_diego", "name": "Diego Milito", "meters": 76, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "origi_divock", "name": "Divock Origi", "meters": 68, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "havertz_kai", "name": "Kai Havertz", "meters": 60, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "coman_kingsley", "name": "Kingsley Coman", "meters": 54, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "etoo_samuel", "name": "Samuel Eto'o", "meters": 46, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "robben_arjen", "name": "Arjen Robben", "meters": 40, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "rodri", "name": "Rodri", "meters": 34, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "ramos_sergio", "name": "Sergio Ramos", "meters": 28, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "drogba_didier", "name": "Didier Drogba", "meters": 24, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "zidane_zinedine", "name": "Zinedine Zidane", "meters": 20, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "bale_gareth", "name": "Gareth Bale", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "vinicius_junior", "name": "Vinicius Junior", "meters": 14, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "messi_lionel", "name": "Lionel Messi", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ronaldo_cristiano", "name": "Cristiano Ronaldo", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 1,
+    "fixtures": [
+      {
+        "id": "day1_fix1",
+        "title": "ARGENTINE CITIZENS",
+        "prompt": "Name an Argentine footballer who has played for Manchester City.",
+        "validAnswers": [
+          { "id": "zuculini_bruno", "name": "Bruno Zuculini", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "perrone_maximo", "name": "Maximo Perrone", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "caballero_willy", "name": "Willy Caballero", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "demichelis_martin", "name": "Martin Demichelis", "meters": 74, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "echeverri_claudio", "name": "Claudio Echeverri", "meters": 62, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "otamendi_nicolas", "name": "Nicolas Otamendi", "meters": 48, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "zabaleta_pablo", "name": "Pablo Zabaleta", "meters": 36, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "tevez_carlos", "name": "Carlos Tevez", "meters": 22, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "alvarez_julian", "name": "Julian Alvarez", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "aguero_sergio", "name": "Sergio Aguero", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day1_fix2",
+        "title": "THE FORBIDDEN TRANSFER",
+        "prompt": "Name a footballer who has played for both FC Barcelona and Real Madrid.",
+        "validAnswers": [
+          { "id": "celades_albert", "name": "Albert Celades", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "garcia_dani", "name": "Dani Garcia", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "alfonso_perez", "name": "Alfonso Perez", "meters": 92, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "prosinecki_robert", "name": "Robert Prosinecki", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "hagi_gheorghe", "name": "Gheorghe Hagi", "meters": 76, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "saviola_javier", "name": "Javier Saviola", "meters": 66, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "laudrup_michael", "name": "Michael Laudrup", "meters": 56, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "enrique_luis", "name": "Luis Enrique", "meters": 44, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "etoo_samuel", "name": "Samuel Eto'o", "meters": 32, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "figo_luis", "name": "Luis Figo", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ronaldo_nazario", "name": "Ronaldo", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day1_fix3",
+        "title": "ENGLISH GALACTICOS",
+        "prompt": "Name an English footballer who has played for Real Madrid.",
+        "validAnswers": [
+          { "id": "cunningham_laurie", "name": "Laurie Cunningham", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "woodgate_jonathan", "name": "Jonathan Woodgate", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "mcmanaman_steve", "name": "Steve McManaman", "meters": 62, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "owen_michael", "name": "Michael Owen", "meters": 36, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "beckham_david", "name": "David Beckham", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "bellingham_jude", "name": "Jude Bellingham", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day1_fix4",
+        "title": "OLD TRAFFORD TO SAN SIRO",
+        "prompt": "Name a footballer who has played for both Manchester United and Inter Milan.",
+        "validAnswers": [
+          { "id": "silvestre_mikael", "name": "Mikael Silvestre", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "blanc_laurent", "name": "Laurent Blanc", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "ince_paul", "name": "Paul Ince", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "forlan_diego", "name": "Diego Forlan", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "veron_juan_sebastian", "name": "Juan Sebastian Veron", "meters": 76, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "vidic_nemanja", "name": "Nemanja Vidic", "meters": 66, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "young_ashley", "name": "Ashley Young", "meters": 58, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "darmian_matteo", "name": "Matteo Darmian", "meters": 48, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "mkhitaryan_henrikh", "name": "Henrikh Mkhitaryan", "meters": 40, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "sanchez_alexis", "name": "Alexis Sanchez", "meters": 32, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "eriksen_christian", "name": "Christian Eriksen", "meters": 26, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "onana_andre", "name": "Andre Onana", "meters": 20, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "lukaku_romelu", "name": "Romelu Lukaku", "meters": 15, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ibrahimovic_zlatan", "name": "Zlatan Ibrahimovic", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day1_fix5",
+        "title": "FOREIGN CENTURIONS",
+        "prompt": "Name a non-English player who has scored 100+ Premier League goals.",
+        "validAnswers": [
+          { "id": "yorke_dwight", "name": "Dwight Yorke", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "keane_robbie", "name": "Robbie Keane", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "hasselbaink_jimmy", "name": "Jimmy Floyd Hasselbaink", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "anelka_nicolas", "name": "Nicolas Anelka", "meters": 78, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "giggs_ryan", "name": "Ryan Giggs", "meters": 66, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "mane_sadio", "name": "Sadio Mane", "meters": 54, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "lukaku_romelu", "name": "Romelu Lukaku", "meters": 44, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "van_persie_robin", "name": "Robin van Persie", "meters": 36, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "drogba_didier", "name": "Didier Drogba", "meters": 28, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "son_heung_min", "name": "Son Heung-min", "meters": 22, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ronaldo_cristiano", "name": "Cristiano Ronaldo", "meters": 18, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "aguero_sergio", "name": "Sergio Aguero", "meters": 15, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "henry_thierry", "name": "Thierry Henry", "meters": 12, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "salah_mohamed", "name": "Mohamed Salah", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day1_fix6",
+        "title": "DUTCH RED DEVILS",
+        "prompt": "Name a Dutch footballer who has played for Manchester United.",
+        "validAnswers": [
+          { "id": "cruyff_jordi", "name": "Jordi Cruyff", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "van_der_gou_raymond", "name": "Raymond van der Gouw", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "buttner_alexander", "name": "Alexander Buttner", "meters": 92, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "fosu_mensah_timothy", "name": "Timothy Fosu-Mensah", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "weghorst_wout", "name": "Wout Weghorst", "meters": 74, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "malacia_tyrell", "name": "Tyrell Malacia", "meters": 66, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "van_de_beek_donny", "name": "Donny van de Beek", "meters": 58, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "blind_daley", "name": "Daley Blind", "meters": 48, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "depay_memphis", "name": "Memphis Depay", "meters": 40, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "stam_jaap", "name": "Jaap Stam", "meters": 32, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "zirkzee_joshua", "name": "Joshua Zirkzee", "meters": 26, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "de_ligt_matthijs", "name": "Matthijs de Ligt", "meters": 22, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "van_der_sar_edwin", "name": "Edwin van der Sar", "meters": 18, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "van_nistelrooy_ruud", "name": "Ruud van Nistelrooy", "meters": 14, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "van_persie_robin", "name": "Robin van Persie", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      },
+      {
+        "id": "day1_fix7",
+        "title": "THE TWO-CLUB UCL CLUB",
+        "prompt": "Name a player who has won the UEFA Champions League with two different clubs.",
+        "validAnswers": [
+          { "id": "belodedici_miodrag", "name": "Miodrag Belodedici", "meters": 95, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "jugovic_vladimir", "name": "Vladimir Jugovic", "meters": 94, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "bosingwa_jose", "name": "Jose Bosingwa", "meters": 93, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "ferreira_paulo", "name": "Paulo Ferreira", "meters": 92, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "sturridge_daniel", "name": "Daniel Sturridge", "meters": 91, "tierKey": "topBins", "tierName": "TOP BINS!", "tierColor": "#22c55e" },
+          { "id": "hargreaves_owen", "name": "Owen Hargreaves", "meters": 82, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "shaqiri_xherdan", "name": "Xherdan Shaqiri", "meters": 76, "tierKey": "worldie", "tierName": "WORLDIE!", "tierColor": "#3b82f6" },
+          { "id": "deco", "name": "Deco", "meters": 66, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "desailly_marcel", "name": "Marcel Desailly", "meters": 58, "tierKey": "hollywoodBall", "tierName": "HOLLYWOOD BALL", "tierColor": "#a855f7" },
+          { "id": "kovacic_mateo", "name": "Mateo Kovacic", "meters": 48, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "thiago_alcantara", "name": "Thiago Alcantara", "meters": 40, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "rudiger_antonio", "name": "Antonio Rudiger", "meters": 34, "tierKey": "throughBall", "tierName": "THROUGH BALL", "tierColor": "#eab308" },
+          { "id": "alaba_david", "name": "David Alaba", "meters": 28, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "alonso_xabi", "name": "Xabi Alonso", "meters": 24, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "seedorf_clarence", "name": "Clarence Seedorf", "meters": 20, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "etoo_samuel", "name": "Samuel Eto'o", "meters": 16, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "kroos_toni", "name": "Toni Kroos", "meters": 14, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" },
+          { "id": "ronaldo_cristiano", "name": "Cristiano Ronaldo", "meters": 10, "tierKey": "tapIn", "tierName": "TAP-IN", "tierColor": "#94a3b8" }
+        ]
+      }
+    ]
+  }
+]

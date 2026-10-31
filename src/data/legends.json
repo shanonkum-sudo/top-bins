@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Lionel Messi",
+    "nationality": "Argentina",
+    "clubs": ["Barcelona", "Paris Saint-Germain", "Inter Miami"],
+    "awards": ["Ballon d'Or", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "laLiga": 10, "championsLeague": 4 },
+    "pickRate": 99
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "nationality": "Portugal",
+    "clubs": ["Manchester United", "Real Madrid", "Juventus", "Al Nassr", "Sporting CP"],
+    "awards": ["Ballon d'Or", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 3, "laLiga": 2, "serieA": 2, "championsLeague": 5 },
+    "pickRate": 99
+  },
+  {
+    "name": "Neymar",
+    "nationality": "Brazil",
+    "clubs": ["Santos", "Barcelona", "Paris Saint-Germain", "Al Hilal"],
+    "awards": [],
+    "trophies": { "laLiga": 2, "championsLeague": 1 },
+    "pickRate": 95
+  },
+  {
+    "name": "Kylian Mbappé",
+    "nationality": "France",
+    "clubs": ["Monaco", "Paris Saint-Germain", "Real Madrid"],
+    "awards": ["World Cup Winner"],
+    "trophies": { "worldCup": 1 },
+    "pickRate": 96
+  },
+  {
+    "name": "Gareth Bale",
+    "nationality": "Wales",
+    "clubs": ["Tottenham Hotspur", "Real Madrid", "Los Angeles FC", "Southampton"],
+    "awards": ["Premier League Player of the Season", "PFA Player of the Year", "Premier League Player of the Month"],
+    "trophies": { "laLiga": 3, "championsLeague": 5 },
+    "pickRate": 92
+  },
+  {
+    "name": "Karim Benzema",
+    "nationality": "France",
+    "clubs": ["Lyon", "Real Madrid", "Al-Ittihad"],
+    "awards": ["Ballon d'Or"],
+    "trophies": { "laLiga": 4, "championsLeague": 5 },
+    "pickRate": 93
+  },
+  {
+    "name": "Luka Modrić",
+    "nationality": "Croatia",
+    "clubs": ["Dinamo Zagreb", "Tottenham Hotspur", "Real Madrid"],
+    "awards": ["Ballon d'Or"],
+    "trophies": { "laLiga": 4, "championsLeague": 6 },
+    "pickRate": 93
+  },
+  {
+    "name": "Casemiro",
+    "nationality": "Brazil",
+    "clubs": ["São Paulo", "Real Madrid", "Porto", "Manchester United"],
+    "awards": [],
+    "trophies": { "laLiga": 3, "championsLeague": 5 },
+    "pickRate": 88
+  },
+  {
+    "name": "Toni Kroos",
+    "nationality": "Germany",
+    "clubs": ["Bayern Munich", "Bayer Leverkusen", "Real Madrid"],
+    "awards": ["German Footballer of the Year", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "championsLeague": 6, "laLiga": 4 },
+    "pickRate": 90
+  },
+  {
+    "name": "Thomas Müller",
+    "nationality": "Germany",
+    "clubs": ["Bayern Munich"],
+    "awards": ["German Footballer of the Year", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "championsLeague": 2 },
+    "pickRate": 90
+  },
+  {
+    "name": "Manuel Neuer",
+    "nationality": "Germany",
+    "clubs": ["Schalke 04", "Bayern Munich"],
+    "awards": ["German Footballer of the Year", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "championsLeague": 2 },
+    "pickRate": 91
+  },
+  {
+    "name": "Mesut Özil",
+    "nationality": "Germany",
+    "clubs": ["Schalke 04", "Werder Bremen", "Real Madrid", "Arsenal", "Fenerbahçe", "İstanbul Başakşehir"],
+    "awards": ["German Footballer of the Year", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "laLiga": 1 },
+    "pickRate": 87
+  },
+  {
+    "name": "Bastian Schweinsteiger",
+    "nationality": "Germany",
+    "clubs": ["Bayern Munich", "Manchester United", "Chicago Fire"],
+    "awards": ["German Footballer of the Year", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "championsLeague": 1 },
+    "pickRate": 86
+  },
+  {
+    "name": "Philipp Lahm",
+    "nationality": "Germany",
+    "clubs": ["Bayern Munich", "VfB Stuttgart"],
+    "awards": ["German Footballer of the Year", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "championsLeague": 1 },
+    "pickRate": 88
+  },
+  {
+    "name": "Mario Götze",
+    "nationality": "Germany",
+    "clubs": ["Borussia Dortmund", "Bayern Munich", "PSV Eindhoven", "Eintracht Frankfurt"],
+    "awards": ["World Cup Winner"],
+    "trophies": { "worldCup": 1 },
+    "pickRate": 85
+  },
+  {
+    "name": "Miroslav Klose",
+    "nationality": "Germany",
+    "clubs": ["Kaiserslautern", "Werder Bremen", "Bayern Munich", "Lazio"],
+    "awards": ["German Footballer of the Year", "World Cup Winner"],
+    "trophies": { "worldCup": 1 },
+    "pickRate": 89
+  },
+  {
+    "name": "Ronaldinho",
+    "nationality": "Brazil",
+    "clubs": ["Grêmio", "Paris Saint-Germain", "Barcelona", "AC Milan", "Flamengo", "Atlético Mineiro", "Querétaro", "Fluminense"],
+    "awards": ["Ballon d'Or", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "championsLeague": 1, "laLiga": 2 },
+    "pickRate": 95
+  },
+  {
+    "name": "Kaká",
+    "nationality": "Brazil",
+    "clubs": ["São Paulo", "AC Milan", "Real Madrid", "Orlando City"],
+    "awards": ["Ballon d'Or", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "serieA": 1, "laLiga": 1, "championsLeague": 1 },
+    "pickRate": 93
+  },
+  {
+    "name": "Ronaldo",
+    "nationality": "Brazil",
+    "clubs": ["Cruzeiro", "PSV Eindhoven", "Barcelona", "Inter Milan", "Real Madrid", "AC Milan", "Corinthians"],
+    "awards": ["Ballon d'Or", "World Cup Winner"],
+    "trophies": { "worldCup": 2, "laLiga": 2 },
+    "pickRate": 96
+  },
+  {
+    "name": "Dani Alves",
+    "nationality": "Brazil",
+    "clubs": ["Bahia", "Sevilla", "Barcelona", "Juventus", "Paris Saint-Germain", "São Paulo", "UNAM"],
+    "awards": [],
+    "trophies": { "laLiga": 6, "serieA": 1, "championsLeague": 3 },
+    "pickRate": 88
+  },
+  {
+    "name": "Zlatan Ibrahimović",
+    "nationality": "Sweden",
+    "clubs": ["Malmö FF", "Ajax", "Juventus", "Inter Milan", "Barcelona", "AC Milan", "Paris Saint-Germain", "Manchester United", "LA Galaxy"],
+    "awards": ["Serie A Footballer of the Year"],
+    "trophies": { "serieA": 5, "laLiga": 1 },
+    "pickRate": 94
+  },
+  {
+    "name": "Angel Di Maria",
+    "nationality": "Argentina",
+    "clubs": ["Rosario Central", "Benfica", "Real Madrid", "Manchester United", "Paris Saint-Germain", "Juventus"],
+    "awards": ["World Cup Winner"],
+    "trophies": { "worldCup": 1, "laLiga": 1, "championsLeague": 1 },
+    "pickRate": 91
+  },
+  {
+    "name": "Mohamed Salah",
+    "nationality": "Egypt",
+    "clubs": ["Basel", "Chelsea", "Fiorentina", "Roma", "Liverpool"],
+    "awards": ["Premier League Player of the Season", "PFA Player of the Year", "Premier League Golden Boot", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 1, "championsLeague": 1 },
+    "pickRate": 96
+  },
+  {
+    "name": "Kevin De Bruyne",
+    "nationality": "Belgium",
+    "clubs": ["Genk", "Chelsea", "Werder Bremen", "VfL Wolfsburg", "Manchester City"],
+    "awards": ["Premier League Player of the Season", "PFA Player of the Year", "German Footballer of the Year", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 6, "championsLeague": 1 },
+    "pickRate": 95
+  },
+  {
+    "name": "Erling Haaland",
+    "nationality": "Norway",
+    "clubs": ["Bryne", "Molde", "Red Bull Salzburg", "Borussia Dortmund", "Manchester City"],
+    "awards": ["Premier League Player of the Season", "Premier League Golden Boot", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 2, "championsLeague": 1 },
+    "pickRate": 97
+  },
+  {
+    "name": "Eden Hazard",
+    "nationality": "Belgium",
+    "clubs": ["Lille", "Chelsea", "Real Madrid"],
+    "awards": ["Premier League Player of the Season", "PFA Player of the Year", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 2, "laLiga": 2, "championsLeague": 1 },
+    "pickRate": 91
+  },
+  {
+    "name": "Thierry Henry",
+    "nationality": "France",
+    "clubs": ["Monaco", "Juventus", "Arsenal", "Barcelona", "New York Red Bulls"],
+    "awards": ["Premier League Player of the Season", "PFA Player of the Year", "Premier League Golden Boot", "Premier League Player of the Month", "World Cup Winner"],
+    "trophies": { "worldCup": 1, "premierLeague": 2, "laLiga": 2, "championsLeague": 1 },
+    "pickRate": 96
+  },
+  {
+    "name": "Wayne Rooney",
+    "nationality": "England",
+    "clubs": ["Everton", "Manchester United", "D.C. United", "Derby County"],
+    "awards": ["Premier League Player of the Season", "PFA Player of the Year", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 5, "championsLeague": 1 },
+    "pickRate": 94
+  },
+  {
+    "name": "Steven Gerrard",
+    "nationality": "England",
+    "clubs": ["Liverpool", "LA Galaxy"],
+    "awards": ["PFA Player of the Year", "Premier League Player of the Month"],
+    "trophies": { "championsLeague": 1 },
+    "pickRate": 92
+  },
+  {
+    "name": "Frank Lampard",
+    "nationality": "England",
+    "clubs": ["West Ham United", "Swansea City", "Chelsea", "Manchester City", "New York City FC"],
+    "awards": ["Premier League Player of the Season", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 3, "championsLeague": 1 },
+    "pickRate": 92
+  },
+  {
+    "name": "Sergio Agüero",
+    "nationality": "Argentina",
+    "clubs": ["Independiente", "Atlético Madrid", "Manchester City", "Barcelona"],
+    "awards": ["Premier League Golden Boot", "Premier League Player of the Month"],
+    "trophies": { "premierLeague": 5 },
+    "pickRate": 93
+  },
+  {
+    "name": "Son Heung-min",
+    "nationality": "South Korea",
+    "clubs": ["Hamburger SV", "Bayer Leverkusen", "Tottenham Hotspur"],
+    "awards": ["Premier League Golden Boot", "Premier League Player of the Month"],
+    "trophies": {},
+    "pickRate": 91
+  },
+  {
+    "name": "Harry Kane",
+    "nationality": "England",
+    "clubs": ["Tottenham Hotspur", "Leicester City", "Norwich City", "Millwall", "Leyton Orient", "Bayern Munich"],
+    "awards": ["Premier League Golden Boot", "Premier League Player of the Month"],
+    "trophies": {},
+    "pickRate": 95
+  },
+  {
+    "name": "Marcus Rashford",
+    "nationality": "England",
+    "clubs": ["Manchester United"],
+    "awards": ["Premier League Player of the Month"],
+    "trophies": {},
+    "pickRate": 89
+  },
+  {
+    "name": "Bruno Fernandes",
+    "nationality": "Portugal",
+    "clubs": ["Novara", "Udinese", "Sampdoria", "Sporting CP", "Manchester United"],
+    "awards": ["Premier League Player of the Month"],
+    "trophies": {},
+    "pickRate": 91
+  }
+]
