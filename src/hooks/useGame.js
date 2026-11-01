@@ -9,7 +9,7 @@ import { sound } from '../utils/audio';
 const BASE_SHOT_CLOCK = 20;
 const READING_SECONDS = 3;
 const TOTAL_FIXTURES = 7;
-const HARDCORE_THRESHOLD = 500; // Distance required to trigger Phase 2 Hardcore Mode
+const HARDCORE_THRESHOLD = 150; // UPDATED to 150!
 
 const LAUNCH_DATE = new Date("2026-10-31T00:00:00+02:00"); 
 
@@ -448,7 +448,7 @@ export function useGame() {
   const prepareCardsMatch = () => {
     sound.playBeep();
     setGameMode('cards');
-    setIsHardcoreActive(true); 
+    setIsHardcoreActive(false); // UPDATED to false so you get a grace period!
     setShuffledCardQuestions(shuffleArray(cardQuestionsData));
     setGameState('staging');
   };
@@ -549,8 +549,8 @@ export function useGame() {
     if (!matchResult) {
       setPendingAutocorrect(null);
 
-      // In Hardcore Mode or Cards Mode, wrong guesses draw a referee card immediately!
-      if (gameMode === 'cards' || isHardcoreActive) {
+      // ONLY draw a card if they've crossed 150m (Hardcore is active)
+      if (isHardcoreActive) { // UPDATED: removed the gameMode === 'cards' check!
         triggerCardStrike(inputName.trim().toUpperCase(), `"${inputName.trim().toUpperCase()}" IS INCORRECT!`);
         return;
       }
@@ -580,6 +580,7 @@ export function useGame() {
         return;
       }
 
+      // If they haven't reached 150m yet, just shake the box and let them try again!
       sound.playInvalidBuzz();
       setInvalidAttempt({ name: inputName, reason: 'Not a qualifying answer for this fixture!' });
       setTimeout(() => setInvalidAttempt(null), 2000);

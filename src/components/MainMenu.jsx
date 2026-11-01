@@ -11,7 +11,7 @@ export default function MainMenu({
   stats
 }) {
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
-  const [showInstructions, setShowInstructions] = useState(false);
+  const [showWhatsNew, setShowWhatsNew] = useState(false);
 
   const handleToggleMusic = () => {
     sound.playBeep();
@@ -27,19 +27,19 @@ export default function MainMenu({
         <PixelCrowdTop excitement="medium" />
       </div>
 
-      {/* Retro Title Logo (with How to Play button positioned in top area) */}
+      {/* Retro Title Logo (with What's New '!' button positioned in top area) */}
       <div className="text-center my-2 bg-[#08180e] border-2 border-[#1e4a2b] py-3 px-2 rounded shadow-inner relative">
         
-        {/* Compact How to Play '?' Button */}
+        {/* Compact What's New '!' Button */}
         <button
           onClick={() => {
             sound.playBeep();
-            setShowInstructions(true);
+            setShowWhatsNew(true);
           }}
           className="absolute top-2 right-2 w-7 h-7 bg-zinc-800 hover:bg-zinc-700 text-yellow-400 border border-[#1e4a2b] rounded-full flex items-center justify-center font-black text-xs shadow transition-all cursor-pointer"
-          title="How to Play"
+          title="What's New"
         >
-          ?
+          !
         </button>
 
         <div className="flex justify-center items-center gap-2 mb-1">
@@ -176,48 +176,56 @@ export default function MainMenu({
         </span>
       </div>
 
-      {/* How to Play Modal Overlay */}
-      {showInstructions && (
+      {/* What's New Modal Overlay */}
+      {showWhatsNew && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
-          <div className="bg-zinc-900 border-2 border-emerald-500/50 rounded-2xl max-w-sm w-full p-5 shadow-2xl relative text-zinc-200">
+          <div className="bg-zinc-900 border-2 border-yellow-500/50 rounded-2xl max-w-sm w-full p-5 shadow-2xl relative text-zinc-200">
             
-            <div className="flex justify-between items-center mb-4 border-b border-zinc-800 pb-3">
-              <h2 className="text-lg font-black text-emerald-400 uppercase tracking-wide flex items-center gap-2">
-                🎮 How to Play
-              </h2>
+            <div className="flex justify-between items-center mb-3 border-b border-zinc-800 pb-3">
+              <div>
+                <h2 className="text-base font-black text-yellow-400 uppercase tracking-wide flex items-center gap-2">
+                  🚀 What's New
+                </h2>
+                <p className="text-[8px] text-green-400 tracking-wider uppercase font-bold mt-0.5">Version 1.1 Update</p>
+              </div>
               <button
-                onClick={() => setShowInstructions(false)}
+                onClick={() => setShowWhatsNew(false)}
                 className="text-zinc-400 hover:text-white text-base font-bold px-2 py-0.5 rounded bg-zinc-800 hover:bg-zinc-700 transition-colors cursor-pointer"
               >
                 ✕
               </button>
             </div>
 
-            {/* Instruction Steps */}
-            <div className="space-y-3 text-xs text-zinc-300">
-              <div className="flex items-start gap-2.5">
-                <span className="flex-shrink-0 w-5 h-5 bg-emerald-600/30 border border-emerald-500 text-emerald-400 rounded-full flex items-center justify-center font-bold text-[10px]">1</span>
-                <p><strong className="text-white">Daily Fixture:</strong> Answer 7 rounds of football trivia covering Europe's top 5 leagues.</p>
+            {/* Patch Notes */}
+            <div className="space-y-2.5 text-xs text-zinc-300 mb-4">
+              <div className="flex items-start gap-2">
+                <span className="text-red-500 font-bold text-sm">🟥</span>
+                <p><strong className="text-white">2-Card Sudden Death:</strong> Rarity-based spectrum scoring. 3 referee strikes and you're off! VAR challenges enabled.</p>
               </div>
 
-              <div className="flex items-start gap-2.5">
-                <span className="flex-shrink-0 w-5 h-5 bg-emerald-600/30 border border-emerald-500 text-emerald-400 rounded-full flex items-center justify-center font-bold text-[10px]">2</span>
-                <p><strong className="text-white">Beat the Shot Clock:</strong> You have a 20-second shot clock per question to lock in your answer.</p>
+              <div className="flex items-start gap-2">
+                <span className="text-blue-400 font-bold text-sm">🎙️</span>
+                <p><strong className="text-white">Press Conference:</strong> Endless survival mode where the clock speeds up the longer you survive.</p>
               </div>
 
-              <div className="flex items-start gap-2.5">
-                <span className="flex-shrink-0 w-5 h-5 bg-emerald-600/30 border border-emerald-500 text-emerald-400 rounded-full flex items-center justify-center font-bold text-[10px]">3</span>
-                <p><strong className="text-white">Score Top Bins:</strong> Correct answers shoot the ball into the net and build up your distance meter and match score!</p>
+              <div className="flex items-start gap-2">
+                <span className="text-yellow-400 font-bold text-sm">🏆</span>
+                <p><strong className="text-white">Global Leaderboards:</strong> Submit your initials to the Supabase Arcade Hall of Fame.</p>
               </div>
             </div>
 
+            {/* Playtest Message */}
+            <div className="bg-green-950/40 border border-green-800/80 p-3 rounded text-[9px] text-green-300 mb-4 leading-relaxed text-center">
+              Thank you for playing the Top Bins playtest! U so goated. If there are any queries or problems, feel free to text and let me know so I TRY to fix them.
+            </div>
+
             {/* Close Modal Button */}
-            <div className="mt-6 text-center">
+            <div className="text-center">
               <button
-                onClick={() => setShowInstructions(false)}
-                className="w-full py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all shadow-lg cursor-pointer"
+                onClick={() => setShowWhatsNew(false)}
+                className="w-full py-2.5 bg-yellow-500 hover:bg-yellow-400 text-black font-black text-xs uppercase tracking-wider rounded-xl transition-all shadow-lg cursor-pointer"
               >
-                Got It, Let's Play!
+                CLOSE PATCH NOTES
               </button>
             </div>
 

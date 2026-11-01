@@ -3,6 +3,7 @@ import { useGame } from './hooks/useGame';
 import ArcadePitch from './components/ArcadePitch';
 import PressConference from './components/PressConference';
 import MainMenu from './components/MainMenu';
+import HowToPlayModal from './components/HowToPlayModal';
 import { LeaderboardModal } from './components/LeaderboardModal';
 import { PixelStriker, PixelBall, PixelCrowdTop, PixelCrowdSide } from './components/PixelSprites';
 import { sound } from './utils/audio';
@@ -46,7 +47,8 @@ export default function App() {
   const [copyFeedback, setCopyFeedback] = useState(false);
   const [reportedIndices, setReportedIndices] = useState({});
   
-  // Leaderboard modal states
+  // Modal states
+  const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [leaderboardTab, setLeaderboardTab] = useState('endless');
 
@@ -193,7 +195,15 @@ export default function App() {
               <div className="relative w-full h-[320px] bg-[#0c1624] rounded-xl border-4 border-[#243b55] shadow-inner overflow-hidden flex flex-col justify-between p-3 select-none scanlines pixelated">
                 <div className="flex justify-between items-center bg-[#060b12] border border-[#243b55] rounded px-3 py-1 text-[7px] text-gray-300">
                   <span className="text-red-500 font-bold">🔴 PRESS ROOM STAGING</span>
-                  <span className="tracking-widest uppercase text-yellow-400">HOT SEAT READY</span>
+                  <button 
+                    onClick={() => {
+                      sound.playBeep();
+                      setShowHowToPlay(true);
+                    }}
+                    className="relative z-50 pointer-events-auto bg-[#102238] text-yellow-400 px-1.5 py-0.5 rounded animate-pulse cursor-pointer hover:bg-slate-800 transition-colors border border-slate-700 font-bold uppercase"
+                  >
+                    HOW TO PLAY [?]
+                  </button>
                 </div>
                 
                 <div className="relative flex-1 flex flex-col items-center justify-center bg-[#102238] rounded border border-[#1b3656] my-2 p-3 text-center">
@@ -215,10 +225,18 @@ export default function App() {
                 <div className="relative flex-1 h-full flex flex-col justify-between overflow-hidden bg-[#143e23]">
                   <div className="relative z-20 w-full bg-[#0a190e] border-b-2 border-[#1c4d2c]">
                     <PixelCrowdTop excitement="medium" />
-                    <div className="w-full bg-yellow-400 text-black text-[6px] py-0.5 px-2 flex justify-between font-bold tracking-widest uppercase">
+                    <div className="w-full bg-yellow-400 text-black text-[6px] py-0.5 px-2 flex justify-between items-center font-bold tracking-widest uppercase">
                       <span>TOP BINS ARENA</span>
                       <span>1 CREDIT READY</span>
-                      <span>STAND BY</span>
+                      <button 
+                        onClick={() => {
+                          sound.playBeep();
+                          setShowHowToPlay(true);
+                        }}
+                        className="relative z-50 pointer-events-auto bg-black text-yellow-400 px-1.5 py-0.5 rounded animate-pulse cursor-pointer hover:bg-gray-900 transition-colors"
+                      >
+                        HOW TO PLAY [?]
+                      </button>
                     </div>
                   </div>
 
@@ -230,7 +248,7 @@ export default function App() {
                       <p>1️⃣ <strong className="text-orange-400">1st Miss:</strong> Ref blows whistle for a formal Warning.</p>
                       <p>2️⃣ <strong className="text-yellow-300">2nd Miss:</strong> Booked with a Yellow Card 🟨.</p>
                       <p>3️⃣ <strong className="text-red-400">3rd Miss:</strong> 2nd Yellow turns Red 🟥 — Game Over!</p>
-                      <p>📺 <strong className="text-blue-400">VAR Check:</strong> 1 per match (-50pts cost). Contest a card to overturn it!</p>
+                      <p>📺 <strong className="text-blue-400">VAR Check:</strong> 1 per match. Contest a card to overturn it!</p>
                     </div>
                   )}
 
@@ -616,6 +634,11 @@ export default function App() {
           gameMode={leaderboardTab} 
           onClose={() => setShowLeaderboard(false)} 
         />
+      )}
+
+      {/* How To Play Modal Popup - NOW RECEIVING gameMode! */}
+      {showHowToPlay && (
+        <HowToPlayModal gameMode={gameMode} onClose={() => setShowHowToPlay(false)} />
       )}
 
       <footer className="text-[7px] text-gray-600 mt-2 flex flex-col items-center gap-2 uppercase tracking-widest">
