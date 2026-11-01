@@ -1,0 +1,518 @@
+[
+  {
+    "id": "card_fixture_1",
+    "title": "BALLON D'OR WINNERS (2000–2020)",
+    "prompt": "Name a player who won the Ballon d'Or between 2000 and 2020.",
+    "validAnswers": [
+      { "id": "owen", "name": "MICHAEL OWEN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "cannavaro", "name": "FABIO CANNAVARO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "shevchenko", "name": "ANDRIY SHEVCHENKO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "figo", "name": "LUIS FIGO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "nedved", "name": "PAVEL NEDVED", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "kaka", "name": "KAKA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "modric", "name": "LUKA MODRIC", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ronaldinho", "name": "RONALDINHO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "zidane", "name": "ZINEDINE ZIDANE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ronaldo_nazario", "name": "RONALDO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo_cr7", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_2",
+    "title": "CHAMPIONS LEAGUE ALL-TIME TOP 10 SCORERS",
+    "prompt": "Name a player in the Top 10 all-time goalscorers in the UEFA Champions League.",
+    "validAnswers": [
+      { "id": "inzaghi", "name": "FILIPPO INZAGHI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "ibrahimovic", "name": "ZLATAN IBRAHIMOVIC", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "shevchenko", "name": "ANDRIY SHEVCHENKO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "aguero", "name": "SERGIO AGUERO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "henry", "name": "THIERRY HENRY", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "van_nistelrooy", "name": "RUUD VAN NISTELROOY", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "raul", "name": "RAUL", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "benzema", "name": "KARIM BENZEMA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_3",
+    "title": "BARCELONA 2009 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Barcelona in the 2009 Champions League Final.",
+    "validAnswers": [
+      { "id": "sylvinho", "name": "SYLVINHO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "yaya_toure", "name": "YAYA TOURE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "pique", "name": "GERARD PIQUE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "puyol", "name": "CARLES PUYOL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "valdes", "name": "VICTOR VALDES", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "etoo", "name": "SAMUEL ETOO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "henry", "name": "THIERRY HENRY", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "busquets", "name": "SERGIO BUSQUETS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "iniesta", "name": "ANDRES INIESTA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "xavi", "name": "XAVI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_4",
+    "title": "FIFA PUSKAS AWARD WINNERS",
+    "prompt": "Name a player who has won the FIFA Puskás Award for goal of the year.",
+    "validAnswers": [
+      { "id": "wendell", "name": "WENDELL LIRA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "faiz", "name": "FAIZ SUBRI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "stoch", "name": "MIROSLAV STOCH", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "liama", "name": "MATT CAGGIULA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "salah", "name": "MOHAMED SALAH", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "son", "name": "HEUNG-MIN SON", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "giroud", "name": "OLIVIER GIROUD", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "neymar", "name": "NEYMAR", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ibrahimovic", "name": "ZLATAN IBRAHIMOVIC", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_5",
+    "title": "MANCHESTER UNITED 1999 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Manchester United in the 1999 Champions League Final.",
+    "validAnswers": [
+      { "id": "blomqvist", "name": "JESPER BLOMQVIST", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "may", "name": "DAVID MAY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "johnsen", "name": "RONNY JOHNSEN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "butt", "name": "NICKY BUTT", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cole", "name": "ANDY COLE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "yorke", "name": "DWIGHT YORKE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "stam", "name": "JAAP STAM", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "irwin", "name": "DENIS IRWIN", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "schmeichel", "name": "PETER SCHMEICHEL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "beckham", "name": "DAVID BECKHAM", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "giggs", "name": "RYAN GIGGS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_6",
+    "title": "REAL MADRID 2002 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Real Madrid in the 2002 Champions League Final.",
+    "validAnswers": [
+      { "id": "cesar", "name": "CESAR SANCHEZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "celades", "name": "ALBERT CELADES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "hierro", "name": "FERNANDO HIERRO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "salgado", "name": "MICHEL SALGADO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "solari", "name": "SANTIAGO SOLARI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "mcmanaman", "name": "STEVE MCMANAMAN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "roberto_carlos", "name": "ROBERTO CARLOS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "makelele", "name": "CLAUDE MAKELELE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "raul", "name": "RAUL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "figo", "name": "LUIS FIGO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "zidane", "name": "ZINEDINE ZIDANE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_7",
+    "title": "PREMIER LEAGUE MOST RED CARDS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most red cards in Premier League history.",
+    "validAnswers": [
+      { "id": "dunne", "name": "RICHARD DUNNE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "ferguson", "name": "DUNCAN FERGUSON", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "cattermole", "name": "LEE CATTERMOLE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "vinniejones", "name": "VINNIE JONES", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "shawcross", "name": "RYAN SHAWCROSS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "boateng", "name": "GEORGE BOATENG", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "vieira", "name": "PATRICK VIEIRA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "kaboul", "name": "YOUNES KABOUL", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "keane", "name": "ROY KEANE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "barry", "name": "GARETH BARRY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_8",
+    "title": "AC MILAN 2007 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for AC Milan in the 2007 Champions League Final.",
+    "validAnswers": [
+      { "id": "jankulovski", "name": "MAREK JANKULOVSKI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "addo", "name": "MASSIMO AMBROSINI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "oddo", "name": "MASSIMO ODDO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "dida", "name": "DIDA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "kaladze", "name": "KAKHA KALADZE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "gattuso", "name": "GENNARO GATTUSO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "seedorf", "name": "CLARENCE SEEDORF", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "nesta", "name": "ALESSANDRO NESTA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "pirlo", "name": "ANDREA PIRLO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "maldini", "name": "PAOLO MALDINI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "inzaghi", "name": "FILIPPO INZAGHI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_9",
+    "title": "WORLD CUP 2014 FINAL STARTING XI (GERMANY)",
+    "prompt": "Name a starting player for Germany in the 2014 World Cup Final.",
+    "validAnswers": [
+      { "id": "howedes", "name": "BENEDIKT HOWEDES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kramer", "name": "CHRISTOPH KRAMER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "zieler", "name": "RON-ROBERT ZIELER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "schurrle", "name": "ANDRE SCHURRLE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "boateng", "name": "JEROME BOATENG", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "hummels", "name": "MATS HUMMELS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "khedira", "name": "SAMI KHEDIRA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ozil", "name": "MESUT OZIL", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "neuer", "name": "MANUEL NEUER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "lahm", "name": "PHILIPP LAHM", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "muller", "name": "THOMAS MULLER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_10",
+    "title": "BAYERN MUNICH 2013 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Bayern Munich in the 2013 Champions League Final.",
+    "validAnswers": [
+      { "id": "dante", "name": "DANTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "gustavo", "name": "LUIZ GUSTAVO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "martinez", "name": "JAVI MARTINEZ", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "mandzukic", "name": "MARIO MANDZUKIC", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "boateng", "name": "JEROME BOATENG", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "alaba", "name": "DAVID ALABA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "schweinsteiger", "name": "BASTIAN SCHWEINSTEIGER", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "kroos", "name": "TONI KROOS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "neuer", "name": "MANUEL NEUER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "lahm", "name": "PHILIPP LAHM", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ribery", "name": "FRANCK RIBERY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_11",
+    "title": "PORTO 2004 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Porto in the 2004 Champions League Final.",
+    "validAnswers": [
+      { "id": "valente", "name": "NUNO VALENTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "pedromendes", "name": "PEDRO MENDES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "costinha", "name": "COSTINHA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "maniche", "name": "MANICHE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "ferreira", "name": "PAULO FERREIRA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "aleniчев", "name": "DMITRI ALENICHEV", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "derlei", "name": "DERLEI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "baia", "name": "VITOR BAIA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "carvalho", "name": "RICARDO CARVALHO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "deco", "name": "DECO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_12",
+    "title": "BORUSSIA DORTMUND 1997 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Borussia Dortmund in the 1997 Champions League Final.",
+    "validAnswers": [
+      { "id": "klos", "name": "STEFAN KLOS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kriege", "name": "MARTIN KREE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "freund", "name": "STEFFEN FREUND", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "zorc", "name": "MICHAEL ZORC", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "chapuisat", "name": "STEPHANE CHAPUISAT", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "heinz", "name": "KARL-HEINZ RIEDLE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "sammer", "name": "MATTHIAS SAMMER", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "moller", "name": "ANDREAS MOLLER", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "reuter", "name": "STEFAN REUTER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "rico", "name": "LARS RICKEN", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_13",
+    "title": "PREMIER LEAGUE 100+ GOALS CLUB (PART 1)",
+    "prompt": "Name a legendary striker who scored over 100 goals in the Premier League.",
+    "validAnswers": [
+      { "id": "dublin", "name": "DION DUBLIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "le tissier", "name": "MATT LE TISSIER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "gabriell", "name": "LES FERDINAND", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "hasselbaink", "name": "JIMMY FLOYD HASSELBAINK", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "anelka", "name": "NICOLAS ANELKA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "fowler", "name": "ROBBIE FOWLER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "aguero", "name": "SERGIO AGUERO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "henry", "name": "THIERRY HENRY", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "kane", "name": "HARRY KANE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "shearer", "name": "ALAN SHEARER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_14",
+    "title": "SERIE A TOP SCORERS (2010–2020)",
+    "prompt": "Name a player who won the Capocannoniere (Serie A Top Scorer) between 2010 and 2020.",
+    "validAnswers": [
+      { "id": "quagliarella", "name": "FABIO QUAGLIARELLA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "di_natale", "name": "ANTONIO DI NATALE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "toni", "name": "LUCA TONI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "icardi", "name": "MAURO ICARDI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "immobile", "name": "CIRO IMMOBILE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "dzeko", "name": "EDIN DZEKO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "higuain", "name": "GONZALO HIGUAIN", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "cavani", "name": "EDINSON CAVANI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ibrahimovic", "name": "ZLATAN IBRAHIMOVIC", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_15",
+    "title": "LA LIGA PICHICHI WINNERS (2010–2020)",
+    "prompt": "Name a player who won the Pichichi Trophy (La Liga Top Scorer) between 2010 and 2020.",
+    "validAnswers": [
+      { "id": "forlan", "name": "DIEGO FORLAN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "suarez", "name": "LUIS SUAREZ", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "benzema", "name": "KARIM BENZEMA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_16",
+    "title": "WORLD CUP GOLDEN BOOT WINNERS (2002–2018)",
+    "prompt": "Name a player who won the FIFA World Cup Golden Boot between 2002 and 2018.",
+    "validAnswers": [
+      { "id": "salenko", "name": "OLEG SALENKO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "schillaci", "name": "SALVATORE SCHILLACI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "miroslav", "name": "MIROSLAV KLOSE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "davor", "name": "DAVOR SUKER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "muller", "name": "THOMAS MULLER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "james", "name": "JAMES RODRIGUEZ", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "kane", "name": "HARRY KANE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "villa", "name": "DAVID VILLA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ronaldo", "name": "RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_17",
+    "title": "INTER MILAN 2010 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Inter Milan in the 2010 Champions League Final.",
+    "validAnswers": [
+      { "id": "chivu", "name": "CRISTIAN CHIVU", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "pandev", "name": "GORAN PANDEV", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "stankovic", "name": "DEJAN STANKOVIC", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "matrix", "name": "MARCO MATERAZZI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "maicon", "name": "MAICON", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "lucio", "name": "LUCIO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "cambiasso", "name": "ESTEBAN CAMBIASSO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "etoo", "name": "SAMUEL ETOO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "julio_cesar", "name": "JULIO CESAR", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "zanetti", "name": "JAVIER ZANETTI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "sneijder", "name": "WESLEY SNEIJDER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_18",
+    "title": "CHELSEA 2012 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Chelsea in the 2012 Champions League Final.",
+    "validAnswers": [
+      { "id": "bertrand", "name": "RYAN BERTRAND", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "bosingwa", "name": "JOSE BOSINGWA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kalou", "name": "SALOMON KALOU", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "mikel", "name": "JOHN OBI MIKEL", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cahill", "name": "GARY CAHILL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "david_luiz", "name": "DAVID LUIZ", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ivanovic", "name": "BRANISLAV IVANOVIC", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "mata", "name": "JUAN MATA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "cech", "name": "PETR CECH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "lampard", "name": "FRANK LAMPARD", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "drogba", "name": "DIDIER DROGBA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_19",
+    "title": "LIVERPOOL 2005 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Liverpool in the 2005 Champions League Final.",
+    "validAnswers": [
+      { "id": "traore", "name": "DJIMI TRAORE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "finnan", "name": "STEVE FINNAN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "baros", "name": "MILAN BAROS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "garcia", "name": "LUIS GARCIA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "riise", "name": "JOHN ARNE RIISE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "dudek", "name": "JERZY DUDEK", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "hamann", "name": "DIETMAR HAMANN", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "cisse", "name": "DJIBRIL CISSE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "hyypia", "name": "SAMI HYYPIA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "carragher", "name": "JAMIE CARRAGHER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "gerrard", "name": "STEVEN GERRARD", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_20",
+    "title": "REAL MADRID 2014 UCL FINAL STARTING XI",
+    "prompt": "Name a starting player for Real Madrid in the 2014 Champions League Final.",
+    "validAnswers": [
+      { "id": "coentrao", "name": "FABIO COENTRAO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "khedira", "name": "SAMI KHEDIRA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "varane", "name": "RAPHAEL VARANE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "carvajal", "name": "DANIEL CARVAJAL", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "di_maria", "name": "ANGEL DI MARIA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "modric", "name": "LUKA MODRIC", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "bale", "name": "GARETH BALE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "benzema", "name": "KARIM BENZEMA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "casillas", "name": "IKER CASILLAS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_21",
+    "title": "FRANCE 2018 WORLD CUP FINAL STARTING XI",
+    "prompt": "Name a starting player for France in the 2018 World Cup Final.",
+    "validAnswers": [
+      { "id": "pavard", "name": "BENJAMIN PAVARD", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "umtiti", "name": "SAMUEL UMTITI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "matuidi", "name": "BLAISE MATUIDI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "giroud", "name": "OLIVIER GIROUD", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "loris", "name": "HUGO LLORIS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "varane", "name": "RAPHAEL VARANE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "pogba", "name": "PAUL POGBA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "griezmann", "name": "ANTOINE GRIEZMANN", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "mbappe", "name": "KYLIAN MBAPPE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "kante", "name": "N GOLO KANTE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_22",
+    "title": "ARGENTINA 2022 WORLD CUP FINAL STARTING XI",
+    "prompt": "Name a starting player for Argentina in the 2022 World Cup Final.",
+    "validAnswers": [
+      { "id": "nahuel", "name": "NAHUEL MOLINA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "tagliafico", "name": "NICOLAS TAGLIAFICO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "otamendi", "name": "NICOLAS OTAMENDI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cuti", "name": "CRISTIAN ROMERO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "mac_allister", "name": "ALEXIS MAC ALLISTER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "de_paul", "name": "RODRIGO DE PAUL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "julian", "name": "JULIAN ALVAREZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "enzo", "name": "ENZO FERNANDEZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "dibu", "name": "EMILIANO MARTINEZ", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "di_maria", "name": "ANGEL DI MARIA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_23",
+    "title": "SPAIN 2010 WORLD CUP FINAL STARTING XI",
+    "prompt": "Name a starting player for Spain in the 2010 World Cup Final.",
+    "validAnswers": [
+      { "id": "capdevila", "name": "JOAN CAPDEVILA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "marchena", "name": "CARLOS MARCHENA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "pedro", "name": "PEDRO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "jesus_navas", "name": "JESUS NAVAS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "puyol", "name": "CARLES PUYOL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "pique", "name": "GERARD PIQUE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "villa", "name": "DAVID VILLA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "alonso", "name": "XABI ALONSO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "casillas", "name": "IKER CASILLAS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "iniesta", "name": "ANDRES INIESTA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "xavi", "name": "XAVI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_24",
+    "title": "ITALY 2006 WORLD CUP FINAL STARTING XI",
+    "prompt": "Name a starting player for Italy in the 2006 World Cup Final.",
+    "validAnswers": [
+      { "id": "perrotta", "name": "SIMONE PERROTTA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "tony", "name": "LUCA TONI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "grosso", "name": "FABIO GROSSO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "camoranesi", "name": "MAURO CAMORANESI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "zambrotta", "name": "GIANLUCA ZAMBROTTA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "materazzi", "name": "MARCO MATERAZZI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "gattuso", "name": "GENNARO GATTUSO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "totti", "name": "FRANCESCO TOTTI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "buffon", "name": "GIANLUIGI BUFFON", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "cannavaro", "name": "FABIO CANNAVARO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "pirlo", "name": "ANDREA PIRLO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_25",
+    "title": "BRAZIL 2002 WORLD CUP FINAL STARTING XI",
+    "prompt": "Name a starting player for Brazil in the 2002 World Cup Final.",
+    "validAnswers": [
+      { "id": "roque_junior", "name": "ROQUE JUNIOR", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "edmilson", "name": "EDMILSON", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kleberson", "name": "KLEBERSON", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "gilberto_silva", "name": "GILBERTO SILVA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "lucio", "name": "LUCIO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "cafu", "name": "CAFU", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "roberto_carlos", "name": "ROBERTO CARLOS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "rivaldo", "name": "RIVALDO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ronaldo", "name": "RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldinho", "name": "RONALDINHO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_26",
+    "title": "LIGUE 1 TOP SCORERS (2010–2020)",
+    "prompt": "Name a player who won the Ligue 1 Top Scorer award between 2010 and 2020.",
+    "validAnswers": [
+      { "id": "nene", "name": "NENE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "giroud", "name": "OLIVIER GIROUD", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "sow", "name": "MAMADOU SOW", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "lacazette", "name": "ALEXANDRE LACAZETTE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "ben_yedder", "name": "WISSAM BEN YEDDER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "cavani", "name": "EDINSON CAVANI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "mbappe", "name": "KYLIAN MBAPPE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ibrahimovic", "name": "ZLATAN IBRAHIMOVIC", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_27",
+    "title": "BUNDESLIGA TOP SCORERS (2010–2020)",
+    "prompt": "Name a player who won the Torjägerkanne (Bundesliga Top Scorer) between 2010 and 2020.",
+    "validAnswers": [
+      { "id": "gcekes", "name": "THEOFANIS GEKAS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kießling", "name": "STEFAN KIEßLING", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "huntelaar", "name": "KLAAS-JAN HUNTELAAR", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "dieter", "name": "ALEXANDER MEIER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "werner", "name": "TIMO WERNER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "gomez", "name": "MARIO GOMEZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "aubameyang", "name": "PIERRE-EMERICK AUBAMEYANG", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_28",
+    "title": "PREMIER LEAGUE GOLDEN BOOT WINNERS (2010–2020)",
+    "prompt": "Name a player who won the Premier League Golden Boot between 2010 and 2020.",
+    "validAnswers": [
+      { "id": "berbatov", "name": "DIMITAR BERBATOV", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "van_persie", "name": "ROBIN VAN PERSIE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "suarez", "name": "LUIS SUAREZ", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "mane", "name": "SADIO MANE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "aubameyang", "name": "PIERRE-EMERICK AUBAMEYANG", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "aguero", "name": "SERGIO AGUERO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "kane", "name": "HARRY KANE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "salah", "name": "MOHAMED SALAH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_29",
+    "title": "EURO 2012 FINAL STARTING XI (SPAIN)",
+    "prompt": "Name a starting player for Spain in the Euro 2012 Final.",
+    "validAnswers": [
+      { "id": "arbeloa", "name": "ALVARO ARBELOA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "fabregas", "name": "CESC FABREGAS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "silva", "name": "DAVID SILVA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "jordi_alba", "name": "JORDI ALBA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "busquets", "name": "SERGIO BUSQUETS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "alonso", "name": "XABI ALONSO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "casillas", "name": "IKER CASILLAS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "pique", "name": "GERARD PIQUE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "iniesta", "name": "ANDRES INIESTA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "xavi", "name": "XAVI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_30",
+    "title": "EURO 2016 FINAL STARTING XI (PORTUGAL)",
+    "prompt": "Name a starting player for Portugal in the Euro 2016 Final.",
+    "validAnswers": [
+      { "id": "cédric", "name": "CEDRIC SOARES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "fonte", "name": "JOSÉ FONTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "adrien", "name": "ADRIEN SILVA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "william", "name": "WILLIAM CARVALHO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "guerreiro", "name": "RAPHAEL GUERREIRO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ruispatricio", "name": "RUI PATRICIO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "joao_mario", "name": "JOAO MARIO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "pepe", "name": "PEPE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "nani", "name": "NANI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  }
+]

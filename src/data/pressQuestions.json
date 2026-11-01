@@ -1,0 +1,305 @@
+[
+  {
+    "id": "press_1",
+    "title": "CHAMPIONS LEAGUE ARCHIVES",
+    "prompt": "Who is the only player in football history to win the UEFA Champions League with three different clubs?",
+    "options": ["Cristiano Ronaldo", "Clarence Seedorf", "Samuel Eto'o", "Andres Iniesta"],
+    "validAnswers": [
+      { "id": "seedorf", "name": "CLARENCE SEEDORF", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_2",
+    "title": "WORLD CUP LORE",
+    "prompt": "Which player holds the record for scoring the most goals in a single World Cup tournament (13 goals in 1958)?",
+    "options": ["Pelé", "Gerd Muller", "Just Fontaine", "Sándor Kocsis"],
+    "validAnswers": [
+      { "id": "fontaine", "name": "JUST FONTAINE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_3",
+    "title": "TACTICAL INTERROGATION [TYPING]",
+    "prompt": "Name the only manager to win the UEFA Champions League four times (AC Milan twice, Real Madrid twice). [Type Surname]",
+    "validAnswers": [
+      { "id": "ancelotti", "name": "CARLO ANCELOTTI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_4",
+    "title": "INTERNATIONAL RECORDS",
+    "prompt": "Which country holds the record for the most consecutive international matches undefeated (37 matches between 1993–1996)?",
+    "options": ["Brazil", "Spain", "Argentina", "Italy"],
+    "validAnswers": [
+      { "id": "brazil", "name": "BRAZIL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_5",
+    "title": "PREMIER LEAGUE ANOMALY",
+    "prompt": "Who was the first goalkeeper to score an open-play goal in the history of the English Premier League?",
+    "options": ["Peter Schmeichel", "Brad Friedel", "Paul Robinson", "Tim Howard"],
+    "validAnswers": [
+      { "id": "schmeichel", "name": "PETER SCHMEICHEL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_6",
+    "title": "EUROPEAN CHAMPIONSHIPS [TYPING]",
+    "prompt": "Which underdog nation won Euro 1992 despite failing to qualify initially and being called up from vacation? [Type Country Name]",
+    "validAnswers": [
+      { "id": "denmark", "name": "DENMARK", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_7",
+    "title": "BALLON D'OR TRIVIA",
+    "prompt": "Who was the last player outside of Lionel Messi and Cristiano Ronaldo to win the Ballon d'Or *before* Luka Modric broke their streak in 2018?",
+    "options": ["Ronaldinho", "Kaká", "Fabio Cannavaro", "Andriy Shevchenko"],
+    "validAnswers": [
+      { "id": "kaka", "name": "KAKÁ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_8",
+    "title": "WORLD CUP FINALS",
+    "prompt": "Only two players in history have scored a hat-trick in a men's FIFA World Cup Final: Geoff Hurst and whom?",
+    "options": ["Zinedine Zidane", "Kylian Mbappé", "Ronaldo Nazário", "Pelé"],
+    "validAnswers": [
+      { "id": "mbappe", "name": "KYLIAN MBAPPE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_9",
+    "title": "STADIUM HISTORY [TYPING]",
+    "prompt": "In what city was the very first European Cup Final played in 1956 (Real Madrid vs. Stade de Reims)? [Type City Name]",
+    "validAnswers": [
+      { "id": "paris", "name": "PARIS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_10",
+    "title": "SOUTH AMERICAN ROOTS",
+    "prompt": "Before joining Barcelona's La Masia academy as a boy, which Argentine club's youth system did Lionel Messi play for?",
+    "options": ["River Plate", "Newell's Old Boys", "Boca Juniors", "Rosario Central"],
+    "validAnswers": [
+      { "id": "newells", "name": "NEWELL'S OLD BOYS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_11",
+    "title": "FASTEST GOALS",
+    "prompt": "Who scored the quickest goal in FIFA World Cup history, finding the net just 11 seconds into a 2002 match?",
+    "options": ["Hakan Şükür", "Calvin Rosethorne", "Bryan Robson", "Asamoah Gyan"],
+    "validAnswers": [
+      { "id": "sukur", "name": "HAKAN ŞÜKÜR", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_12",
+    "title": "EL CLASICO VETERAN [TYPING]",
+    "prompt": "Name the player who holds the record for most appearances in El Clásico history (45 matches). [Type Surname]",
+    "validAnswers": [
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_13",
+    "title": "THE INVINCIBLES ERA",
+    "prompt": "How many Premier League matches did Arsenal actually *win* during their legendary 38-game unbeaten 2003-04 season?",
+    "options": ["24", "26", "30", "32"],
+    "validAnswers": [
+      { "id": "26", "name": "26", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_14",
+    "title": "AFRICAN LEGENDS",
+    "prompt": "Which African nation became the first-ever to reach the semi-finals of a FIFA World Cup in Qatar 2022?",
+    "options": ["Senegal", "Cameroon", "Morocco", "Ghana"],
+    "validAnswers": [
+      { "id": "morocco", "name": "MOROCCO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_15",
+    "title": "GOLDEN BOOT MYSTERY [TYPING]",
+    "prompt": "Who is the all-time leading goalscorer in the history of the Africa Cup of Nations (AFCON)? [Type Surname]",
+    "validAnswers": [
+      { "id": "etoo", "name": "SAMUEL ETO'O", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_16",
+    "title": "SCORING PHENOMENA",
+    "prompt": "Which player holds the record for the most goals scored in a single calendar year (91 goals in 2012)?",
+    "options": ["Cristiano Ronaldo", "Lionel Messi", "Gerd Muller", "Pelé"],
+    "validAnswers": [
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_17",
+    "title": "SERIE A DOMINANCE",
+    "prompt": "Which Italian club besides Juventus, AC Milan, and Inter Milan has won the most Serie A Scudetto titles?",
+    "options": ["Lazio", "AS Roma", "Genoa", "Torino"],
+    "validAnswers": [
+      { "id": "genoa", "name": "GENOA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_18",
+    "title": "REFEREE INFAMY [TYPING]",
+    "prompt": "Which referee famously brandished three yellow cards to Croatia's Josip Šimunić in a single World Cup match in 2006? [Type Surname]",
+    "validAnswers": [
+      { "id": "poll", "name": "GRAHAM POLL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_19",
+    "title": "GERMAN MACHINE",
+    "prompt": "Who holds the all-time record for most goals scored in the history of the German Bundesliga?",
+    "options": ["Gerd Muller", "Robert Lewandowski", "Jupp Heynckes", "Klaus Fischer"],
+    "validAnswers": [
+      { "id": "muller", "name": "GERD MULLER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_20",
+    "title": "THE MARACANAZO",
+    "prompt": "What was the exact score of the shock 1950 World Cup final where Uruguay defeated host Brazil at the Maracanã?",
+    "options": ["1-0", "2-1", "3-2", "2-0"],
+    "validAnswers": [
+      { "id": "21", "name": "2-1", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_21",
+    "title": "THE RED DEVILS [TYPING]",
+    "prompt": "Who scored the dramatic injury-time winner for Manchester United in the 1999 Champions League final against Bayern Munich? [Type Surname]",
+    "validAnswers": [
+      { "id": "solskjaer", "name": "OLE GUNNAR SOLSKJAER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_22",
+    "title": "COPA LIBERTADORES",
+    "prompt": "Which club has won the most Copa Libertadores titles in South American football history?",
+    "options": ["Boca Juniors", "River Plate", "Independiente", "Peñarol"],
+    "validAnswers": [
+      { "id": "independiente", "name": "INDEPENDIENTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_23",
+    "title": "THE SPECIALIST",
+    "prompt": "Which player holds the all-time record for most direct free-kick goals scored in official career matches?",
+    "options": ["David Beckham", "Juninho Pernambucano", "Ronaldinho", "Pelé"],
+    "validAnswers": [
+      { "id": "juninho", "name": "JUNINHO PERNAMBUCANO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_24",
+    "title": "STADIUM NAMES [TYPING]",
+    "prompt": "What is the official name of Borussia Dortmund's famous home stadium featuring the 'Yellow Wall'? [Type Stadium Name]",
+    "validAnswers": [
+      { "id": "signalidunapark", "name": "SIGNAL IDUNA PARK", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_25",
+    "title": "EUROPEAN GLORY NIGHTS",
+    "prompt": "Which manager won consecutive UEFA Champions League titles with Nottingham Forest in 1979 and 1980?",
+    "options": ["Bob Paisley", "Brian Clough", "Matt Busby", "Ernst Happel"],
+    "validAnswers": [
+      { "id": "clough", "name": "BRIAN CLOUGH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_26",
+    "title": "THE UNBEATEN ACADEMIES",
+    "prompt": "Which Dutch club holds the longest unbeaten run in Eredivisie history (52 matches between 1991 and 1992)?",
+    "options": ["PSV Eindhoven", "Feyenoord", "Ajax", "AZ Alkmaar"],
+    "validAnswers": [
+      { "id": "ajax", "name": "AJAX", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_27",
+    "title": "GOALKEEPING CENTURIONS [TYPING]",
+    "prompt": "Which goalkeeper holds the record for keeping the most clean sheets in UEFA Champions League history? [Type Surname]",
+    "validAnswers": [
+      { "id": "neuer", "name": "MANUEL NEUER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_28",
+    "title": "PREMIER LEAGUE CENTURIONS",
+    "prompt": "Who was the fastest player in Premier League history to reach 50 goals (achieving it in just 48 appearances)?",
+    "options": ["Thierry Henry", "Erling Haaland", "Mohamed Salah", "Alan Shearer"],
+    "validAnswers": [
+      { "id": "haaland", "name": "ERLING HAALAND", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_29",
+    "title": "WORLD CUP CAPTAINS",
+    "prompt": "Who is the only man to have won the FIFA World Cup as both a team captain and a team manager?",
+    "options": ["Franz Beckenbauer", "Didier Deschamps", "Mario Zagallo", "Both Beckenbauer and Deschamps"],
+    "validAnswers": [
+      { "id": "beckenbauer", "name": "FRANZ BECKENBAUER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_30",
+    "title": "THE COPA AMERICA KINGS [TYPING]",
+    "prompt": "Which nation won the very first Copa América tournament (then known as the South American Championship) in 1916? [Type Country Name]",
+    "validAnswers": [
+      { "id": "uruguay", "name": "URUGUAY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_31",
+    "title": "THE BATTLE OF NUREMBERG",
+    "prompt": "During the infamous 2006 World Cup match between Portugal and Netherlands, how many total red cards were issued by referee Valentin Ivanov?",
+    "options": ["2", "3", "4", "5"],
+    "validAnswers": [
+      { "id": "4", "name": "4", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_32",
+    "title": "LEGENDARY DEBUTS",
+    "prompt": "Which player scored a hat-trick on his Premier League debut for Manchester United against Arsenal in August 2004?",
+    "options": ["Robin van Persie", "Wayne Rooney", "Cristiano Ronaldo", "Dimitar Berbatov"],
+    "validAnswers": [
+      { "id": "rooney", "name": "WAYNE ROONEY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_33",
+    "title": "LA LIGA RECORDS [TYPING]",
+    "prompt": "Who holds the record for the most goals scored for a single club in La Liga history (474 goals)? [Type Surname]",
+    "validAnswers": [
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_34",
+    "title": "THE SCORPION KICK",
+    "prompt": "In what legendary stadium did René Higuita perform his iconic scorpion kick save against England in 1995?",
+    "options": ["Maracanã", "Wembley Stadium", "San Siro", "Estadio Azteca"],
+    "validAnswers": [
+      { "id": "wembley", "name": "WEMBLEY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_35",
+    "title": "THE IMMORTAL TREBLE [TYPING]",
+    "prompt": "Name the only German club in history to achieve the treble of Bundesliga, DFB-Pokal, and UEFA Champions League twice (2013 & 2020). [Type Club Name]",
+    "validAnswers": [
+      { "id": "bayernmunich", "name": "BAYERN MUNICH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  }
+]

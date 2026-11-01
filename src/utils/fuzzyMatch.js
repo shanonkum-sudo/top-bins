@@ -29,16 +29,25 @@ export function findFuzzyPlayer(inputName, allPlayers) {
   for (const player of allPlayers) {
     const targetName = player.name.toLowerCase();
 
-    // Exact or substring match
-    if (targetName === cleanInput) return player;
+    // Exact full name match
+    if (targetName === cleanInput) {
+      return { player, isExact: true };
+    }
     
-    // Check surname direct match (e.g., "Ronaldo" matches "Cristiano Ronaldo")
+    // Check individual name parts
     const parts = targetName.split(' ');
-    if (parts.some((part) => part.toLowerCase() === cleanInput)) {
-      return player;
+    const hasPartMatch = parts.some((part) => {
+      if (part === cleanInput) return true;
+      const distance = levenshteinDistance(cleanInput, part);
+      const maxLen = Math.max(cleanInput.length, part.length);
+      return (1 - distance / maxLen) >= 0.75;
+    });
+
+    if (hasPartMatch) {
+      return { player, isExact: true };
     }
 
-    // Levenshtein similarity calculation
+    // Levenshtein similarity calculation for full name typos
     const distance = levenshteinDistance(cleanInput, targetName);
     const maxLen = Math.max(cleanInput.length, targetName.length);
     const similarity = 1 - distance / maxLen;
@@ -49,6 +58,6 @@ export function findFuzzyPlayer(inputName, allPlayers) {
     }
   }
 
-  // 75% similarity threshold allows forgiving 1-2 typos
-  return highestSimilarity >= 0.72 ? bestMatch : null;
+  // If similarity is >= 72%, return as fuzzy match requiring confirmation
+  return highestSimilarity >= 0.72 ? { player: bestMatch, isExact: false } : null;
 }

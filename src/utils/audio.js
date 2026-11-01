@@ -159,11 +159,9 @@ class RetroAudio {
       mOsc.stop(now + 0.11);
 
       // 3. 8-Bit Percussion
-      // Snare on beats 2 & 4 (steps 4, 12, 20, 28)
       if (stepIdx % 8 === 4) {
         this.playSynthesizedSnare(now);
       } else {
-        // Crisp Hi-Hat tick
         this.playSynthesizedHiHat(now, stepIdx % 2 === 0);
       }
 
@@ -304,7 +302,7 @@ class RetroAudio {
       const noise = ctx.createBufferSource();
       noise.buffer = buffer;
 
-      const filter = ctx.createBiquadFilter();
+      const filter = this.ctx.createBiquadFilter();
       filter.type = 'bandpass';
 
       if (tierKey === 'groan') {
@@ -412,6 +410,59 @@ class RetroAudio {
     } catch (e) {}
   }
 
+  // Sharp Two-Blast Referee Whistle for Cards / VAR Overturn
+  playDoubleWhistle() {
+    const ctx = this.init();
+    if (!ctx) return;
+
+    try {
+      [0, 0.22].forEach((offset, idx) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        const start = ctx.currentTime + offset;
+        const dur = idx === 1 ? 0.3 : 0.15;
+
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(2400, start);
+        osc.frequency.setValueAtTime(2100, start + 0.05);
+        osc.frequency.setValueAtTime(2600, start + 0.1);
+
+        gain.gain.setValueAtTime(0.28, start);
+        gain.gain.exponentialRampToValueAtTime(0.01, start + dur);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(start);
+        osc.stop(start + dur);
+      });
+    } catch (e) {}
+  }
+
+  // Low Radar Beep for VAR Check
+  playVarBeep() {
+    const ctx = this.init();
+    if (!ctx) return;
+
+    try {
+      [0, 0.35, 0.7].forEach((offset) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        const start = ctx.currentTime + offset;
+
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(620, start);
+
+        gain.gain.setValueAtTime(0.2, start);
+        gain.gain.exponentialRampToValueAtTime(0.01, start + 0.15);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(start);
+        osc.stop(start + 0.15);
+      });
+    } catch (e) {}
+  }
+
   playInvalidBuzz() {
     const ctx = this.init();
     if (!ctx) return;
@@ -431,6 +482,107 @@ class RetroAudio {
       gain.connect(ctx.destination);
       osc.start();
       osc.stop(ctx.currentTime + 0.2);
+    } catch (e) {}
+  }
+
+  // --- NEW AUDIO EFFECTS FOR PRESS CONFERENCE & CARDS ---
+
+  // Mechanical Camera Shutter Snap (📸)
+  playCameraShutter() {
+    const ctx = this.init();
+    if (!ctx) return;
+
+    try {
+      const now = ctx.currentTime;
+      
+      // 1. High-frequency click burst (noise)
+      const bufferSize = Math.floor(ctx.sampleRate * 0.05);
+      const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < bufferSize; i++) {
+        data[i] = Math.random() * 2 - 1;
+      }
+
+      const noise = ctx.createBufferSource();
+      noise.buffer = buffer;
+
+      const filter = ctx.createBiquadFilter();
+      filter.type = 'bandpass';
+      filter.frequency.setValueAtTime(3500, now);
+
+      const gain = ctx.createGain();
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.01, now + 0.04);
+
+      noise.connect(filter);
+      filter.connect(gain);
+      gain.connect(ctx.destination);
+
+      noise.start(now);
+      noise.stop(now + 0.04);
+
+      // 2. Mechanical winding / shutter click thump
+      const osc = ctx.createOscillator();
+      const oscGain = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(280, now + 0.04);
+      osc.frequency.exponentialRampToValueAtTime(80, now + 0.09);
+
+      oscGain.gain.setValueAtTime(0.25, now + 0.04);
+      oscGain.gain.exponentialRampToValueAtTime(0.01, now + 0.09);
+
+      osc.connect(oscGain);
+      oscGain.connect(ctx.destination);
+      osc.start(now + 0.04);
+      osc.stop(now + 0.09);
+    } catch (e) {}
+  }
+
+  // Electronic Flashbulb Charge / Tension Click
+  playFlashbulbClick() {
+    const ctx = this.init();
+    if (!ctx) return;
+
+    try {
+      const now = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(1200, now);
+      osc.frequency.exponentialRampToValueAtTime(3200, now + 0.06);
+
+      gain.gain.setValueAtTime(0.12, now);
+      gain.gain.exponentialRampToValueAtTime(0.01, now + 0.06);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.06);
+    } catch (e) {}
+  }
+
+  // Sharp warning tone for cards / hardcore transition
+  playCardFlash() {
+    const ctx = this.init();
+    if (!ctx) return;
+
+    try {
+      const now = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = 'square';
+      osc.frequency.setValueAtTime(880, now);
+      osc.frequency.setValueAtTime(440, now + 0.1);
+
+      gain.gain.setValueAtTime(0.25, now);
+      gain.gain.exponentialRampToValueAtTime(0.01, now + 0.25);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.25);
     } catch (e) {}
   }
 }

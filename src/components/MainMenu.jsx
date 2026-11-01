@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import { PixelBall, PixelCrowdTop } from './PixelSprites';
 import { sound } from '../utils/audio';
-//update
 
-export default function MainMenu({ onStartDaily, hasPlayedToday, viewTodaysResults, stats }) {
+export default function MainMenu({
+  onStartDaily,
+  onStartCards,
+  onStartEndless,
+  hasPlayedToday,
+  viewTodaysResults,
+  stats
+}) {
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
   const [showInstructions, setShowInstructions] = useState(false);
 
@@ -121,38 +127,52 @@ export default function MainMenu({ onStartDaily, hasPlayedToday, viewTodaysResul
           </button>
         )}
 
-        <div className="w-full bg-[#0d2216]/60 border-2 border-gray-800 p-2.5 rounded text-left opacity-60">
-          <div className="flex justify-between items-center">
-            <span className="text-[8px] sm:text-[9px] text-gray-300 uppercase tracking-wider">
-              🟨 2-CARD SUDDEN DEATH
-            </span>
-            <span className="text-[6px] bg-red-950 text-red-400 border border-red-800 px-1.5 py-0.5 rounded font-bold uppercase">
-              SOON
-            </span>
+        {/* 2-CARD SUDDEN DEATH BUTTON */}
+        <button
+          onClick={onStartCards}
+          className="w-full bg-[#0d2216] hover:bg-[#133220] active:scale-95 border-2 border-red-500/80 p-2.5 rounded text-left transition-all shadow-md flex justify-between items-center group cursor-pointer"
+        >
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="text-[8px] sm:text-[9px] font-black text-yellow-400 uppercase tracking-wider">
+                🟨🟥 2-CARD SUDDEN DEATH
+              </span>
+              <span className="text-[6px] bg-red-600 text-white px-1.5 py-0.5 rounded font-bold uppercase">
+                NEW
+              </span>
+            </div>
+            <div className="text-[6px] text-gray-300 mt-0.5">
+              Warning ➔ Yellow ➔ Red Card • 1 VAR Check
+            </div>
           </div>
-          <div className="text-[6px] text-gray-500 mt-0.5">
-            Two wrong strikes and you're sent off
-          </div>
-        </div>
+          <span className="text-xs text-yellow-400 group-hover:translate-x-1 transition-transform">➔</span>
+        </button>
 
-        <div className="w-full bg-[#0d2216]/60 border-2 border-gray-800 p-2.5 rounded text-left opacity-60">
-          <div className="flex justify-between items-center">
-            <span className="text-[8px] sm:text-[9px] text-gray-300 uppercase tracking-wider">
-              ♾️ ENDLESS SURVIVAL
-            </span>
-            <span className="text-[6px] bg-purple-950 text-purple-400 border border-purple-800 px-1.5 py-0.5 rounded font-bold uppercase">
-              SOON
-            </span>
+        {/* ENDLESS SURVIVAL BUTTON */}
+        <button
+          onClick={onStartEndless}
+          className="w-full bg-[#0d2216] hover:bg-[#133220] active:scale-95 border-2 border-purple-500/80 p-2.5 rounded text-left transition-all shadow-md flex justify-between items-center group cursor-pointer"
+        >
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="text-[8px] sm:text-[9px] font-black text-purple-300 uppercase tracking-wider">
+                ♾️ ENDLESS SURVIVAL
+              </span>
+              <span className="text-[6px] bg-purple-600 text-white px-1.5 py-0.5 rounded font-bold uppercase">
+                NEW
+              </span>
+            </div>
+            <div className="text-[6px] text-gray-300 mt-0.5">
+              Shrinking timer • 15 pts per goal • Survive the run
+            </div>
           </div>
-          <div className="text-[6px] text-gray-500 mt-0.5">
-            Score as many meters as possible until you blank
-          </div>
-        </div>
+          <span className="text-xs text-purple-300 group-hover:translate-x-1 transition-transform">➔</span>
+        </button>
       </div>
 
       <div className="text-center mt-2 pt-2 border-t border-[#1e4a2b]">
         <span className="text-[7px] text-gray-400 uppercase tracking-widest">
-          {hasPlayedToday ? "• TRAINING GROUND CLOSED •" : "• TAP DAILY FIXTURE TO ENTER STADIUM •"}
+          • SELECT A GAME MODE TO ENTER STADIUM •
         </span>
       </div>
 
