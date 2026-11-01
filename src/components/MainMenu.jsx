@@ -8,7 +8,8 @@ export default function MainMenu({
   onStartEndless,
   hasPlayedToday,
   viewTodaysResults,
-  stats
+  stats,
+  onViewLeaderboard
 }) {
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
   const [showWhatsNew, setShowWhatsNew] = useState(false);
@@ -27,10 +28,8 @@ export default function MainMenu({
         <PixelCrowdTop excitement="medium" />
       </div>
 
-      {/* Retro Title Logo (with What's New '!' button positioned in top area) */}
+      {/* Retro Title Logo */}
       <div className="text-center my-2 bg-[#08180e] border-2 border-[#1e4a2b] py-3 px-2 rounded shadow-inner relative">
-        
-        {/* Compact What's New '!' Button */}
         <button
           onClick={() => {
             sound.playBeep();
@@ -127,7 +126,6 @@ export default function MainMenu({
           </button>
         )}
 
-        {/* 2-CARD SUDDEN DEATH BUTTON */}
         <button
           onClick={onStartCards}
           className="w-full bg-[#0d2216] hover:bg-[#133220] active:scale-95 border-2 border-red-500/80 p-2.5 rounded text-left transition-all shadow-md flex justify-between items-center group cursor-pointer"
@@ -148,7 +146,6 @@ export default function MainMenu({
           <span className="text-xs text-yellow-400 group-hover:translate-x-1 transition-transform">➔</span>
         </button>
 
-        {/* ENDLESS SURVIVAL BUTTON */}
         <button
           onClick={onStartEndless}
           className="w-full bg-[#0d2216] hover:bg-[#133220] active:scale-95 border-2 border-purple-500/80 p-2.5 rounded text-left transition-all shadow-md flex justify-between items-center group cursor-pointer"
@@ -168,6 +165,16 @@ export default function MainMenu({
           </div>
           <span className="text-xs text-purple-300 group-hover:translate-x-1 transition-transform">➔</span>
         </button>
+
+        {/* 🏆 NEW LEADERBOARD BUTTON */}
+        <button
+          onClick={onViewLeaderboard}
+          className="w-full bg-[#0c1c2e] hover:bg-[#16304d] active:scale-95 border-2 border-blue-500/50 p-2 rounded text-center transition-all shadow-md cursor-pointer mt-1"
+        >
+          <span className="text-[8px] sm:text-[9px] font-black text-blue-300 uppercase tracking-wider">
+            🏆 VIEW LEADERBOARDS
+          </span>
+        </button>
       </div>
 
       <div className="text-center mt-2 pt-2 border-t border-[#1e4a2b]">
@@ -181,12 +188,13 @@ export default function MainMenu({
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
           <div className="bg-zinc-900 border-2 border-yellow-500/50 rounded-2xl max-w-sm w-full p-5 shadow-2xl relative text-zinc-200">
             
+            {/* Modal Header */}
             <div className="flex justify-between items-center mb-3 border-b border-zinc-800 pb-3">
               <div>
                 <h2 className="text-base font-black text-yellow-400 uppercase tracking-wide flex items-center gap-2">
                   🚀 What's New
                 </h2>
-                <p className="text-[8px] text-green-400 tracking-wider uppercase font-bold mt-0.5">Version 1.1 Update</p>
+                <p className="text-[8px] text-gray-400 tracking-wider uppercase font-bold mt-0.5">Patch Notes History</p>
               </div>
               <button
                 onClick={() => setShowWhatsNew(false)}
@@ -196,27 +204,52 @@ export default function MainMenu({
               </button>
             </div>
 
-            {/* Patch Notes */}
-            <div className="space-y-2.5 text-xs text-zinc-300 mb-4">
-              <div className="flex items-start gap-2">
-                <span className="text-red-500 font-bold text-sm">🟥</span>
-                <p><strong className="text-white">2-Card Sudden Death:</strong> Rarity-based spectrum scoring. 3 referee strikes and you're off! VAR challenges enabled.</p>
+            {/* Scrollable Patch Notes Container */}
+            <div className="space-y-5 text-xs text-zinc-300 mb-4 max-h-[50vh] overflow-y-auto pr-2">
+              
+              {/* Version 1.2 */}
+              <div>
+                <h3 className="text-[10px] text-green-400 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.2 Update</h3>
+                <div className="space-y-2.5">
+                  <div className="flex items-start gap-2">
+                    <span className="text-emerald-400 font-bold text-sm">🏆</span>
+                    <p><strong className="text-white">Leaderboard Access:</strong> You can now view the global rankings straight from the Main Menu.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-yellow-400 font-bold text-sm">💬</span>
+                    <p><strong className="text-white">Banter Refresh:</strong> Fixed repetitive quotes and added fresh disrespect for timeouts and terrible guesses.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-400 font-bold text-sm">🐛</span>
+                    <p><strong className="text-white">Bug Fixes:</strong> Hopefully patched the leaderboard submission glitch, fixed multiple-choice autocorrect bugs-I hope it Glo's, and smoothed out game logic.</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="flex items-start gap-2">
-                <span className="text-blue-400 font-bold text-sm">🎙️</span>
-                <p><strong className="text-white">Press Conference:</strong> Endless survival mode where the clock speeds up the longer you survive.</p>
+              {/* Version 1.1 */}
+              <div className="opacity-80">
+                <h3 className="text-[10px] text-zinc-500 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.1 Update</h3>
+                <div className="space-y-2.5">
+                  <div className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold text-sm">🟥</span>
+                    <p><strong className="text-white">2-Card Sudden Death:</strong> Rarity-based spectrum scoring. 3 referee strikes and you're off! VAR challenges enabled.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-400 font-bold text-sm">🎙️</span>
+                    <p><strong className="text-white">Press Conference:</strong> Endless survival mode where the clock speeds up the longer you survive.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-yellow-400 font-bold text-sm">🏆</span>
+                    <p><strong className="text-white">Global Leaderboards:</strong> Submit your initials to the Supabase Arcade Hall of Fame.</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="flex items-start gap-2">
-                <span className="text-yellow-400 font-bold text-sm">🏆</span>
-                <p><strong className="text-white">Global Leaderboards:</strong> Submit your initials to the Supabase Arcade Hall of Fame.</p>
-              </div>
             </div>
 
             {/* Playtest Message */}
             <div className="bg-green-950/40 border border-green-800/80 p-3 rounded text-[9px] text-green-300 mb-4 leading-relaxed text-center">
-              Thank you for playing the Top Bins playtest! U so goated. If there are any queries or problems, feel free to text and let me know so I TRY to fix them.
+              Thank you for playing the Top Bins playtest! U so goated. If there are any queries or problems, feel free to text and let me know so I can TRY to fix them.
             </div>
 
             {/* Close Modal Button */}
@@ -232,7 +265,6 @@ export default function MainMenu({
           </div>
         </div>
       )}
-
     </div>
   );
 }

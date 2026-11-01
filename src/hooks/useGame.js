@@ -9,7 +9,7 @@ import { sound } from '../utils/audio';
 const BASE_SHOT_CLOCK = 20;
 const READING_SECONDS = 3;
 const TOTAL_FIXTURES = 7;
-const HARDCORE_THRESHOLD = 150; // UPDATED to 150!
+const HARDCORE_THRESHOLD = 150; 
 
 const LAUNCH_DATE = new Date("2026-10-31T00:00:00+02:00"); 
 
@@ -70,10 +70,9 @@ const logContestedAnswer = (questionPrompt, answerText, source = 'VAR') => {
 
 export function useGame() {
   const [gameState, setGameState] = useState('menu'); 
-  const [gameMode, setGameMode] = useState('daily'); // 'daily' | 'cards' | 'endless'
+  const [gameMode, setGameMode] = useState('daily'); 
   const [fixtureIndex, setFixtureIndex] = useState(0);
   
-  // Track if player has crossed into Phase 2 Hardcore Mode
   const [isHardcoreActive, setIsHardcoreActive] = useState(false);
   const [hardcoreTransitionEvent, setHardcoreTransitionEvent] = useState(null);
 
@@ -119,7 +118,7 @@ export function useGame() {
   }, [gameMode, todaysFixtures, allFixturesPool, shuffledPressQuestions, shuffledCardQuestions]);
 
   const banterIndices = useRef({
-    topBins: 0, worldie: 0, hollywoodBall: 0, throughBall: 0, tapIn: 0, timeout: 0,
+    topBins: 0, worldie: 0, hollywoodBall: 0, throughBall: 0, tapIn: 0, timeout: 0, groan: 0
   });
 
   const getNextBanter = (categoryKey) => {
@@ -152,7 +151,6 @@ export function useGame() {
     return () => clearCardTimers();
   }, []);
 
-  // Check if player crosses the Hardcore threshold during Endless or Cards mode
   useEffect(() => {
     if ((gameMode === 'endless' || gameMode === 'cards') && !isHardcoreActive && totalDistance >= HARDCORE_THRESHOLD) {
       setIsHardcoreActive(true);
@@ -398,7 +396,7 @@ export function useGame() {
         tierName: 'SACKED IN THE MORNING',
         tierKey: 'groan',
         tierColor: '#ef4444',
-        banter: 'Time expired! Press conference ended.',
+        banter: getNextBanter('timeout'),
         question: currentQuestion,
         player: null,
         allAnswers: currentQuestion.validAnswers || [],
@@ -448,7 +446,7 @@ export function useGame() {
   const prepareCardsMatch = () => {
     sound.playBeep();
     setGameMode('cards');
-    setIsHardcoreActive(false); // UPDATED to false so you get a grace period!
+    setIsHardcoreActive(false); 
     setShuffledCardQuestions(shuffleArray(cardQuestionsData));
     setGameState('staging');
   };
@@ -505,6 +503,7 @@ export function useGame() {
     setPendingAutocorrect(null);
   };
 
+  // ADDED MISSING FUNCTION HERE
   const viewTodaysResults = () => {
     sound.playBeep();
     setGameMode('daily');
@@ -517,7 +516,6 @@ export function useGame() {
     setInvalidAttempt(null);
     setPendingAutocorrect(null);
 
-    // Only Endless Mode gives flat 15 points; Cards Mode now relies on spectrum tiers!
     const isFlatMode = gameMode === 'endless';
     const kickData = {
       type: 'hit',
@@ -542,15 +540,15 @@ export function useGame() {
   };
 
   const shoot = (inputName, forceConfirm = false) => {
-    if (!isTimerRunning || gameState !== 'playing' || currentKickResult || readCountdown > 0 || cardEvent || hardcoreTransitionEvent) return;
+    if (gameState !== 'playing' || currentKickResult || readCountdown > 0 || cardEvent || hardcoreTransitionEvent) return;
+    
     const validPool = currentQuestion.validAnswers || [];
     const matchResult = findFuzzyPlayer(inputName, validPool);
 
     if (!matchResult) {
       setPendingAutocorrect(null);
 
-      // ONLY draw a card if they've crossed 150m (Hardcore is active)
-      if (isHardcoreActive) { // UPDATED: removed the gameMode === 'cards' check!
+      if (isHardcoreActive) { 
         triggerCardStrike(inputName.trim().toUpperCase(), `"${inputName.trim().toUpperCase()}" IS INCORRECT!`);
         return;
       }
@@ -580,7 +578,6 @@ export function useGame() {
         return;
       }
 
-      // If they haven't reached 150m yet, just shake the box and let them try again!
       sound.playInvalidBuzz();
       setInvalidAttempt({ name: inputName, reason: 'Not a qualifying answer for this fixture!' });
       setTimeout(() => setInvalidAttempt(null), 2000);
@@ -590,8 +587,10 @@ export function useGame() {
     const cleanInput = inputName.trim().toLowerCase();
     const targetName = matchResult.player.name.toLowerCase();
     const isExactOrPart = matchResult.isExact || cleanInput === targetName || targetName.includes(cleanInput);
+    
+    const isMultipleChoice = Array.isArray(currentQuestion.options) && currentQuestion.options.length > 0;
 
-    if (isExactOrPart || forceConfirm) {
+    if (isExactOrPart || forceConfirm || isMultipleChoice) {
       commitMatchedAnswer(matchResult.player);
     } else {
       sound.playBeep();

@@ -1,45 +1,56 @@
 export const BANTER_LINES = {
   topBins: [
-    "Unsaved. Postage stamp. Unbelievable pull.",
+    "That smells like...PROMOTION",
     "Call the museum, that belongs in an exhibition.",
     "Cristiano, is that you?!",
     "Pulled straight from the absolute Mariana Trench of ball knowledge.",
-    "Even the opposition fans are on their feet clapping."
+    "Even the opposition fans are on their feet clapping.",
+    "Ankara Messi-esque."
   ],
   worldie: [
     "Absolute thunderbolt! Take a bow.",
     "Ball knowledge is officially certified elite.",
     "Prime Adel Taarabt at Loftus Road territory.",
-    "Upper ninety from 35 yards out. Keeper had no chance."
+    "Upper ninety from 35 yards out. Keeper had no chance.",
+    "He's got a foot like a traction engine! 🚂"
   ],
   hollywoodBall: [
     "Lobbing a Bruno grenade into the box and praying.",
     "A 50-yard crossfield ping just to show off for the cameras.",
     "The streets are starting to remember this name.",
-    "Steven Gerrard crossfield diagonal on a rainy Tuesday."
+    "Steven Gerrard crossfield diagonal on a rainy Tuesday.",
+    "Diagonal perfection right on a sixpence! 📐"
   ],
   throughBall: [
     "Safe pass into feet. Sensible, tidy football.",
     "Respectable pick, but your nan definitely knew that one.",
     "Moving the chains. Nothing flashy, gets the job done.",
-    "The midfield engine room special."
+    "The midfield engine room special.",
+    "Controlling the temperature like Pedri."
   ],
   tapIn: [
     "The Rodrizontal pass special — zero risk, zero progression.",
     "Stat-padding at its finest. Goal line bundle.",
-    "A tap-in merchant classic from inside the six-yard box.",
-    "Did you even have to think for half a second?"
+    "We mustn't forget that its been rainin",
+    "Did you even have to think for half a second?",
+    "Is it the pink boots?",
+    "THERE IS NO PASSION! THERE IS NO VISION! THERE IS NO AGGRESSION!"
   ],
-   whoufeelinglike: [
+  groan: [
     "Tried a no-look trivela... sent it straight into the car park.",
-    "Overthought the entire room. Ref pulls out a Yellow Card for simulation.",
-    "Audacious bicycle kick from 40 yards that whiffed completely.",
-    "That one's currently flying past the International Space Station."
+    "Nominated for the balon don't",
+    "Oh my goodness Valentine.",
+    "Leave the football, before the football leaves you.",
+    "Absolute disasterclass! The manager is writing his resignation. 📝",
+    "Sunday league stuff that. Straight into Row Z! 💺"
   ],
-  timeWaster: [
+  timeout: [
     "Keeper panicked, froze on the ball, and conceded possession.",
     "Referee blew the whistle while you were still loading.",
-    "Caught in two minds and lost the ball completely."
+    "Caught in two minds and lost the ball completely.",
+    "Did your controller disconnect? 🎮",
+    "Frozen like a deer in headlights! 🦌",
+    "Time waster."
   ]
 };
 

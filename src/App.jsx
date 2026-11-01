@@ -171,6 +171,11 @@ export default function App() {
             hasPlayedToday={hasPlayedToday}
             viewTodaysResults={viewTodaysResults}
             stats={stats}
+            onViewLeaderboard={() => {
+              sound.playBeep();
+              setLeaderboardTab('endless');
+              setShowLeaderboard(true);
+            }}
           />
         )}
 
@@ -342,7 +347,7 @@ export default function App() {
                     disabled={isInputLocked}
                     onClick={() => {
                       sound.playBeep();
-                      shoot(opt);
+                      shoot(opt, true);
                     }}
                     className="bg-[#0b1f13] hover:bg-[#153522] active:scale-95 border border-[#1e4a2b] hover:border-yellow-400/80 text-yellow-300 font-mono text-[8px] sm:text-[9px] p-2 rounded uppercase tracking-wider transition-all shadow cursor-pointer disabled:opacity-50"
                   >
@@ -399,7 +404,7 @@ export default function App() {
                 <div className="flex gap-2">
                   <button
                     type="button"
-                    onClick={() => shoot(pendingAutocorrect.rawInput, true)}
+                    onClick={() => shoot(pendingAutocorrect.matchedAnswer.name, true)}
                     className="flex-1 bg-green-600 hover:bg-green-500 text-black font-black py-1.5 rounded text-[8px] uppercase tracking-wider cursor-pointer"
                   >
                     CONFIRM [ENTER] ✅
@@ -636,7 +641,7 @@ export default function App() {
         />
       )}
 
-      {/* How To Play Modal Popup - NOW RECEIVING gameMode! */}
+      {/* How To Play Modal Popup */}
       {showHowToPlay && (
         <HowToPlayModal gameMode={gameMode} onClose={() => setShowHowToPlay(false)} />
       )}

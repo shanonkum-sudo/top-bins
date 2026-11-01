@@ -42,7 +42,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
   };
 
   return (
-    <div className="fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4 font-mono">
+    <div className="fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4 font-mono select-text">
       <div className="bg-slate-900 border-2 border-emerald-500/60 rounded-xl p-6 max-w-md w-full shadow-2xl shadow-emerald-500/30 text-white">
         
         <div className="flex justify-between items-center mb-6 border-b border-slate-800 pb-4">
@@ -51,7 +51,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
           </h2>
           <button 
             onClick={onClose}
-            className="text-slate-400 hover:text-white px-3 py-1 rounded bg-slate-800 border border-slate-700 text-sm transition"
+            className="text-slate-400 hover:text-white px-3 py-1 rounded bg-slate-800 border border-slate-700 text-sm transition cursor-pointer"
           >
             ✕
           </button>
@@ -68,13 +68,13 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
                 value={initials}
                 onChange={(e) => setInitials(e.target.value.toUpperCase())}
                 placeholder="ABC"
-                className="w-24 bg-slate-950 border-2 border-emerald-500 text-center text-2xl font-black tracking-widest text-emerald-400 rounded-lg uppercase focus:outline-none focus:ring-2 focus:ring-emerald-400"
                 autoFocus
+                className="w-24 bg-slate-950 border-2 border-emerald-500 text-center text-2xl font-black tracking-widest text-emerald-400 rounded-lg uppercase focus:outline-none focus:ring-2 focus:ring-emerald-400 select-text"
               />
               <button
                 type="submit"
                 disabled={submitting || initials.length === 0}
-                className="bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-white font-bold px-5 rounded-lg border-b-4 border-emerald-800 active:border-b-0 active:translate-y-1 transition"
+                className="bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-white font-bold px-5 rounded-lg border-b-4 border-emerald-800 active:border-b-0 active:translate-y-1 transition cursor-pointer"
               >
                 {submitting ? '...' : 'SUBMIT'}
               </button>
@@ -85,7 +85,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
         <div className="flex rounded-lg bg-slate-950 p-1 mb-4 border border-slate-800">
           <button
             onClick={() => { sound.playBeep(); setActiveTab('endless'); }}
-            className={`flex-1 py-2 text-xs font-bold rounded-md transition ${
+            className={`flex-1 py-2 text-xs font-bold rounded-md transition cursor-pointer ${
               activeTab === 'endless' ? 'bg-emerald-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -93,7 +93,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
           </button>
           <button
             onClick={() => { sound.playBeep(); setActiveTab('cards'); }}
-            className={`flex-1 py-2 text-xs font-bold rounded-md transition ${
+            className={`flex-1 py-2 text-xs font-bold rounded-md transition cursor-pointer ${
               activeTab === 'cards' ? 'bg-emerald-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -139,7 +139,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
 
         <button
           onClick={onClose}
-          className="w-full mt-6 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-3 rounded-lg border border-slate-700 transition"
+          className="w-full mt-6 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-3 rounded-lg border border-slate-700 transition cursor-pointer"
         >
           CLOSE
         </button>
