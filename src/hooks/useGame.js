@@ -6,6 +6,10 @@ import { findFuzzyPlayer } from '../utils/fuzzyMatch';
 import { BANTER_LINES } from '../data/banter';
 import { sound } from '../utils/audio';
 
+// IMPORTANT: IMPORT YOUR SUPABASE CLIENT HERE.
+// Update the path below to match where your supabase.js file is stored.
+import { supabase } from '../utils/supabase'; 
+
 const BASE_SHOT_CLOCK = 20;
 const READING_SECONDS = 3;
 const TOTAL_FIXTURES = 7;
@@ -65,6 +69,26 @@ const logContestedAnswer = (questionPrompt, answerText, source = 'VAR') => {
     localStorage.setItem('topBinsContestedAnswers', JSON.stringify(existing));
   } catch (e) {
     console.warn('Could not log contested answer', e);
+  }
+};
+
+// ==========================================
+// BACKGROUND GUESS LOGGER
+// ==========================================
+const logPlayerGuess = async (rawGuess, mode, currentQ) => {
+  // Silent fail catch so if Supabase is down, it doesn't break the game
+  try {
+    supabase.from('guess_logs').insert([
+      {
+        guess: rawGuess,
+        game_mode: mode,
+        question: currentQ?.prompt || 'No question prompt'
+      }
+    ]).then(({ error }) => {
+      if (error) console.error("Guess log failed:", error);
+    });
+  } catch (err) {
+    console.error("Could not reach Supabase logger", err);
   }
 };
 
@@ -503,7 +527,6 @@ export function useGame() {
     setPendingAutocorrect(null);
   };
 
-  // ADDED MISSING FUNCTION HERE
   const viewTodaysResults = () => {
     sound.playBeep();
     setGameMode('daily');
@@ -542,6 +565,11 @@ export function useGame() {
   const shoot = (inputName, forceConfirm = false) => {
     if (gameState !== 'playing' || currentKickResult || readCountdown > 0 || cardEvent || hardcoreTransitionEvent) return;
     
+    const rawGuess = inputName.trim();
+    if (rawGuess) {
+      logPlayerGuess(rawGuess, gameMode, currentQuestion);
+    }
+
     const validPool = currentQuestion.validAnswers || [];
     const matchResult = findFuzzyPlayer(inputName, validPool);
 
