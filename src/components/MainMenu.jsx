@@ -207,9 +207,28 @@ export default function MainMenu({
             {/* Scrollable Patch Notes Container */}
             <div className="space-y-5 text-xs text-zinc-300 mb-4 max-h-[50vh] overflow-y-auto pr-2">
               
-              {/* Version 1.2 */}
+              {/* Version 1.3 */}
               <div>
-                <h3 className="text-[10px] text-green-400 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.2 Update</h3>
+                <h3 className="text-[10px] text-yellow-400 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.3 Update</h3>
+                <div className="space-y-2.5">
+                  <div className="flex items-start gap-2">
+                    <span className="text-emerald-400 font-bold text-sm">🏆</span>
+                    <p><strong className="text-white">Leaderboard Overhaul:</strong> Reworked Leader board so that it now displays the top 50 players and updates automatically also made it so that you can have 10 character names. I hope it works this time.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-purple-400 font-bold text-sm">🎙️</span>
+                    <p><strong className="text-white">Press Conference Expansion:</strong> Updated questions, should be more diverse now and repeats should be rarer.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-400 font-bold text-sm">⚡</span>
+                    <p><strong className="text-white">Arcade Loop:</strong> Improved the flow for quick play-again options in non-daily modes.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Version 1.2 */}
+              <div className="opacity-80">
+                <h3 className="text-[10px] text-zinc-500 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.2 Update</h3>
                 <div className="space-y-2.5">
                   <div className="flex items-start gap-2">
                     <span className="text-emerald-400 font-bold text-sm">🏆</span>
@@ -227,7 +246,7 @@ export default function MainMenu({
               </div>
 
               {/* Version 1.1 */}
-              <div className="opacity-80">
+              <div className="opacity-70">
                 <h3 className="text-[10px] text-zinc-500 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.1 Update</h3>
                 <div className="space-y-2.5">
                   <div className="flex items-start gap-2">

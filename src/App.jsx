@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useGame } from './hooks/useGame';
 import ArcadePitch from './components/ArcadePitch';
 import PressConference from './components/PressConference';
@@ -51,6 +51,15 @@ export default function App() {
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [leaderboardTab, setLeaderboardTab] = useState('endless');
+
+  // Dev mode flag
+  const [isDevMode, setIsDevMode] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setIsDevMode(localStorage.getItem('devMode') === 'true');
+    }
+  }, []);
 
   const isInputLocked = Boolean(currentKickResult) || readCountdown > 0 || Boolean(cardEvent);
   const hasOptions = gameMode === 'endless' && Array.isArray(currentQuestion.options) && currentQuestion.options.length > 0;
@@ -608,18 +617,15 @@ export default function App() {
                 </button>
               )}
 
-              <button
-                onClick={
-                  gameMode === 'cards'
-                    ? prepareCardsMatch
-                    : gameMode === 'endless'
-                    ? prepareEndlessMatch
-                    : prepareDailyMatch
-                }
-                className="w-full bg-purple-600 hover:bg-purple-500 active:scale-95 text-white font-black py-2 rounded text-[7px] tracking-wider uppercase transition-all shadow-md cursor-pointer border border-purple-400"
-              >
-                PLAYTEST: PLAY AGAIN 🔄
-              </button>
+              {/* Play Again only appears for non-daily modes */}
+              {gameMode !== 'daily' && (
+                <button
+                  onClick={gameMode === 'cards' ? prepareCardsMatch : prepareEndlessMatch}
+                  className="w-full bg-purple-600 hover:bg-purple-500 active:scale-95 text-white font-black py-2 rounded text-[7px] tracking-wider uppercase transition-all shadow-md cursor-pointer border border-purple-400"
+                >
+                  PLAY AGAIN 🔄
+                </button>
+              )}
               
               <button
                 onClick={goToMenu}
@@ -648,12 +654,14 @@ export default function App() {
 
       <footer className="text-[7px] text-gray-600 mt-2 flex flex-col items-center gap-2 uppercase tracking-widest">
         <span>TOP BINS • RETRO FOOTBALL ARCADE</span>
-        <button 
-          onClick={handleResetSave}
-          className="text-red-500 border border-red-900 bg-red-950/30 px-2 py-1 rounded hover:bg-red-900/50 transition-colors"
-        >
-          [DEV] Reset Save Data
-        </button>
+        {isDevMode && (
+          <button 
+            onClick={handleResetSave}
+            className="text-red-500 border border-red-900 bg-red-950/30 px-2 py-1 rounded hover:bg-red-900/50 transition-colors cursor-pointer"
+          >
+            [DEV] Reset Save Data
+          </button>
+        )}
       </footer>
     </div>
   );

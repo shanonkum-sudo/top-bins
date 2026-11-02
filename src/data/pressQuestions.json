@@ -301,5 +301,303 @@
     "validAnswers": [
       { "id": "bayernmunich", "name": "BAYERN MUNICH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
     ]
+  },
+  {
+    "id": "press_36",
+    "title": "CHAMPIONS LEAGUE RECORDS",
+    "prompt": "Who holds the record for scoring the fastest goal in UEFA Champions League history (10.12 seconds in 2007)?",
+    "options": ["Roy Makaay", "Clarence Seedorf", "Alexandre Pato", "David Alaba"],
+    "validAnswers": [
+      { "id": "makaay", "name": "ROY MAKAAY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_37",
+    "title": "PREMIER LEAGUE LORE [TYPING]",
+    "prompt": "Which player holds the all-time record for the most assists in Premier League history (162 assists)? [Type Surname]",
+    "validAnswers": [
+      { "id": "giggs", "name": "RYAN GIGGS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_38",
+    "title": "WORLD CUP GOLDEN BALL",
+    "prompt": "Which legendary goalkeeper is the only shot-stopper in history to win the FIFA World Cup Golden Ball (2002)?",
+    "options": ["Gianluigi Buffon", "Oliver Kahn", "Iker Casillas", "Dino Zoff"],
+    "validAnswers": [
+      { "id": "kahn", "name": "OLIVER KAHN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_39",
+    "title": "THE SPECIAL ONE [TYPING]",
+    "prompt": "With which Portuguese club did José Mourinho win his very first UEFA Champions League title in 2004? [Type Club Name]",
+    "validAnswers": [
+      { "id": "porto", "name": "FC PORTO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_40",
+    "title": "AFRICAN FOOTBALL ICONS",
+    "prompt": "Who is the only African player in history to win the prestigious Ballon d'Or award (1995)?",
+    "options": ["Didier Drogba", "George Weah", "Samuel Eto'o", "Roger Milla"],
+    "validAnswers": [
+      { "id": "weah", "name": "GEORGE WEAH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_41",
+    "title": "SERIE A MASTERS",
+    "prompt": "Which club went through the entire 2011-12 Serie A season completely unbeaten under Antonio Conte?",
+    "options": ["AC Milan", "Juventus", "Inter Milan", "Napoli"],
+    "validAnswers": [
+      { "id": "juventus", "name": "JUVENTUS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_42",
+    "title": "FASTEST HATTRICKS [TYPING]",
+    "prompt": "Who scored the fastest hat-trick in Premier League history, netting three times in 2 minutes and 56 seconds for Southampton in 2015? [Type Surname]",
+    "validAnswers": [
+      { "id": "mane", "name": "SADIO MANE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_43",
+    "title": "BALLON D'OR DEFENDERS",
+    "prompt": "Who was the last pure defender to win the Ballon d'Or, claiming it after captaining his nation to World Cup glory in 2006?",
+    "options": ["Paolo Maldini", "Fabio Cannavaro", "Roberto Carlos", "Alessandro Nesta"],
+    "validAnswers": [
+      { "id": "cannavaro", "name": "FABIO CANNAVARO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_44",
+    "title": "INTERNATIONAL SHOT-STOPPERS [TYPING]",
+    "prompt": "Which goalkeeper holds the men's international record for the longest run without conceding a goal (1,142 minutes for Italy)? [Type Surname]",
+    "validAnswers": [
+      { "id": "zoff", "name": "DINO ZOFF", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_45",
+    "title": "EUROPEAN DYNASTIES",
+    "prompt": "Which club won the first five consecutive European Cup tournaments between 1956 and 1960?",
+    "options": ["Benfica", "Real Madrid", "AC Milan", "Bayern Munich"],
+    "validAnswers": [
+      { "id": "realmadrid", "name": "REAL MADRID", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_46",
+    "title": "STADIUM TRIVIA [TYPING]",
+    "prompt": "What is the official name of Liverpool FC's iconic home ground opened in 1884? [Type Stadium Name]",
+    "validAnswers": [
+      { "id": "anfield", "name": "ANFIELD", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_47",
+    "title": "LA LIGA IRONMEN",
+    "prompt": "Which player holds the all-time appearance record in La Liga history (tied at 622 matches with Andoni Zubizarreta)?",
+    "options": ["Raúl", "Joaquín", "Sergio Ramos", "Iker Casillas"],
+    "validAnswers": [
+      { "id": "joaquin", "name": "JOAQUÍN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_48",
+    "title": "WORLD CUP DEBUTS [TYPING]",
+    "prompt": "In what host nation did Pelé play and win his very first FIFA World Cup tournament at age 17 in 1958? [Type Country Name]",
+    "validAnswers": [
+      { "id": "sweden", "name": "SWEDEN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_49",
+    "title": "THE MIRACLE OF ISTANBUL",
+    "prompt": "Who scored the 3-3 equalizer for Liverpool against AC Milan in the famous 2005 Champions League Final?",
+    "options": ["Steven Gerrard", "Vladimír Šmicer", "Xabi Alonso", "Milan Baroš"],
+    "validAnswers": [
+      { "id": "alonso", "name": "XABI ALONSO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_50",
+    "title": "GOLDEN GENERATIONS [TYPING]",
+    "prompt": "Which Spanish club went an entire 38-game league campaign with only 15 goals conceded during the 2004-05 Premier League season? [Type Club Name]",
+    "validAnswers": [
+      { "id": "chelsea", "name": "CHELSEA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_51",
+    "title": "COPA DEL REY KINGS",
+    "prompt": "Which club has won the most Copa del Rey trophies in Spanish football history?",
+    "options": ["Real Madrid", "Athletic Bilbao", "Barcelona", "Atlético Madrid"],
+    "validAnswers": [
+      { "id": "barcelona", "name": "BARCELONA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_52",
+    "title": "SUPER SUB SPECIALIST [TYPING]",
+    "prompt": "Who scored five goals in just nine minutes after coming on as a substitute for Bayern Munich against Wolfsburg in 2015? [Type Surname]",
+    "validAnswers": [
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_53",
+    "title": "EURO DOMINANCE",
+    "prompt": "Which two nations share the record for winning the most UEFA European Championship titles (3 titles each prior to 2024)?",
+    "options": ["Germany and Spain", "France and Italy", "Germany and France", "Spain and Italy"],
+    "validAnswers": [
+      { "id": "germanyspain", "name": "GERMANY AND SPAIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_54",
+    "title": "THE CATENACCIO MASTER [TYPING]",
+    "prompt": "Which manager pioneered the famous 'Grande Inter' team of the 1960s with his strict defensive Catenaccio tactics? [Type Surname]",
+    "validAnswers": [
+      { "id": "herrera", "name": "HELENIO HERRERA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_55",
+    "title": "FRENCH FLOP TO GLORY",
+    "prompt": "Which French club is the only side from Ligue 1 to have ever won the UEFA Champions League (in 1993)?",
+    "options": ["Paris Saint-Germain", "Olympique Marseille", "AS Monaco", "Saint-Étienne"],
+    "validAnswers": [
+      { "id": "marseille", "name": "OLYMPIQUE MARSEILLE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_56",
+    "title": "ENGLAND'S GLORY [TYPING]",
+    "prompt": "Who managed England to their only FIFA World Cup victory in 1966? [Type Surname]",
+    "validAnswers": [
+      { "id": "ramsey", "name": "ALF RAMSEY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_57",
+    "title": "PENALTY SAVERS",
+    "prompt": "Which goalkeeper famously saved all four penalties in the shootout of the 1986 European Cup Final for Steaua București against Barcelona?",
+    "options": ["Helmuth Duckadam", "Rinat Dasayev", "Harald Schumacher", "Walter Zenga"],
+    "validAnswers": [
+      { "id": "duckadam", "name": "HELMUTH DUCKADAM", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_58",
+    "title": "THE DUTCH MASTER [TYPING]",
+    "prompt": "Which Dutch legend won three consecutive Ballon d'Or awards in 1971, 1973, and 1974 while orchestrating 'Total Football'? [Type Surname]",
+    "validAnswers": [
+      { "id": "cruyff", "name": "JOHAN CRUYFF", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_59",
+    "title": "CONCACAF RECORD HOLDERS",
+    "prompt": "Which nation has won the most CONCACAF Gold Cup titles in history?",
+    "options": ["United States", "Mexico", "Costa Rica", "Canada"],
+    "validAnswers": [
+      { "id": "mexico", "name": "MEXICO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_60",
+    "title": "SCOTTISH SUPREMACY [TYPING]",
+    "prompt": "Which Scottish side became the first British club to win the European Cup in 1967 with the famous 'Lisbon Lions'? [Type Club Name]",
+    "validAnswers": [
+      { "id": "celtic", "name": "CELTIC", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_61",
+    "title": "CENTURY CLUB GOALKEEPERS",
+    "prompt": "Which Brazilian goalkeeper scored an astonishing 131 career goals from free-kicks and penalties for São Paulo?",
+    "options": ["Dida", "Rogério Ceni", "Cláudio Taffarel", "Júlio César"],
+    "validAnswers": [
+      { "id": "ceni", "name": "ROGERIO CENI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_62",
+    "title": "STADIUM LORE [TYPING]",
+    "prompt": "What is the world-famous home stadium shared by both Inter Milan and AC Milan officially known as when Inter hosts? [Type Stadium Name]",
+    "validAnswers": [
+      { "id": "meazza", "name": "GIUSEPPE MEAZZA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_63",
+    "title": "OLYMPIC GLORY",
+    "prompt": "Which African nation won the 1996 Olympic Men's Football gold medal in Atlanta by defeating Argentina 3-2 in the final?",
+    "options": ["Cameroon", "Nigeria", "Ghana", "Senegal"],
+    "validAnswers": [
+      { "id": "nigeria", "name": "NIGERIA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_64",
+    "title": "BALLON D'OR GOALKEEPERS [TYPING]",
+    "prompt": "Who remains the only goalkeeper in football history to win the Ballon d'Or (won in 1963)? [Type Surname]",
+    "validAnswers": [
+      { "id": "yashin", "name": "LEV YASHIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_65",
+    "title": "THE FOX IN THE BOX",
+    "prompt": "Which striker scored for six different clubs in the UEFA Champions League (Ajax, Juventus, Inter, Barcelona, Milan, and PSG)?",
+    "options": ["Hernán Crespo", "Zlatan Ibrahimović", "Nicolas Anelka", "Samuel Eto'o"],
+    "validAnswers": [
+      { "id": "zlatan", "name": "ZLATAN IBRAHIMOVIC", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_66",
+    "title": "WORLD CUP AGONY [TYPING]",
+    "prompt": "Which Italian maestro famously missed the decisive final penalty against Brazil in the 1994 World Cup shootout? [Type Surname]",
+    "validAnswers": [
+      { "id": "baggio", "name": "ROBERTO BAGGIO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_67",
+    "title": "THE RED BULL REVOLUTION",
+    "prompt": "Which Austrian club reached the final of the UEFA Cup in 1994 before being rebranded by Red Bull in 2005?",
+    "options": ["Rapid Wien", "Austria Salzburg", "Sturm Graz", "LASK"],
+    "validAnswers": [
+      { "id": "salzburg", "name": "AUSTRIA SALZBURG", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_68",
+    "title": "LONGEVITY KINGS [TYPING]",
+    "prompt": "Who is the oldest goalscorer in FIFA World Cup history, finding the net against Russia at age 42 in 1994? [Type Surname]",
+    "validAnswers": [
+      { "id": "milla", "name": "ROGER MILLA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_69",
+    "title": "THE TREBLE PURSUIT",
+    "prompt": "Which Dutch coach led Ajax to an unbeaten domestic league season and UEFA Champions League title in 1994-95?",
+    "options": ["Guus Hiddink", "Louis van Gaal", "Ronald Koeman", "Dick Advocaat"],
+    "validAnswers": [
+      { "id": "vangaal", "name": "LOUIS VAN GAAL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_70",
+    "title": "TOP FLIGHT SURVIVORS [TYPING]",
+    "prompt": "Along with Real Madrid and Barcelona, which is the only other club to have never been relegated from Spain's La Liga? [Type Club Name]",
+    "validAnswers": [
+      { "id": "bilbao", "name": "ATHLETIC BILBAO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
   }
 ]

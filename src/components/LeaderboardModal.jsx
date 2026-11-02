@@ -30,7 +30,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
 
     sound.playBeep();
     setSubmitting(true);
-    const cleanInitials = initials.trim().toUpperCase().slice(0, 3);
+    const cleanInitials = initials.trim().toUpperCase().slice(0, 10);
 
     const result = await submitScore(cleanInitials, finalScore, gameMode);
     if (result.success) {
@@ -60,16 +60,16 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
         {isPlayableMode && !submitted && (
           <div className="mb-6 bg-emerald-950/40 border border-emerald-500/40 rounded-xl p-4 text-center">
             <p className="text-xs text-emerald-300 font-bold uppercase tracking-wider mb-1">New Score: {finalScore} pts</p>
-            <p className="text-sm text-slate-300 mb-3">Enter 3 Initials for the Arcade Hall of Fame:</p>
+            <p className="text-sm text-slate-300 mb-3">Enter Handle (Max 10 Letters):</p>
             <form onSubmit={handleScoreSubmit} className="flex gap-2 justify-center">
               <input
                 type="text"
-                maxLength={3}
+                maxLength={10}
                 value={initials}
                 onChange={(e) => setInitials(e.target.value.toUpperCase())}
-                placeholder="ABC"
+                placeholder="TOPBIN1000"
                 autoFocus
-                className="w-24 bg-slate-950 border-2 border-emerald-500 text-center text-2xl font-black tracking-widest text-emerald-400 rounded-lg uppercase focus:outline-none focus:ring-2 focus:ring-emerald-400 select-text"
+                className="w-52 bg-slate-950 border-2 border-emerald-500 text-center text-xl font-black tracking-widest text-emerald-400 rounded-lg uppercase focus:outline-none focus:ring-2 focus:ring-emerald-400 select-text"
               />
               <button
                 type="submit"
