@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import React, { useState, useEffect } from 'react';
 import { useGame } from './hooks/useGame';
 import ArcadePitch from './components/ArcadePitch';
@@ -663,6 +664,7 @@ export default function App() {
           </button>
         )}
       </footer>
+      <Analytics/>
     </div>
   );
 }
