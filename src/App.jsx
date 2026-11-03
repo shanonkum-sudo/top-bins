@@ -444,7 +444,7 @@ export default function App() {
                     placeholder={readCountdown > 0 ? 'READING...' : cardEvent ? 'REFEREE RULING...' : isEndless ? "SPEAK INTO MIC..." : "ENTER PLAYER..."}
                     disabled={isInputLocked}
                     autoFocus
-                    className={`w-full ${isEndless ? 'bg-[#04080e] border-[#243b55] text-blue-300 placeholder-blue-900/60 focus:border-blue-400 focus:shadow-[0_0_12px_rgba(59,130,246,0.2)]' : 'bg-[#050b07] border-[#1e4a2b] text-green-400 placeholder-green-900/60 focus:border-green-400 focus:shadow-[0_0_12px_rgba(34,197,94,0.2)]'} border-2 rounded pl-6 pr-2 py-2 text-[9px] sm:text-[10px] outline-none uppercase font-mono tracking-widest disabled:opacity-50 transition-all`}
+                    className={`w-full ${isEndless ? 'bg-[#04080e] border-[#243b55] text-blue-300 placeholder-blue-900/60 focus:border-blue-400 focus:shadow-[0_0_12px_rgba(59,130,246,0.2)]' : 'bg-[#050b07] border-[#1e4a2b] text-green-400 placeholder-green-900/60 focus:border-green-400 focus:shadow-[0_0_12px_rgba(34,197,94,0.2)]'} border-2 rounded pl-6 pr-2 py-2 text-base sm:text-[10px] outline-none uppercase font-mono tracking-widest disabled:opacity-50 transition-all`}
                   />
                 </div>
                 
