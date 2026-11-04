@@ -599,5 +599,940 @@
     "validAnswers": [
       { "id": "bilbao", "name": "ATHLETIC BILBAO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
     ]
+  },
+  {
+    "id": "press_71",
+    "title": "PREMIER LEAGUE ASSISTS",
+    "prompt": "Which player holds the record for the most assists in a single Premier League season (20 assists), a record shared with Kevin De Bruyne?",
+    "options": ["Cesc Fàbregas", "Thierry Henry", "Mesut Özil", "Ryan Giggs"],
+    "validAnswers": [
+      { "id": "henry", "name": "THIERRY HENRY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_72",
+    "title": "CHAMPIONS LEAGUE YOUTH [TYPING]",
+    "prompt": "Who is the youngest goalscorer in UEFA Champions League history, finding the net for Barcelona at age 17 in 2019? [Type Surname]",
+    "validAnswers": [
+      { "id": "fati", "name": "ANSU FATI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_73",
+    "title": "MODERN STRIKERS",
+    "prompt": "Which player broke the Bundesliga record for the most goals in a single season, scoring 41 goals in the 2020-21 campaign?",
+    "options": ["Gerd Muller", "Erling Haaland", "Robert Lewandowski", "Pierre-Emerick Aubameyang"],
+    "validAnswers": [
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_74",
+    "title": "WORLD CUP GOLDEN GLOVES [TYPING]",
+    "prompt": "Which Argentine goalkeeper won the Golden Glove award at the 2022 FIFA World Cup? [Type Surname]",
+    "validAnswers": [
+      { "id": "martinez", "name": "EMILIANO MARTINEZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_75",
+    "title": "EUROPEAN TRANSFERS",
+    "prompt": "Which player became the most expensive teenager in football history when joining PSG in 2017?",
+    "options": ["Joao Felix", "Kylian Mbappé", "Jude Bellingham", "Matthijs de Ligt"],
+    "validAnswers": [
+      { "id": "mbappe", "name": "KYLIAN MBAPPE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_76",
+    "title": "CLUB WORLD CUP [TYPING]",
+    "prompt": "Which English club won their first ever FIFA Club World Cup title in 2023, completing a quintuple of trophies that year? [Type Club Name]",
+    "validAnswers": [
+      { "id": "mancity", "name": "MANCHESTER CITY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_77",
+    "title": "AFCON HEROES",
+    "prompt": "Which player scored the winning penalty for Senegal in the final of the 2021 Africa Cup of Nations?",
+    "options": ["Kalidou Koulibaly", "Edouard Mendy", "Sadio Mané", "Ismaila Sarr"],
+    "validAnswers": [
+      { "id": "mane", "name": "SADIO MANE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_78",
+    "title": "THE 'CHOLO' ERA [TYPING]",
+    "prompt": "Which manager led Atlético Madrid to two La Liga titles (2014, 2021), breaking the Real Madrid/Barcelona duopoly? [Type Surname]",
+    "validAnswers": [
+      { "id": "simeone", "name": "DIEGO SIMEONE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_79",
+    "title": "CHAMPIONS LEAGUE FINALISTS",
+    "prompt": "Which French club reached their first ever UEFA Champions League final in 2020, losing 1-0 to Bayern Munich?",
+    "options": ["Olympique Lyon", "AS Monaco", "Olympique Marseille", "Paris Saint-Germain"],
+    "validAnswers": [
+      { "id": "psg", "name": "PARIS SAINT-GERMAIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_80",
+    "title": "PREMIER LEAGUE MANAGERS [TYPING]",
+    "prompt": "Who is the only manager to win the Premier League Manager of the Month award in four consecutive months? [Type Surname]",
+    "validAnswers": [
+      { "id": "guardiola", "name": "PEP GUARDIOLA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+{
+    "id": "press_81",
+    "title": "PREMIER LEAGUE DRAMA",
+    "prompt": "Who scored the iconic 94th-minute winner against QPR in 2012 to win Manchester City their first Premier League title?",
+    "options": ["Edin Džeko", "Vincent Kompany", "Sergio Agüero", "Mario Balotelli"],
+    "validAnswers": [
+      { "id": "aguero", "name": "SERGIO AGÜERO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_82",
+    "title": "AFCON MIRACLES [TYPING]",
+    "prompt": "Which striker scored the winning goal in the 2023 AFCON final for Ivory Coast after surviving a battle with cancer just a year prior? [Type Surname]",
+    "validAnswers": [
+      { "id": "haller", "name": "SEBASTIEN HALLER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_83",
+    "title": "SERIE A SCUDETTO",
+    "prompt": "Which Nigerian striker won the Serie A Golden Boot (Capocannoniere) while leading Napoli to the 2022-23 Scudetto?",
+    "options": ["Victor Boniface", "Ademola Lookman", "Victor Osimhen", "Samuel Chukwueze"],
+    "validAnswers": [
+      { "id": "osimhen", "name": "VICTOR OSIMHEN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_84",
+    "title": "LIGUE 1 UPSETS [TYPING]",
+    "prompt": "Which French club shocked PSG to win the Ligue 1 title in the 2020-21 season under manager Christophe Galtier? [Type Club Name]",
+    "validAnswers": [
+      { "id": "lille", "name": "LILLE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_85",
+    "title": "CHAMPIONS LEAGUE FINALS",
+    "prompt": "Who scored the only goal of the game as Manchester City defeated Inter Milan to win the 2023 Champions League final?",
+    "options": ["Kevin De Bruyne", "Erling Haaland", "Bernardo Silva", "Rodri"],
+    "validAnswers": [
+      { "id": "rodri", "name": "RODRI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_86",
+    "title": "WORLD CUP GLORY [TYPING]",
+    "prompt": "Who scored the winning goal for Germany in extra time of the 2014 World Cup Final against Argentina? [Type Surname]",
+    "validAnswers": [
+      { "id": "gotze", "name": "MARIO GOTZE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_87",
+    "title": "LA LIGA MIDFIELDERS",
+    "prompt": "Which Real Madrid midfielder won the 2018 Ballon d'Or, breaking the decade-long dominance of Messi and Ronaldo?",
+    "options": ["Toni Kroos", "Luka Modrić", "Casemiro", "Isco"],
+    "validAnswers": [
+      { "id": "modric", "name": "LUKA MODRIĆ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_88",
+    "title": "EUROPEAN CHAMPIONSHIPS [TYPING]",
+    "prompt": "Which substitute scored the extra-time winner for Portugal against France in the Euro 2016 final? [Type Name]",
+    "validAnswers": [
+      { "id": "eder", "name": "EDER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_89",
+    "title": "PREMIER LEAGUE STREAKS",
+    "prompt": "Which Leicester City striker broke Ruud van Nistelrooy's record by scoring in 11 consecutive Premier League matches in 2015?",
+    "options": ["Riyad Mahrez", "Jamie Vardy", "Shinji Okazaki", "Leonardo Ulloa"],
+    "validAnswers": [
+      { "id": "vardy", "name": "JAMIE VARDY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_90",
+    "title": "SERIE A RECORD BREAKERS [TYPING]",
+    "prompt": "Which Argentine striker equaled the Serie A single-season scoring record with 36 goals for Napoli in the 2015-16 season? [Type Surname]",
+    "validAnswers": [
+      { "id": "higuain", "name": "GONZALO HIGUAIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_91",
+    "title": "LIGUE 1 PRODIGIES",
+    "prompt": "Before joining PSG, Kylian Mbappé won the 2016-17 Ligue 1 title with which high-scoring club?",
+    "options": ["Olympique Lyon", "AS Monaco", "Olympique Marseille", "Lille"],
+    "validAnswers": [
+      { "id": "monaco", "name": "AS MONACO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_92",
+    "title": "AFCON LEGENDS [TYPING]",
+    "prompt": "Which nation has won the most Africa Cup of Nations titles in history (7 titles)? [Type Country Name]",
+    "validAnswers": [
+      { "id": "egypt", "name": "EGYPT", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_93",
+    "title": "WORLD CUP GOLDEN BOOT",
+    "prompt": "Which French player won the Golden Boot at the 2022 World Cup by scoring a hat-trick in the final?",
+    "options": ["Olivier Giroud", "Antoine Griezmann", "Kylian Mbappé", "Ousmane Dembélé"],
+    "validAnswers": [
+      { "id": "mbappe", "name": "KYLIAN MBAPPÉ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_94",
+    "title": "LA LIGA RIVALRIES [TYPING]",
+    "prompt": "Which player famously transferred directly from Barcelona to Real Madrid in 2000, prompting fans to throw a pig's head at him? [Type Surname]",
+    "validAnswers": [
+      { "id": "figo", "name": "LUIS FIGO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_95",
+    "title": "CHAMPIONS LEAGUE COMEBACKS",
+    "prompt": "Who scored the 95th-minute winner for Real Madrid against Atlético Madrid in the 2014 Champions League Final to force extra time?",
+    "options": ["Cristiano Ronaldo", "Gareth Bale", "Sergio Ramos", "Marcelo"],
+    "validAnswers": [
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_96",
+    "title": "PREMIER LEAGUE GOALKEEPERS [TYPING]",
+    "prompt": "Which goalkeeper famously scored a 95th-minute headed winner for Liverpool against West Bromwich Albion in 2021? [Type Surname]",
+    "validAnswers": [
+      { "id": "alisson", "name": "ALISSON", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_97",
+    "title": "SERIE A LOYALTY",
+    "prompt": "Which legendary Roma captain played his entire 25-year professional career at the club, retiring in 2017?",
+    "options": ["Daniele De Rossi", "Francesco Totti", "Alessandro Del Piero", "Paolo Maldini"],
+    "validAnswers": [
+      { "id": "totti", "name": "FRANCESCO TOTTI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_98",
+    "title": "EUROS MASTERCLASS [TYPING]",
+    "prompt": "Which Italian goalkeeper was named Player of the Tournament at Euro 2020 after saving two penalties in the final? [Type Surname]",
+    "validAnswers": [
+      { "id": "donnarumma", "name": "GIANLUIGI DONNARUMMA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_99",
+    "title": "AFRICAN EXPORTS",
+    "prompt": "Which Algerian winger won the PFA Players' Player of the Year award during Leicester City's miracle 2015-16 season?",
+    "options": ["Said Benrahma", "Riyad Mahrez", "Islam Slimani", "Ismaël Bennacer"],
+    "validAnswers": [
+      { "id": "mahrez", "name": "RIYAD MAHREZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_100",
+    "title": "LIGUE 1 ICONS [TYPING]",
+    "prompt": "Which Brazilian set-piece specialist scored exactly 100 goals for Lyon, including a staggering 44 direct free kicks? [Type Name]",
+    "validAnswers": [
+      { "id": "juninho", "name": "JUNINHO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_101",
+    "title": "WORLD CUP ASSISTS",
+    "prompt": "Who provided the iconic extra-time assist to Andrés Iniesta in the 2010 World Cup Final?",
+    "options": ["Xavi", "Fernando Torres", "Cesc Fàbregas", "David Silva"],
+    "validAnswers": [
+      { "id": "fabregas", "name": "CESC FABREGAS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_102",
+    "title": "LA LIGA TRANSFERS [TYPING]",
+    "prompt": "Which Brazilian star did Barcelona sign from Santos in 2013, forming the famous 'MSN' attacking trio? [Type First Name]",
+    "validAnswers": [
+      { "id": "neymar", "name": "NEYMAR", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_103",
+    "title": "CHAMPIONS LEAGUE MASTERCLASS",
+    "prompt": "Which striker scored four goals for Borussia Dortmund against Real Madrid in the 2013 Champions League semi-final?",
+    "options": ["Marco Reus", "Pierre-Emerick Aubameyang", "Robert Lewandowski", "Mario Götze"],
+    "validAnswers": [
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_104",
+    "title": "PREMIER LEAGUE DEFENDERS [TYPING]",
+    "prompt": "Which Dutch center-back won the PFA Player of the Year award in 2019 while playing for Liverpool? [Type Surname]",
+    "validAnswers": [
+      { "id": "vandijk", "name": "VIRGIL VAN DIJK", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_105",
+    "title": "SERIE A DERBIES",
+    "prompt": "What is the traditional name given to the bitter rivalry match between AC Milan and Inter Milan?",
+    "options": ["Derby d'Italia", "Derby della Madonnina", "Derby della Capitale", "Derby della Mole"],
+    "validAnswers": [
+      { "id": "madonnina", "name": "DERBY DELLA MADONNINA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_106",
+    "title": "AFCON HEROES [TYPING]",
+    "prompt": "Which Senegalese forward scored the winning penalty in the shootout of the 2021 AFCON Final? [Type Surname]",
+    "validAnswers": [
+      { "id": "mane", "name": "SADIO MANE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_107",
+    "title": "EUROPEAN UPSETS",
+    "prompt": "Which Greek player scored the only goal in the Euro 2004 Final to defeat host nation Portugal 1-0?",
+    "options": ["Theodoros Zagorakis", "Giorgos Karagounis", "Angelos Charisteas", "Traianos Dellas"],
+    "validAnswers": [
+      { "id": "charisteas", "name": "ANGELOS CHARISTEAS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_108",
+    "title": "WORLD CUP RED CARDS [TYPING]",
+    "prompt": "Which French captain was sent off in the 2006 World Cup Final for headbutting Marco Materazzi? [Type Surname]",
+    "validAnswers": [
+      { "id": "zidane", "name": "ZINEDINE ZIDANE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_109",
+    "title": "LIGUE 1 MANAGERS",
+    "prompt": "Which manager led PSG to their first domestic quadruple in the 2014-15 season before being sacked in 2016?",
+    "options": ["Carlo Ancelotti", "Unai Emery", "Laurent Blanc", "Thomas Tuchel"],
+    "validAnswers": [
+      { "id": "blanc", "name": "LAURENT BLANC", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_110",
+    "title": "LA LIGA MANAGERS [TYPING]",
+    "prompt": "Which former midfielder led Barcelona to an unprecedented sextuple (6 trophies) in his debut calendar year as manager in 2009? [Type Surname]",
+    "validAnswers": [
+      { "id": "guardiola", "name": "PEP GUARDIOLA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_111",
+    "title": "CHAMPIONS LEAGUE HEROES",
+    "prompt": "Who scored the winning goal for Chelsea against Bayern Munich in the 2012 Champions League Final penalty shootout?",
+    "options": ["Frank Lampard", "Ashley Cole", "Didier Drogba", "Juan Mata"],
+    "validAnswers": [
+      { "id": "drogba", "name": "DIDIER DROGBA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_112",
+    "title": "PREMIER LEAGUE ICONS [TYPING]",
+    "prompt": "Which Arsenal striker went the entire 2003-04 'Invincibles' season wearing the number 14 shirt? [Type Surname]",
+    "validAnswers": [
+      { "id": "henry", "name": "THIERRY HENRY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_113",
+    "title": "SERIE A TRANSFERS",
+    "prompt": "Which player did Juventus sign from Napoli for an Italian record €90 million fee in 2016?",
+    "options": ["Edinson Cavani", "Gonzalo Higuaín", "Jorginho", "Marek Hamšík"],
+    "validAnswers": [
+      { "id": "higuain", "name": "GONZALO HIGUAÍN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_114",
+    "title": "AFRICAN BALLON D'OR [TYPING]",
+    "prompt": "Who is the only player from the African continent to win the Ballon d'Or (winning it in 1995 while at AC Milan)? [Type Surname]",
+    "validAnswers": [
+      { "id": "weah", "name": "GEORGE WEAH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_115",
+    "title": "EUROS GOLDEN BOOT",
+    "prompt": "Which French player scored 6 goals at Euro 2016 to win the tournament's Golden Boot award?",
+    "options": ["Olivier Giroud", "Kylian Mbappé", "Antoine Griezmann", "Dimitri Payet"],
+    "validAnswers": [
+      { "id": "griezmann", "name": "ANTOINE GRIEZMANN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_116",
+    "title": "WORLD CUP SHOCKS [TYPING]",
+    "prompt": "Which African nation became the first from the continent to defeat the reigning World Cup champions (Argentina) in 1990? [Type Country Name]",
+    "validAnswers": [
+      { "id": "cameroon", "name": "CAMEROON", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_117",
+    "title": "LIGUE 1 DOMINANCE",
+    "prompt": "Which Swedish striker became PSG's all-time top scorer (a record later broken by Cavani and Mbappé) during his spell from 2012-2016?",
+    "options": ["Henrik Larsson", "Zlatan Ibrahimović", "Alexander Isak", "Emil Forsberg"],
+    "validAnswers": [
+      { "id": "zlatan", "name": "ZLATAN IBRAHIMOVIĆ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_118",
+    "title": "LA LIGA DEFENDERS [TYPING]",
+    "prompt": "Which right-back provided the most assists to Lionel Messi during his entire career at Barcelona? [Type Surname]",
+    "validAnswers": [
+      { "id": "alves", "name": "DANI ALVES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_119",
+    "title": "CHAMPIONS LEAGUE GOALKEEPERS",
+    "prompt": "Which goalkeeper made a record 9 saves in the 2022 Champions League Final for Real Madrid against Liverpool?",
+    "options": ["Keylor Navas", "Iker Casillas", "Thibaut Courtois", "Andriy Lunin"],
+    "validAnswers": [
+      { "id": "courtois", "name": "THIBAUT COURTOIS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_120",
+    "title": "PREMIER LEAGUE AWARDS [TYPING]",
+    "prompt": "Which French midfielder became the first outfield player to win back-to-back Premier League titles with two different clubs in 2016 and 2017? [Type Surname]",
+    "validAnswers": [
+      { "id": "kante", "name": "N'GOLO KANTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_121",
+    "title": "SERIE A TACTICIANS",
+    "prompt": "Which manager led Inter Milan to the historic 2010 treble (Serie A, Coppa Italia, Champions League)?",
+    "options": ["Roberto Mancini", "Antonio Conte", "José Mourinho", "Simone Inzaghi"],
+    "validAnswers": [
+      { "id": "mourinho", "name": "JOSÉ MOURINHO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_122",
+    "title": "AFRICAN PREMIER LEAGUE STARS [TYPING]",
+    "prompt": "Which Egyptian forward broke the record for most goals in a 38-game Premier League season (32 goals) in 2017-18? [Type Surname]",
+    "validAnswers": [
+      { "id": "salah", "name": "MOHAMED SALAH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_123",
+    "title": "EUROS HEARTBREAK",
+    "prompt": "Which England player scored the opening goal in the Euro 2020 Final against Italy just two minutes into the match?",
+    "options": ["Harry Kane", "Raheem Sterling", "Luke Shaw", "Mason Mount"],
+    "validAnswers": [
+      { "id": "shaw", "name": "LUKE SHAW", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_124",
+    "title": "WORLD CUP ICONS [TYPING]",
+    "prompt": "Who is the all-time leading goalscorer in FIFA World Cup history with 16 goals? [Type Surname]",
+    "validAnswers": [
+      { "id": "klose", "name": "MIROSLAV KLOSE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_125",
+    "title": "LIGUE 1 UNDERDOGS",
+    "prompt": "Which French striker won the Ligue 1 Golden Boot while leading Montpellier to their shock title win in 2011-12?",
+    "options": ["Karim Benzema", "Olivier Giroud", "Alexandre Lacazette", "Bafétimbi Gomis"],
+    "validAnswers": [
+      { "id": "giroud", "name": "OLIVIER GIROUD", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_126",
+    "title": "LA LIGA PICHICHI [TYPING]",
+    "prompt": "Which Uruguayan striker won the La Liga Golden Boot (Pichichi) in 2015-16, breaking the Messi/Ronaldo duopoly? [Type Surname]",
+    "validAnswers": [
+      { "id": "suarez", "name": "LUIS SUÁREZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_127",
+    "title": "CHAMPIONS LEAGUE MIRACLES",
+    "prompt": "Who scored the fourth and final goal for Liverpool from a quick corner against Barcelona in the 2019 semi-final?",
+    "options": ["Georginio Wijnaldum", "Roberto Firmino", "Divock Origi", "Sadio Mané"],
+    "validAnswers": [
+      { "id": "origi", "name": "DIVOCK ORIGI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_128",
+    "title": "PREMIER LEAGUE CAPTAINS [TYPING]",
+    "prompt": "Which Manchester United captain lifted the Premier League trophy five times between 2007 and 2013? [Type Surname]",
+    "validAnswers": [
+      { "id": "vidic", "name": "NEMANJA VIDIĆ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_129",
+    "title": "SERIE A GOALKEEPERS",
+    "prompt": "Which Italian goalkeeper holds the record for the most appearances in Serie A history (657 matches)?",
+    "options": ["Dino Zoff", "Gianluca Pagliuca", "Paolo Maldini", "Gianluigi Buffon"],
+    "validAnswers": [
+      { "id": "buffon", "name": "GIANLUIGI BUFFON", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_130",
+    "title": "AFRICAN MANAGERS [TYPING]",
+    "prompt": "Which former player managed Senegal to their first-ever AFCON title in 2021? [Type Surname]",
+    "validAnswers": [
+      { "id": "cisse", "name": "ALIOU CISSÉ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_131",
+    "title": "EUROS DEFENDERS",
+    "prompt": "Which Spanish center-back scored a crucial header against Germany in the Euro 2008 Final (assist provided by Xavi)?",
+    "options": ["Sergio Ramos", "Gerard Piqué", "Carles Puyol", "Fernando Torres"],
+    "validAnswers": [
+      { "id": "torres", "name": "FERNANDO TORRES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_132",
+    "title": "WORLD CUP MANAGERS [TYPING]",
+    "prompt": "Which manager led Argentina to their third World Cup victory in Qatar 2022? [Type Surname]",
+    "validAnswers": [
+      { "id": "scaloni", "name": "LIONEL SCALONI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_133",
+    "title": "LIGUE 1 RIVALRIES",
+    "prompt": "What is the name of the fiercely contested derby match between Paris Saint-Germain and Olympique de Marseille?",
+    "options": ["Le Classique", "Derby de France", "Le Choc", "Derby de la Capitale"],
+    "validAnswers": [
+      { "id": "classique", "name": "LE CLASSIQUE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_134",
+    "title": "LA LIGA LEGENDS [TYPING]",
+    "prompt": "Which French striker won the 2022 Ballon d'Or after leading Real Madrid to a La Liga and Champions League double? [Type Surname]",
+    "validAnswers": [
+      { "id": "benzema", "name": "KARIM BENZEMA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_135",
+    "title": "CHAMPIONS LEAGUE GOLAZOS",
+    "prompt": "Who scored a spectacular overhead kick for Real Madrid in the 2018 Champions League Final against Liverpool?",
+    "options": ["Cristiano Ronaldo", "Karim Benzema", "Marco Asensio", "Gareth Bale"],
+    "validAnswers": [
+      { "id": "bale", "name": "GARETH BALE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_136",
+    "title": "PREMIER LEAGUE ROOKIES [TYPING]",
+    "prompt": "Which Norwegian striker holds the record for most goals scored in a debut Premier League season (36 goals)? [Type Surname]",
+    "validAnswers": [
+      { "id": "haaland", "name": "ERLING HAALAND", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_137",
+    "title": "SERIE A CHAMPIONS",
+    "prompt": "Which manager led AC Milan to their first Serie A title in 11 years during the 2021-22 season?",
+    "options": ["Massimiliano Allegri", "Stefano Pioli", "Gennaro Gattuso", "Carlo Ancelotti"],
+    "validAnswers": [
+      { "id": "pioli", "name": "STEFANO PIOLI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_138",
+    "title": "AFRICAN RECORD BREAKERS [TYPING]",
+    "prompt": "Which Nigerian legend holds the record for the most goals scored in the history of the AFCON tournament overall (18 goals)? [Type Surname]",
+    "validAnswers": [
+      { "id": "etoo", "name": "SAMUEL ETO'O", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_139",
+    "title": "EUROS SURPRISES",
+    "prompt": "Which nation reached the semi-finals of Euro 2016 in their very first major tournament appearance, famously eliminating England?",
+    "options": ["Wales", "Iceland", "Northern Ireland", "Albania"],
+    "validAnswers": [
+      { "id": "wales", "name": "WALES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_140",
+    "title": "WORLD CUP GOALKEEPERS [TYPING]",
+    "prompt": "Which German goalkeeper won the Golden Glove award at the 2014 World Cup, revolutionizing the 'sweeper-keeper' role? [Type Surname]",
+    "validAnswers": [
+      { "id": "neuer", "name": "MANUEL NEUER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_141",
+    "title": "LIGUE 1 SCORERS",
+    "prompt": "Which former Arsenal striker scored 21 goals in his debut Ligue 1 season for Lyon in 2022-23?",
+    "options": ["Pierre-Emerick Aubameyang", "Folarin Balogun", "Alexandre Lacazette", "Alexis Sánchez"],
+    "validAnswers": [
+      { "id": "lacazette", "name": "ALEXANDRE LACAZETTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_142",
+    "title": "LA LIGA RECORDS [TYPING]",
+    "prompt": "Who is the all-time top foreign goalscorer in Real Madrid history (ahead of Di Stefano and Puskas)? [Type Surname]",
+    "validAnswers": [
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_143",
+    "title": "CHAMPIONS LEAGUE FINALS",
+    "prompt": "Who scored the winning goal for Chelsea against Manchester City in the 2021 Champions League Final?",
+    "options": ["Mason Mount", "Kai Havertz", "Christian Pulisic", "N'Golo Kanté"],
+    "validAnswers": [
+      { "id": "havertz", "name": "KAI HAVERTZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_144",
+    "title": "PREMIER LEAGUE MANAGERS [TYPING]",
+    "prompt": "Which manager led Arsenal to their famous unbeaten 'Invincibles' season in 2003-04? [Type Surname]",
+    "validAnswers": [
+      { "id": "wenger", "name": "ARSENE WENGER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_145",
+    "title": "SERIE A ATTACKERS",
+    "prompt": "Which Portuguese winger was named Serie A MVP in 2021-22 after guiding AC Milan to the Scudetto?",
+    "options": ["Cristiano Ronaldo", "Rafael Leão", "Beto", "Mário Rui"],
+    "validAnswers": [
+      { "id": "leao", "name": "RAFAEL LEÃO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_146",
+    "title": "AFCON LEGENDS [TYPING]",
+    "prompt": "Which midfielder captained Ivory Coast to the 2015 AFCON title before retiring from international duty? [Type Surname]",
+    "validAnswers": [
+      { "id": "toure", "name": "YAYA TOURE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_147",
+    "title": "EUROS GOLDEN PLAYER",
+    "prompt": "Which Spanish midfielder was named Player of the Tournament at Euro 2012?",
+    "options": ["Xavi", "Andrés Iniesta", "David Silva", "Sergio Busquets"],
+    "validAnswers": [
+      { "id": "iniesta", "name": "ANDRÉS INIESTA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_148",
+    "title": "WORLD CUP UPSETS [TYPING]",
+    "prompt": "Which Asian nation shocked the world by defeating Germany 2-0 and knocking them out of the 2018 World Cup group stage? [Type Country Name]",
+    "validAnswers": [
+      { "id": "southkorea", "name": "SOUTH KOREA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_149",
+    "title": "LIGUE 1 TRANSFER RECORDS",
+    "prompt": "PSG paid a world-record €222 million release clause in 2017 to sign Neymar from which club?",
+    "options": ["Real Madrid", "Santos", "Barcelona", "Juventus"],
+    "validAnswers": [
+      { "id": "barcelona", "name": "BARCELONA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_150",
+    "title": "LA LIGA GOALKEEPERS [TYPING]",
+    "prompt": "Which Slovenian goalkeeper won five Zamora Trophies for Atlético Madrid between 2016 and 2021? [Type Surname]",
+    "validAnswers": [
+      { "id": "oblak", "name": "JAN OBLAK", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_151",
+    "title": "CHAMPIONS LEAGUE WINNERS",
+    "prompt": "Which German winger scored the only goal in the 2020 Champions League Final for Bayern Munich against his former club PSG?",
+    "options": ["Serge Gnabry", "Leroy Sané", "Kingsley Coman", "Thomas Müller"],
+    "validAnswers": [
+      { "id": "coman", "name": "KINGSLEY COMAN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_152",
+    "title": "PREMIER LEAGUE GOALSCORERS [TYPING]",
+    "prompt": "Who is the all-time top scorer in Premier League history with 260 goals? [Type Surname]",
+    "validAnswers": [
+      { "id": "shearer", "name": "ALAN SHEARER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_153",
+    "title": "SERIE A WONDERKIDS",
+    "prompt": "Which Georgian winger became a cult hero in Naples during their 2023 title run, earning the nickname 'Kvaradona'?",
+    "options": ["Georges Mikautadze", "Khvicha Kvaratskhelia", "Guram Kashia", "Zuriko Davitashvili"],
+    "validAnswers": [
+      { "id": "kvara", "name": "KHVICHA KVARATSKHELIA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_154",
+    "title": "AFCON HOST NATIONS [TYPING]",
+    "prompt": "Which country hosted and ultimately won the 2023 Africa Cup of Nations (played in early 2024)? [Type Country Name]",
+    "validAnswers": [
+      { "id": "ivorycoast", "name": "IVORY COAST", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_155",
+    "title": "EUROS LEGENDS",
+    "prompt": "Which French midfielder holds the record for the most goals in a single European Championship tournament (9 goals in 1984)?",
+    "options": ["Zinedine Zidane", "Thierry Henry", "Michel Platini", "Jean-Pierre Papin"],
+    "validAnswers": [
+      { "id": "platini", "name": "MICHEL PLATINI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_156",
+    "title": "WORLD CUP HEROES [TYPING]",
+    "prompt": "Which Uruguayan striker intentionally handled the ball on the goal line against Ghana in the 2010 World Cup quarter-finals? [Type Surname]",
+    "validAnswers": [
+      { "id": "suarez", "name": "LUIS SUÁREZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_157",
+    "title": "LIGUE 1 EXPORTS",
+    "prompt": "Which Belgian playmaker won the Ligue 1 Player of the Year twice before securing a move from Lille to Chelsea in 2012?",
+    "options": ["Kevin De Bruyne", "Romelu Lukaku", "Eden Hazard", "Yannick Carrasco"],
+    "validAnswers": [
+      { "id": "hazard", "name": "EDEN HAZARD", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_158",
+    "title": "LA LIGA DERBIES [TYPING]",
+    "prompt": "What is the name of the fierce regional derby played between Real Betis and Sevilla? [Type City Name] Derby",
+    "validAnswers": [
+      { "id": "seville", "name": "SEVILLE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_159",
+    "title": "CHAMPIONS LEAGUE RECORDS",
+    "prompt": "Which Portuguese player holds the record for the most goals scored in a single UEFA Champions League season (17 goals in 2013-14)?",
+    "options": ["Eusébio", "Luís Figo", "Cristiano Ronaldo", "Diogo Jota"],
+    "validAnswers": [
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_160",
+    "title": "PREMIER LEAGUE WONDER GOALS [TYPING]",
+    "prompt": "Which South Korean forward won the Puskas Award for his incredible solo run goal against Burnley in 2019? [Type Surname]",
+    "validAnswers": [
+      { "id": "son", "name": "SON HEUNG-MIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_161",
+    "title": "SERIE A LEGENDS",
+    "prompt": "Which Italian midfielder, known for his elegant passing and free-kicks, famously chipped Joe Hart in the Euro 2012 quarter-finals?",
+    "options": ["Daniele De Rossi", "Gennaro Gattuso", "Marco Verratti", "Andrea Pirlo"],
+    "validAnswers": [
+      { "id": "pirlo", "name": "ANDREA PIRLO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_162",
+    "title": "AFRICAN GOALKEEPERS [TYPING]",
+    "prompt": "Which Senegalese goalkeeper won the Champions League with Chelsea and the AFCON title within a span of eight months? [Type Surname]",
+    "validAnswers": [
+      { "id": "mendy", "name": "EDOUARD MENDY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_163",
+    "title": "EUROS HISTORY",
+    "prompt": "Which host nation suffered a shock 1-0 defeat in the Euro 2004 Final in their own capital city of Lisbon?",
+    "options": ["Spain", "France", "Portugal", "Italy"],
+    "validAnswers": [
+      { "id": "portugal", "name": "PORTUGAL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_164",
+    "title": "WORLD CUP TROPHIES [TYPING]",
+    "prompt": "What was the name of the original World Cup trophy that was permanently awarded to Brazil in 1970 and later stolen? [Type Trophy Name]",
+    "validAnswers": [
+      { "id": "julesrimet", "name": "JULES RIMET", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_165",
+    "title": "LIGUE 1 SCORERS",
+    "prompt": "Which Portuguese striker was PSG's all-time top scorer before Zlatan Ibrahimović and Edinson Cavani broke his record?",
+    "options": ["Pauleta", "Nuno Gomes", "Rui Costa", "João Moutinho"],
+    "validAnswers": [
+      { "id": "pauleta", "name": "PAULETA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_166",
+    "title": "LA LIGA MIRACLES [TYPING]",
+    "prompt": "Which Spanish club famously broke the Real Madrid/Barcelona monopoly to win La Liga in 2003-04 under Rafa Benítez? [Type Club Name]",
+    "validAnswers": [
+      { "id": "valencia", "name": "VALENCIA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_167",
+    "title": "CHAMPIONS LEAGUE ICONS",
+    "prompt": "Which Spanish midfielder scored a stunning 93rd-minute volley against Chelsea at Stamford Bridge in the 2009 semi-finals?",
+    "options": ["Xavi", "Andrés Iniesta", "Sergio Busquets", "Cesc Fàbregas"],
+    "validAnswers": [
+      { "id": "iniesta", "name": "ANDRÉS INIESTA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_168",
+    "title": "PREMIER LEAGUE UPSETS [TYPING]",
+    "prompt": "Which club shocked the world by winning the Premier League in 2015-16 despite starting the season at 5000-1 odds? [Type Club Name]",
+    "validAnswers": [
+      { "id": "leicester", "name": "LEICESTER CITY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_169",
+    "title": "SERIE A MANAGERS",
+    "prompt": "Which manager transformed Atalanta into a Champions League regular, bringing an aggressive, high-scoring style to Bergamo?",
+    "options": ["Gian Piero Gasperini", "Maurizio Sarri", "Roberto De Zerbi", "Stefano Pioli"],
+    "validAnswers": [
+      { "id": "gasperini", "name": "GIAN PIERO GASPERINI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_170",
+    "title": "AFRICAN PIONEERS [TYPING]",
+    "prompt": "Which legendary striker scored for Cameroon at the 1994 World Cup at the age of 42? [Type Surname]",
+    "validAnswers": [
+      { "id": "milla", "name": "ROGER MILLA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_171",
+    "title": "EUROS SURVIVAL",
+    "prompt": "Which Danish midfielder suffered a cardiac arrest on the pitch at Euro 2020 but remarkably returned to professional football months later?",
+    "options": ["Pierre-Emile Højbjerg", "Thomas Delaney", "Christian Eriksen", "Simon Kjær"],
+    "validAnswers": [
+      { "id": "eriksen", "name": "CHRISTIAN ERIKSEN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_172",
+    "title": "WORLD CUP FINALS [TYPING]",
+    "prompt": "Which Brazilian superstar famously suffered a mysterious seizure just hours before the 1998 World Cup Final against France? [Type Name]",
+    "validAnswers": [
+      { "id": "ronaldo", "name": "RONALDO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_173",
+    "title": "LIGUE 1 YOUTH",
+    "prompt": "Which Canadian striker helped Lille secure the 2020-21 Ligue 1 title with 13 league goals in his debut season?",
+    "options": ["Alphonso Davies", "Jonathan David", "Tajon Buchanan", "Cyle Larin"],
+    "validAnswers": [
+      { "id": "david", "name": "JONATHAN DAVID", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_174",
+    "title": "LA LIGA STRIKERS [TYPING]",
+    "prompt": "Which Colombian forward won the Europa League twice with Atlético Madrid before suffering a major knee injury in 2014? [Type Surname]",
+    "validAnswers": [
+      { "id": "falcao", "name": "RADAMEL FALCAO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_175",
+    "title": "CHAMPIONS LEAGUE WONDER GOALS",
+    "prompt": "Which Juventus striker scored an incredible acrobatic overhead kick in the 2017 Champions League Final against Real Madrid?",
+    "options": ["Gonzalo Higuaín", "Mario Mandžukić", "Paulo Dybala", "Juan Cuadrado"],
+    "validAnswers": [
+      { "id": "mandzukic", "name": "MARIO MANDŽUKIĆ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_176",
+    "title": "PREMIER LEAGUE GOALKEEPERS [TYPING]",
+    "prompt": "Which goalkeeper holds the all-time Premier League record for the most clean sheets (202)? [Type Surname]",
+    "validAnswers": [
+      { "id": "cech", "name": "PETR CECH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_177",
+    "title": "SERIE A RECORD FEES",
+    "prompt": "Which French midfielder left Juventus to return to Manchester United in 2016 for a then-world record fee of €105 million?",
+    "options": ["Blaise Matuidi", "Adrien Rabiot", "Paul Pogba", "N'Golo Kanté"],
+    "validAnswers": [
+      { "id": "pogba", "name": "PAUL POGBA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_178",
+    "title": "AFCON HOSTS [TYPING]",
+    "prompt": "Which North African nation hosted the 2019 Africa Cup of Nations, where Algeria won the title? [Type Country Name]",
+    "validAnswers": [
+      { "id": "egypt", "name": "EGYPT", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_179",
+    "title": "EUROS DEFENDING CHAMPIONS",
+    "prompt": "Which nation is the only one to have successfully defended a UEFA European Championship title (winning in 2008 and 2012)?",
+    "options": ["Germany", "France", "Spain", "Italy"],
+    "validAnswers": [
+      { "id": "spain", "name": "SPAIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
+  },
+  {
+    "id": "press_180",
+    "title": "WORLD CUP GOLAZOS [TYPING]",
+    "prompt": "Which Brazilian forward scored a stunning scissor-kick volley against Serbia in the group stage of the 2022 World Cup? [Type Name]",
+    "validAnswers": [
+      { "id": "richarlison", "name": "RICHARLISON", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" }
+    ]
   }
 ]
