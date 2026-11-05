@@ -238,7 +238,7 @@ export function useGame() {
       try {
         supabase.from('leaderboard').insert([
           { 
-            game_mode: 'daily', 
+            mode: 'daily', 
             score: finalDist 
           }
         ]).then(({ error }) => {
