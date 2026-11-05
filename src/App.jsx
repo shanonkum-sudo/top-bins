@@ -6,7 +6,9 @@ import PressConference from './components/PressConference';
 import MainMenu from './components/MainMenu';
 import HowToPlayModal from './components/HowToPlayModal';
 import { LeaderboardModal } from './components/LeaderboardModal';
+import { PercentileBar } from './components/PercentileBar';
 import { PixelStriker, PixelBall, PixelCrowdTop, PixelCrowdSide } from './components/PixelSprites';
+import { supabase } from './utils/supabase'; // <-- Update this path if your Supabase client is elsewhere
 import { sound } from './utils/audio';
 
 export default function App() {
@@ -48,6 +50,9 @@ export default function App() {
   const [copyFeedback, setCopyFeedback] = useState(false);
   const [reportedIndices, setReportedIndices] = useState({});
   
+  // Percentile State
+  const [dailyPercentile, setDailyPercentile] = useState(0);
+  
   // Modal states
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
@@ -61,6 +66,31 @@ export default function App() {
       setIsDevMode(localStorage.getItem('devMode') === 'true');
     }
   }, []);
+
+  // Fetch percentile when the daily game ends
+  useEffect(() => {
+    const fetchPercentile = async () => {
+      if (gameState === 'finished' && gameMode === 'daily' && totalDistance > 0) {
+        try {
+          const today = new Date().toISOString().split('T')[0];
+          
+          const { data, error } = await supabase.rpc('get_daily_percentile', {
+            player_score: totalDistance,
+            target_date: today
+          });
+
+          if (error) throw error;
+          
+          setDailyPercentile(Math.round(data || 0));
+        } catch (error) {
+          console.error('Error fetching percentile:', error);
+          setDailyPercentile(0);
+        }
+      }
+    };
+
+    fetchPercentile();
+  }, [gameState, gameMode, totalDistance]);
 
   const isInputLocked = Boolean(currentKickResult) || readCountdown > 0 || Boolean(cardEvent);
   const hasOptions = gameMode === 'endless' && Array.isArray(currentQuestion.options) && currentQuestion.options.length > 0;
@@ -472,6 +502,11 @@ export default function App() {
                 {isEndless ? `${totalDistance} PTS` : `${totalDistance}m`}
               </div>
             </div>
+
+            {/* PERCENTILE BATTERY BAR (Daily Only) */}
+            {gameMode === 'daily' && (
+              <PercentileBar percent={dailyPercentile} /> 
+            )}
 
             {/* Fixtures Accordion */}
             <div className="flex-1 overflow-y-auto max-h-[200px] my-2 space-y-2 pr-1">

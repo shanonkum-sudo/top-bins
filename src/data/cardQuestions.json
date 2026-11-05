@@ -1291,5 +1291,779 @@
       { "id": "salah", "name": "MOHAMED SALAH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
       { "id": "henry", "name": "THIERRY HENRY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
     ]
+  }, 
+  {
+    "id": "card_fixture_91",
+    "title": "PREMIER LEAGUE TITLE-WINNING MANAGERS",
+    "prompt": "Name one of the exactly 11 managers who have won the English Premier League title since 1992.",
+    "validAnswers": [
+      { "id": "dalglish", "name": "KENNY DALGLISH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "pellegrini", "name": "MANUEL PELLEGRINI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "mancini", "name": "ROBERTO MANCINI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "ranieri", "name": "CLAUDIO RANIERI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "conte", "name": "ANTONIO CONTE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ancelotti", "name": "CARLO ANCELOTTI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "wenger", "name": "ARSENE WENGER", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "mourinho", "name": "JOSE MOURINHO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ferguson", "name": "ALEX FERGUSON", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "guardiola", "name": "PEP GUARDIOLA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "klopp", "name": "JURGEN KLOPP", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_92",
+    "title": "BUNDESLIGA ALL-TIME TOP SCORERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time goals scored in German Bundesliga history.",
+    "validAnswers": [
+      { "id": "burgsmuller", "name": "MANFRED BURGSMULLER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "muller_d", "name": "DIETER MULLER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "allofs", "name": "KLAUS ALLOFS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "kuntz", "name": "STEFAN KUNTZ", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "kirsten", "name": "ULF KIRSTEN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "pizarro", "name": "CLAUDIO PIZARRO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "fischer", "name": "KLAUS FISCHER", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "heynckes", "name": "JUPP HEYNCKES", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "muller_g", "name": "GERD MULLER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_93",
+    "title": "AFRICAN FOOTBALLER OF THE YEAR (2000-2023)",
+    "prompt": "Name a player who won the African Footballer of the Year award between 2000 and 2023.",
+    "validAnswers": [
+      { "id": "mboma", "name": "PATRICK MBOMA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kanoute", "name": "FREDERIC KANOUTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "diouf", "name": "EL HADJI DIOUF", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "adebayor", "name": "EMMANUEL ADEBAYOR", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "aubameyang", "name": "PIERRE-EMERICK AUBAMEYANG", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "mahrez", "name": "RIYAD MAHREZ", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "osimhen", "name": "VICTOR OSIMHEN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "toure", "name": "YAYA TOURE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "mane", "name": "SADIO MANE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "etoo", "name": "SAMUEL ETOO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "drogba", "name": "DIDIER DROGBA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "salah", "name": "MOHAMED SALAH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_94",
+    "title": "WORLD CUP WINNING NATIONS",
+    "prompt": "Name one of the exactly 8 countries that have won the Men's FIFA World Cup.",
+    "validAnswers": [
+      { "id": "uruguay", "name": "URUGUAY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "england", "name": "ENGLAND", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "spain", "name": "SPAIN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "italy", "name": "ITALY", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "france", "name": "FRANCE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "argentina", "name": "ARGENTINA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "germany", "name": "GERMANY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "brazil", "name": "BRAZIL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_95",
+    "title": "JUVENTUS BALLON D'OR WINNERS",
+    "prompt": "Name one of the exactly 6 players in history to win the Ballon d'Or while playing for Juventus.",
+    "validAnswers": [
+      { "id": "sivori", "name": "OMAR SIVORI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "rossi", "name": "PAOLO ROSSI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "nedved", "name": "PAVEL NEDVED", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "baggio", "name": "ROBERTO BAGGIO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "platini", "name": "MICHEL PLATINI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "zidane", "name": "ZINEDINE ZIDANE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_96",
+    "title": "UCL ALL-TIME APPEARANCES (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time appearances in the UEFA Champions League (excluding qualifiers).",
+    "validAnswers": [
+      { "id": "giggs", "name": "RYAN GIGGS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "raul", "name": "RAUL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kroos", "name": "TONI KROOS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "xavi", "name": "XAVI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "muller", "name": "THOMAS MULLER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "casillas", "name": "IKER CASILLAS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "benzema", "name": "KARIM BENZEMA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_97",
+    "title": "EUROPEAN GOLDEN SHOE WINNERS (2010-2024)",
+    "prompt": "Name one of the exactly 7 distinct players to win the European Golden Shoe between the 2009-10 and 2023-24 seasons.",
+    "validAnswers": [
+      { "id": "immobile", "name": "CIRO IMMOBILE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "kane", "name": "HARRY KANE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "haaland", "name": "ERLING HAALAND", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "suarez", "name": "LUIS SUAREZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_98",
+    "title": "WORLD CUP GOLDEN BALL WINNERS (1990-2022)",
+    "prompt": "Name one of the exactly 8 distinct players to win the FIFA World Cup Golden Ball (Best Player) between 1990 and 2022.",
+    "validAnswers": [
+      { "id": "schillaci", "name": "SALVATORE SCHILLACI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "forlan", "name": "DIEGO FORLAN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "kahn", "name": "OLIVER KAHN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "romario", "name": "ROMARIO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "modric", "name": "LUKA MODRIC", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "zidane", "name": "ZINEDINE ZIDANE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "r9", "name": "RONALDO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_99",
+    "title": "EUROS WINNING NATIONS",
+    "prompt": "Name one of the exactly 10 nations to have won the UEFA European Championship (Euros) since its inception.",
+    "validAnswers": [
+      { "id": "czechoslovakia", "name": "CZECHOSLOVAKIA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "soviet_union", "name": "SOVIET UNION", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "denmark", "name": "DENMARK", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "greece", "name": "GREECE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "netherlands", "name": "NETHERLANDS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "portugal", "name": "PORTUGAL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "italy", "name": "ITALY", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "france", "name": "FRANCE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "germany", "name": "GERMANY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "spain", "name": "SPAIN", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_100",
+    "title": "CLUBS WITH EXACTLY ONE EUROPEAN CUP / UCL TITLE",
+    "prompt": "Name one of the exactly 10 clubs in history that have won the European Cup or UEFA Champions League EXACTLY one time.",
+    "validAnswers": [
+      { "id": "steaua", "name": "STEAUA BUCURESTI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "red_star", "name": "RED STAR BELGRADE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "hamburg", "name": "HAMBURG", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "feyenoord", "name": "FEYENOORD", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "psv", "name": "PSV EINDHOVEN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "aston_villa", "name": "ASTON VILLA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "celtic", "name": "CELTIC", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "marseille", "name": "MARSEILLE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "dortmund", "name": "BORUSSIA DORTMUND", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "mancity", "name": "MANCHESTER CITY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  }, 
+  {
+    "id": "card_fixture_101",
+    "title": "PLAYERS TO SCORE IN MULTIPLE WORLD CUP FINALS",
+    "prompt": "Name one of the exactly 5 players in history to have scored a goal in two different FIFA World Cup Finals.",
+    "validAnswers": [
+      { "id": "vava", "name": "VAVA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "breitner", "name": "PAUL BREITNER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "zidane", "name": "ZINEDINE ZIDANE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "mbappe", "name": "KYLIAN MBAPPE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "pele", "name": "PELE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_102",
+    "title": "PREMIER LEAGUE OWN GOAL KINGS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most own goals scored in Premier League history.",
+    "validAnswers": [
+      { "id": "sinclair", "name": "FRANK SINCLAIR", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "brown", "name": "WES BROWN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "skrtel", "name": "MARTIN SKRTEL", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "shawcross", "name": "RYAN SHAWCROSS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "jagielka", "name": "PHIL JAGIELKA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "dunk", "name": "LEWIS DUNK", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "evans", "name": "JONNY EVANS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ferdinand", "name": "RIO FERDINAND", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "carragher", "name": "JAMIE CARRAGHER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "dunne", "name": "RICHARD DUNNE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_103",
+    "title": "COPA AMERICA ALL-TIME TOP SCORERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time goals scored in the Copa America tournament.",
+    "validAnswers": [
+      { "id": "mendez", "name": "NORBERTO MENDEZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "zizinho", "name": "ZIZINHO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "varela", "name": "SEVERINO VARELA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "fernandez", "name": "TEODORO FERNANDEZ", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "vargas", "name": "EDUARDO VARGAS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "guerrero", "name": "PAOLO GUERRERO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "scarone", "name": "HECTOR SCARONE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "batistuta", "name": "GABRIEL BATISTUTA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ademir", "name": "ADEMIR", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_104",
+    "title": "UCL FINAL HEARTBREAK (3+ LOSSES)",
+    "prompt": "Name one of the exactly 9 clubs in history that have LOST 3 or more European Cup / UEFA Champions League Finals.",
+    "validAnswers": [
+      { "id": "benfica", "name": "BENFICA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "atletico", "name": "ATLETICO MADRID", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "inter", "name": "INTER MILAN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "juventus", "name": "JUVENTUS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "milan", "name": "AC MILAN", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "bayern", "name": "BAYERN MUNICH", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "liverpool", "name": "LIVERPOOL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "barcelona", "name": "BARCELONA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "realmadrid", "name": "REAL MADRID", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_105",
+    "title": "THE 100-CAP CLUB: BRAZIL",
+    "prompt": "Name one of the exactly 8 players to have earned 100 or more official caps for the Brazil Men's National Team.",
+    "validAnswers": [
+      { "id": "taffarel", "name": "CLAUDIO TAFFAREL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "lucio", "name": "LUCIO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "robinho", "name": "ROBINHO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "thiagosilva", "name": "THIAGO SILVA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "danialves", "name": "DANI ALVES", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "robertocarlos", "name": "ROBERTO CARLOS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "cafu", "name": "CAFU", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "neymar", "name": "NEYMAR", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_106",
+    "title": "LA LIGA RED CARD KINGS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most red cards received in Spanish La Liga history.",
+    "validAnswers": [
+      { "id": "aguado", "name": "XAVI AGUADO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "alfaro", "name": "PABLO ALFARO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "ruano", "name": "ALEXIS RUANO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "rodriguez", "name": "GONZALO RODRIGUEZ", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "diakhaby", "name": "MOUCTAR DIAKHABY", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "marchena", "name": "CARLOS MARCHENA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "amorebieta", "name": "FERNANDO AMOREBIETA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "suarez_m", "name": "MARIO SUAREZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "pique", "name": "GERARD PIQUE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_107",
+    "title": "YOUNGEST PREMIER LEAGUE DEBUTANTS (TOP 10)",
+    "prompt": "Name one of the Top 10 youngest players to ever make an appearance in a Premier League match.",
+    "validAnswers": [
+      { "id": "briggs", "name": "MATTHEW BRIGGS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "baxter", "name": "JOSE BAXTER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "hepburn", "name": "RUSHIAN HEPBURN-MURPHY", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "brown", "name": "IZZY BROWN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "lennon", "name": "AARON LENNON", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "gomes", "name": "ANGEL GOMES", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "elliott", "name": "HARVEY ELLIOTT", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "wilshere", "name": "JACK WILSHERE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "nwaneri", "name": "ETHAN NWANERI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "rooney", "name": "WAYNE ROONEY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_108",
+    "title": "MANAGERS TO WIN THE UCL WITH 2+ CLUBS",
+    "prompt": "Name one of the exactly 6 managers in history who have won the European Cup / Champions League with two DIFFERENT clubs.",
+    "validAnswers": [
+      { "id": "happel", "name": "ERNST HAPPEL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "hitzfeld", "name": "OTTMAR HITZFELD", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "heynckes", "name": "JUPP HEYNCKES", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "mourinho", "name": "JOSE MOURINHO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "guardiola", "name": "PEP GUARDIOLA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ancelotti", "name": "CARLO ANCELOTTI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_109",
+    "title": "PREMIER LEAGUE GOALSCORING DEFENDERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time goals scored by a defender in Premier League history.",
+    "validAnswers": [
+      { "id": "unsworth", "name": "DAVID UNSWORTH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "harte", "name": "IAN HARTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "elliott_m", "name": "MATT ELLIOTT", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "petrescu", "name": "DAN PETRESCU", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "baines", "name": "LEIGHTON BAINES", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "cahill", "name": "GARY CAHILL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "alonso", "name": "MARCOS ALONSO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "gallas", "name": "WILLIAM GALLAS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ivanovic", "name": "BRANISLAV IVANOVIC", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "terry", "name": "JOHN TERRY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_110",
+    "title": "MOST EXPENSIVE AFRICAN TRANSFERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 most expensive incoming transfer fees paid for an African player in football history (as of 2024).",
+    "validAnswers": [
+      { "id": "pepe", "name": "NICOLAS PEPE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "keita", "name": "NABY KEITA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "haller", "name": "SEBASTIEN HALLER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "partey", "name": "THOMAS PARTEY", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "hakimi", "name": "ACHRAF HAKIMI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "mane", "name": "SADIO MANE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "mahrez", "name": "RIYAD MAHREZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "aubameyang", "name": "PIERRE-EMERICK AUBAMEYANG", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "salah", "name": "MOHAMED SALAH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "osimhen", "name": "VICTOR OSIMHEN", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  }, 
+  {
+    "id": "card_fixture_111",
+    "title": "UEFA CUP / EUROPA LEAGUE ALL-TIME TOP SCORERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time goals scored in the UEFA Cup / Europa League.",
+    "validAnswers": [
+      { "id": "muller_d", "name": "DIETER MULLER", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "arveladze", "name": "SHOTA ARVELADZE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "larsson", "name": "HENRIK LARSSON", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "aduriz", "name": "ARITZ ADURIZ", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "huntelaar", "name": "KLAAS-JAN HUNTELAAR", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "falcao", "name": "RADAMEL FALCAO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "lukaku", "name": "ROMELU LUKAKU", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "aubameyang", "name": "PIERRE-EMERICK AUBAMEYANG", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "cavani", "name": "EDINSON CAVANI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "dzeko", "name": "EDIN DZEKO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_112",
+    "title": "CHAMPIONS LEAGUE MOST RED CARDS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time red cards received in UEFA Champions League history.",
+    "validAnswers": [
+      { "id": "montero", "name": "PAOLO MONTERO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "mexes", "name": "PHILIPPE MEXES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "davids", "name": "EDGAR DAVIDS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "vieira", "name": "PATRICK VIEIRA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "scholes", "name": "PAUL SCHOLES", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "vidal", "name": "ARTURO VIDAL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "verratti", "name": "MARCO VERRATTI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "pepe", "name": "PEPE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "zlatan", "name": "ZLATAN IBRAHIMOVIC", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "ramos", "name": "SERGIO RAMOS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_113",
+    "title": "COPA AMERICA WINNING NATIONS",
+    "prompt": "Name one of the exactly 8 nations in history that have won the Copa America tournament.",
+    "validAnswers": [
+      { "id": "bolivia", "name": "BOLIVIA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "peru", "name": "PERU", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "colombia", "name": "COLOMBIA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "paraguay", "name": "PARAGUAY", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "chile", "name": "CHILE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "brazil", "name": "BRAZIL", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "uruguay", "name": "URUGUAY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "argentina", "name": "ARGENTINA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_114",
+    "title": "THE WORLD CUP, UCL, AND LIBERTADORES TRIPLE CROWN",
+    "prompt": "Name one of the exactly 5 players in history to win the FIFA World Cup, UEFA Champions League, and Copa Libertadores.",
+    "validAnswers": [
+      { "id": "roque_junior", "name": "ROQUE JUNIOR", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "dida", "name": "DIDA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cafu", "name": "CAFU", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ronaldinho", "name": "RONALDINHO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "alvarez", "name": "JULIAN ALVAREZ", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_115",
+    "title": "UCL 4+ GOALS IN A SINGLE MATCH (1992-PRESENT)",
+    "prompt": "Name a player who has scored 4 or more goals in a single modern UEFA Champions League match (1992-Present).",
+    "validAnswers": [
+      { "id": "prso", "name": "DADO PRSO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "luiz_adriano", "name": "LUIZ ADRIANO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "gomis", "name": "BAFETIMBI GOMIS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "ilicic", "name": "JOSIP ILICIC", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "haller", "name": "SEBASTIEN HALLER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "gnabry", "name": "SERGE GNABRY", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "giroud", "name": "OLIVIER GIROUD", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "lewandowski", "name": "ROBERT LEWANDOWSKI", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "haaland", "name": "ERLING HAALAND", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_116",
+    "title": "PREMIER LEAGUE MOST SUBSTITUTE APPEARANCES (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most substitute appearances made in Premier League history.",
+    "validAnswers": [
+      { "id": "ameobi", "name": "SHOLA AMEOBI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "long", "name": "SHANE LONG", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "crouch", "name": "PETER CROUCH", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "defoe", "name": "JERMAIN DEFOE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cole_j", "name": "JOE COLE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "walcott", "name": "THEO WALCOTT", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "kanu", "name": "NWANKWO KANU", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "giggs", "name": "RYAN GIGGS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "rashford", "name": "MARCUS RASHFORD", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "milner", "name": "JAMES MILNER", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_117",
+    "title": "MOST EXPENSIVE GOALKEEPERS IN HISTORY (TOP 10)",
+    "prompt": "Name a goalkeeper in the Top 10 most expensive incoming transfers in football history.",
+    "validAnswers": [
+      { "id": "cillessen", "name": "JASPER CILLESSEN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "neto", "name": "NETO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "ramsdale", "name": "AARON RAMSDALE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "pickford", "name": "JORDAN PICKFORD", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "onana", "name": "ANDRE ONANA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ederson", "name": "EDERSON", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "kepa", "name": "KEPA ARRIZABALAGA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "courtois", "name": "THIBAUT COURTOIS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "buffon", "name": "GIANLUIGI BUFFON", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "alisson", "name": "ALISSON", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_118",
+    "title": "YOUNGEST GOALSCORERS IN UCL HISTORY (TOP 10)",
+    "prompt": "Name a player in the Top 10 youngest goalscorers in UEFA Champions League history.",
+    "validAnswers": [
+      { "id": "oforiquaye", "name": "PETER OFORI-QUAYE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "nusa", "name": "ANTONIO NUSA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "ilenikhena", "name": "GEORGE ILENIKHENA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "kovacic", "name": "MATEO KOVACIC", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "krkic", "name": "BOJAN KRKIC", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "fabregas", "name": "CESC FABREGAS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "zaireemery", "name": "WARREN ZAIRE-EMERY", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "bellingham", "name": "JUDE BELLINGHAM", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "yamal", "name": "LAMINE YAMAL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "fati", "name": "ANSU FATI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_119",
+    "title": "MOST TROPHIES IN FOOTBALL HISTORY (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most official team trophies won in professional football history.",
+    "validAnswers": [
+      { "id": "ashour", "name": "HOSSAM ASHOUR", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "maxwell", "name": "MAXWELL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "baia", "name": "VITOR BAIA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "dalglish", "name": "KENNY DALGLISH", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "giggs", "name": "RYAN GIGGS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "pique", "name": "GERARD PIQUE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "iniesta", "name": "ANDRES INIESTA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "busquets", "name": "SERGIO BUSQUETS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "alves", "name": "DANI ALVES", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_120",
+    "title": "COUNTRIES TO HOST THE MEN'S WORLD CUP MULTIPLE TIMES",
+    "prompt": "Name one of the exactly 5 nations that have hosted the FIFA Men's World Cup more than once.",
+    "validAnswers": [
+      { "id": "mexico", "name": "MEXICO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "italy", "name": "ITALY", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "france", "name": "FRANCE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "germany", "name": "GERMANY", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "brazil", "name": "BRAZIL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  }, 
+  {
+    "id": "card_fixture_121",
+    "title": "THE EUROPEAN TREBLE WINNERS",
+    "prompt": "Name one of the exactly 8 clubs in history to have won the European Treble (Domestic League, Domestic Cup, and European Cup/UCL in the same season).",
+    "validAnswers": [
+      { "id": "psv", "name": "PSV EINDHOVEN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "celtic", "name": "CELTIC", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "ajax", "name": "AJAX", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "inter", "name": "INTER MILAN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "bayern", "name": "BAYERN MUNICH", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "manutd", "name": "MANCHESTER UNITED", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "barcelona", "name": "BARCELONA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "mancity", "name": "MANCHESTER CITY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_122",
+    "title": "5 GOALS IN A SINGLE PREMIER LEAGUE MATCH",
+    "prompt": "Name one of the exactly 5 players in history to have scored 5 goals in a single English Premier League match.",
+    "validAnswers": [
+      { "id": "defoe", "name": "JERMAIN DEFOE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "cole", "name": "ANDY COLE", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "berbatov", "name": "DIMITAR BERBATOV", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "shearer", "name": "ALAN SHEARER", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "aguero", "name": "SERGIO AGUERO", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_123",
+    "title": "MULTIPLE PREMIER LEAGUE GOLDEN GLOVES",
+    "prompt": "Name one of the exactly 6 goalkeepers in history who have won the Premier League Golden Glove award MULTIPLE times.",
+    "validAnswers": [
+      { "id": "reina", "name": "PEPE REINA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "hart", "name": "JOE HART", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cech", "name": "PETR CECH", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "degea", "name": "DAVID DE GEA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "ederson", "name": "EDERSON", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "alisson", "name": "ALISSON", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_124",
+    "title": "SIX EUROPEAN CUPS / CHAMPIONS LEAGUES",
+    "prompt": "Name one of the exactly 5 players in football history to have won 6 European Cup or UEFA Champions League titles.",
+    "validAnswers": [
+      { "id": "gento", "name": "PACO GENTO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "nacho", "name": "NACHO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "carvajal", "name": "DANI CARVAJAL", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "kroos", "name": "TONI KROOS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "modric", "name": "LUKA MODRIC", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_125",
+    "title": "MANCHESTER UNITED ALL-TIME APPEARANCES (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time appearances for Manchester United across all competitions.",
+    "validAnswers": [
+      { "id": "foulkes", "name": "BILL FOULKES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "stepney", "name": "ALEX STEPNEY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "law", "name": "DENIS LAW", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "irwin", "name": "DENIS IRWIN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "neville", "name": "GARY NEVILLE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "degea", "name": "DAVID DE GEA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "charlton", "name": "BOBBY CHARLTON", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "scholes", "name": "PAUL SCHOLES", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "giggs", "name": "RYAN GIGGS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "rooney", "name": "WAYNE ROONEY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_126",
+    "title": "WORLD CUP WINNING MANAGERS (1990-2022)",
+    "prompt": "Name one of the exactly 9 managers to have won the Men's FIFA World Cup between 1990 and 2022.",
+    "validAnswers": [
+      { "id": "parreira", "name": "CARLOS ALBERTO PARREIRA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "jacquet", "name": "AIME JACQUET", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "scolari", "name": "LUIZ FELIPE SCOLARI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "lippi", "name": "MARCELLO LIPPI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "beckenbauer", "name": "FRANZ BECKENBAUER", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "delbosque", "name": "VICENTE DEL BOSQUE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "low", "name": "JOACHIM LOW", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "deschamps", "name": "DIDIER DESCHAMPS", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "scaloni", "name": "LIONEL SCALONI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_127",
+    "title": "MULTIPLE PFA PLAYERS' PLAYER OF THE YEAR AWARDS",
+    "prompt": "Name one of the exactly 7 players in history who have won the PFA Players' Player of the Year award MULTIPLE times.",
+    "validAnswers": [
+      { "id": "hughes", "name": "MARK HUGHES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "shearer", "name": "ALAN SHEARER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "henry", "name": "THIERRY HENRY", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "bale", "name": "GARETH BALE", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ronaldo", "name": "CRISTIANO RONALDO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "kdb", "name": "KEVIN DE BRUYNE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "salah", "name": "MOHAMED SALAH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_128",
+    "title": "MOST EXPENSIVE DEFENDERS IN HISTORY (TOP 10)",
+    "prompt": "Name a defender in the Top 10 most expensive incoming transfers in football history (as of 2024).",
+    "validAnswers": [
+      { "id": "hernandez", "name": "LUCAS HERNANDEZ", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "laporte", "name": "AYMERIC LAPORTE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "fofana", "name": "WESLEY FOFANA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cucurella", "name": "MARC CUCURELLA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "dias", "name": "RUBEN DIAS", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "martinez", "name": "LISANDRO MARTINEZ", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "deligt", "name": "MATTHIJS DE LIGT", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "vandijk", "name": "VIRGIL VAN DIJK", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "gvardiol", "name": "JOSKO GVARDIOL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "maguire", "name": "HARRY MAGUIRE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_129",
+    "title": "ARGENTINA ALL-TIME TOP SCORERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time goals scored for the Argentina Men's National Team.",
+    "validAnswers": [
+      { "id": "artime", "name": "LUIS ARTIME", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "passarella", "name": "DANIEL PASSARELLA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "crespo", "name": "HERNAN CRESPO", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "higuain", "name": "GONZALO HIGUAIN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "batistuta", "name": "GABRIEL BATISTUTA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "aguero", "name": "SERGIO AGUERO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "lautaro", "name": "LAUTARO MARTINEZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "maradona", "name": "DIEGO MARADONA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "dimaria", "name": "ANGEL DI MARIA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_130",
+    "title": "FIFA CLUB WORLD CUP WINNERS",
+    "prompt": "Name one of the exactly 12 clubs in history to have won the FIFA Club World Cup (since its inception in 2000).",
+    "validAnswers": [
+      { "id": "corinthians", "name": "CORINTHIANS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "saopaulo", "name": "SAO PAULO", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "internacional", "name": "INTERNACIONAL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "milan", "name": "AC MILAN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "inter", "name": "INTER MILAN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "manutd", "name": "MANCHESTER UNITED", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "chelsea", "name": "CHELSEA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "barcelona", "name": "BARCELONA", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "bayern", "name": "BAYERN MUNICH", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "liverpool", "name": "LIVERPOOL", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "realmadrid", "name": "REAL MADRID", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "mancity", "name": "MANCHESTER CITY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_131",
+    "title": "3+ PREMIER LEAGUE TITLES (MANAGERS)",
+    "prompt": "Name one of the exactly 4 managers in history to have won 3 or more English Premier League titles.",
+    "validAnswers": [
+      { "id": "wenger", "name": "ARSENE WENGER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "mourinho", "name": "JOSE MOURINHO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "ferguson", "name": "ALEX FERGUSON", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "guardiola", "name": "PEP GUARDIOLA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_132",
+    "title": "ARSENAL ALL-TIME APPEARANCES (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time appearances for Arsenal across all competitions.",
+    "validAnswers": [
+      { "id": "oleary", "name": "DAVID O'LEARY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "armstrong", "name": "GEORGE ARMSTRONG", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "rice", "name": "PAT RICE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "bastin", "name": "CLIFF BASTIN", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "storey", "name": "PETER STOREY", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "dixon", "name": "LEE DIXON", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "winterburn", "name": "NIGEL WINTERBURN", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "parlour", "name": "RAY PARLOUR", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "seaman", "name": "DAVID SEAMAN", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "adams", "name": "TONY ADAMS", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" }
+    ]
+  },
+  {
+    "id": "card_fixture_133",
+    "title": "YOUNGEST ENGLAND DEBUTANTS (TOP 10)",
+    "prompt": "Name a player in the Top 10 youngest players to ever make their debut for the England Men's National Team.",
+    "validAnswers": [
+      { "id": "edwards", "name": "DUNCAN EDWARDS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "hudsonodoi", "name": "CALLUM HUDSON-ODOI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "richards", "name": "MICAH RICHARDS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "sancho", "name": "JADON SANCHO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "rashford", "name": "MARCUS RASHFORD", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "walcott", "name": "THEO WALCOTT", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "sterling", "name": "RAHEEM STERLING", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "owen", "name": "MICHAEL OWEN", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "rooney", "name": "WAYNE ROONEY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "bellingham", "name": "JUDE BELLINGHAM", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_134",
+    "title": "WORLD CUP & BALLON D'OR IN THE SAME YEAR",
+    "prompt": "Name one of the exactly 7 players in history to win the FIFA World Cup and the Ballon d'Or in the exact same calendar year.",
+    "validAnswers": [
+      { "id": "charlton", "name": "BOBBY CHARLTON", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "rossi", "name": "PAOLO ROSSI", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "matthaus", "name": "LOTHAR MATTHAUS", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cannavaro", "name": "FABIO CANNAVARO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "zidane", "name": "ZINEDINE ZIDANE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "r9", "name": "RONALDO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "messi", "name": "LIONEL MESSI", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_135",
+    "title": "MOST EXPENSIVE ENGLISH TRANSFERS (TOP 10)",
+    "prompt": "Name an English player in the Top 10 most expensive incoming transfers in football history (as of 2024).",
+    "validAnswers": [
+      { "id": "white", "name": "BEN WHITE", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "stones", "name": "JOHN STONES", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "mount", "name": "MASON MOUNT", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "sancho", "name": "JADON SANCHO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "sterling", "name": "RAHEEM STERLING", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "maguire", "name": "HARRY MAGUIRE", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "rice", "name": "DECLAN RICE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "grealish", "name": "JACK GREALISH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "bellingham", "name": "JUDE BELLINGHAM", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "kane", "name": "HARRY KANE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_136",
+    "title": "OLYMPIC MEN'S FOOTBALL GOLD (SINCE 1992)",
+    "prompt": "Name one of the exactly 6 nations that have won the Men's Olympic Football Gold Medal since the tournament became an Under-23 event in 1992.",
+    "validAnswers": [
+      { "id": "nigeria", "name": "NIGERIA", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "cameroon", "name": "CAMEROON", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "mexico", "name": "MEXICO", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "spain", "name": "SPAIN", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "argentina", "name": "ARGENTINA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "brazil", "name": "BRAZIL", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_137",
+    "title": "PL WINNERS WHO HAVE BEEN RELEGATED",
+    "prompt": "Name one of the exactly 2 clubs in history that have won the Premier League title and also been relegated from it.",
+    "validAnswers": [
+      { "id": "blackburn", "name": "BLACKBURN ROVERS", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "leicester", "name": "LEICESTER CITY", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
+  },
+  {
+    "id": "card_fixture_138",
+    "title": "ITALY ALL-TIME TOP SCORERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 for the most all-time goals scored for the Italy Men's National Team.",
+    "validAnswers": [
+      { "id": "riva", "name": "LUIGI RIVA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "meazza", "name": "GIUSEPPE MEAZZA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "piola", "name": "SILVIO PIOLA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "altobelli", "name": "ALESSANDRO ALTOBELLI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "graziani", "name": "FRANCESCO GRAZIANI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "rossi", "name": "PAOLO ROSSI", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "inzaghi", "name": "FILIPPO INZAGHI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "vieri", "name": "CHRISTIAN VIERI", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "delpiero", "name": "ALESSANDRO DEL PIERO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "baggio", "name": "ROBERTO BAGGIO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" }
+    ]
+  },
+  {
+    "id": "card_fixture_139",
+    "title": "PL HAT-TRICKS FOR 3 DIFFERENT CLUBS",
+    "prompt": "Name one of the exactly 5 players in history to have scored a hat-trick for 3 DIFFERENT clubs in the Premier League.",
+    "validAnswers": [
+      { "id": "yakubu", "name": "YAKUBU", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "campbell", "name": "KEVIN CAMPBELL", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "ferdinand", "name": "LES FERDINAND", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "sheringham", "name": "TEDDY SHERINGHAM", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "anelka", "name": "NICOLAS ANELKA", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" }
+    ]
+  },
+  {
+    "id": "card_fixture_140",
+    "title": "AFRICAN UCL ALL-TIME TOP SCORERS (TOP 10)",
+    "prompt": "Name a player in the Top 10 highest-scoring African players in UEFA Champions League history.",
+    "validAnswers": [
+      { "id": "doumbia", "name": "SEYDOU DOUMBIA", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "aboubakar", "name": "VINCENT ABOUBAKAR", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "weah", "name": "GEORGE WEAH", "meters": 100, "tierName": "TOP BINS", "tierKey": "topBins", "tierColor": "#22c55e" },
+      { "id": "haller", "name": "SEBASTIEN HALLER", "meters": 80, "tierName": "WORLDIE", "tierKey": "worldie", "tierColor": "#3b82f6" },
+      { "id": "aubameyang", "name": "PIERRE-EMERICK AUBAMEYANG", "meters": 60, "tierName": "HOLLYWOOD", "tierKey": "hollywoodBall", "tierColor": "#a855f7" },
+      { "id": "etoo", "name": "SAMUEL ETOO", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "mahrez", "name": "RIYAD MAHREZ", "meters": 40, "tierName": "THROUGH BALL", "tierKey": "throughBall", "tierColor": "#38bdf8" },
+      { "id": "salah", "name": "MOHAMED SALAH", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "drogba", "name": "DIDIER DROGBA", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" },
+      { "id": "mane", "name": "SADIO MANE", "meters": 20, "tierName": "TAP-IN", "tierKey": "tapIn", "tierColor": "#94a3b8" }
+    ]
   }
 ]

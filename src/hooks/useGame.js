@@ -7,7 +7,6 @@ import { BANTER_LINES } from '../data/banter';
 import { sound } from '../utils/audio';
 
 // IMPORTANT: IMPORT YOUR SUPABASE CLIENT HERE.
-// Update the path below to match where your supabase.js file is stored.
 import { supabase } from '../utils/supabase'; 
 
 const BASE_SHOT_CLOCK = 20;
@@ -233,6 +232,21 @@ export function useGame() {
 
       localStorage.setItem('topBinsSave', JSON.stringify(newSave));
       setSaveData(newSave);
+
+      // --- NEW SUPABASE INSERT ---
+      // Silently log the daily score for percentile calculations
+      try {
+        supabase.from('leaderboard').insert([
+          { 
+            game_mode: 'daily', 
+            score: finalDist 
+          }
+        ]).then(({ error }) => {
+          if (error) console.error("Failed to log daily run to leaderboard:", error);
+        });
+      } catch (err) {
+        console.error("Could not reach Supabase for leaderboard", err);
+      }
     }
 
     setCardEvent(null);

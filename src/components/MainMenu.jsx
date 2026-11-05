@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PixelBall, PixelCrowdTop } from './PixelSprites';
 import { sound } from '../utils/audio';
 
@@ -13,12 +13,26 @@ export default function MainMenu({
 }) {
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
   const [showWhatsNew, setShowWhatsNew] = useState(false);
+  const [glitchText, setGlitchText] = useState('!#@$%&*?');
 
   const handleToggleMusic = () => {
     sound.playBeep();
     const isPlaying = sound.toggleLobbyMusic();
     setIsPlayingMusic(isPlaying);
   };
+
+  // Glitch effect for the unannounced VAR Room mode
+  useEffect(() => {
+    const chars = '#$@!&%*?><[]{}';
+    const glitchInterval = setInterval(() => {
+      let randomStr = '';
+      for (let i = 0; i < 15; i++) {
+        randomStr += chars[Math.floor(Math.random() * chars.length)];
+      }
+      setGlitchText(randomStr);
+    }, 150); // Updates every 150ms for a chaotic broadcast feel
+    return () => clearInterval(glitchInterval);
+  }, []);
 
   return (
     <div className="flex-1 flex flex-col justify-between py-2 select-none relative">
@@ -166,7 +180,53 @@ export default function MainMenu({
           <span className="text-xs text-purple-300 group-hover:translate-x-1 transition-transform">➔</span>
         </button>
 
-        {/* 🏆 NEW LEADERBOARD BUTTON */}
+        {/* 🔒 TEASER: Unannounced Upcoming Modes */}
+        <div className="pt-2">
+          <div className="text-center text-[6px] text-yellow-400 uppercase tracking-widest mb-1.5 font-bold">
+            ⏳ ARCADE EXPANSION IN PROGRESS...
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            
+            {/* Scouting Report Teaser */}
+            <div aria-disabled="true" className="bg-[#050e09] border-2 border-dashed border-[#1e4a2b] rounded p-2 text-left opacity-80 select-none flex flex-col justify-between">
+              <div>
+                <div className="flex justify-between items-center mb-1">
+                  <div className="text-[7px] font-black text-zinc-300 uppercase tracking-wider">
+                    PROJECT: SCOUT
+                  </div>
+                  <div className="text-[8px]">📁</div>
+                </div>
+                <div className="text-[6px] font-mono text-zinc-500 tracking-wider">
+                  ██████ █████ ███ ████ ███████
+                </div>
+              </div>
+              <div className="mt-1.5 inline-block text-[6px] bg-zinc-800 text-zinc-400 px-1.5 py-0.5 rounded font-bold uppercase w-max border border-zinc-700">
+                [REDACTED]
+              </div>
+            </div>
+
+            {/* VAR Room Teaser */}
+            <div aria-disabled="true" className="bg-[#050e09] border-2 border-dashed border-[#1e4a2b] rounded p-2 text-left opacity-80 select-none flex flex-col justify-between">
+              <div>
+                <div className="flex justify-between items-center mb-1">
+                  <div className="text-[7px] font-black text-red-500 uppercase tracking-wider flex items-center gap-1">
+                    <span className="animate-pulse">🔴</span> SIGNAL LOST
+                  </div>
+                  <div className="text-[8px]">📺</div>
+                </div>
+                <div className="text-[6px] font-mono text-red-900/80 tracking-widest break-all h-3 overflow-hidden">
+                  {glitchText}
+                </div>
+              </div>
+              <div className="mt-1.5 inline-block text-[6px] bg-red-950 text-red-400 px-1.5 py-0.5 rounded font-bold uppercase w-max border border-red-900">
+                AWAITING REVIEW
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        {/* 🏆 LEADERBOARD BUTTON */}
         <button
           onClick={onViewLeaderboard}
           className="w-full bg-[#0c1c2e] hover:bg-[#16304d] active:scale-95 border-2 border-blue-500/50 p-2 rounded text-center transition-all shadow-md cursor-pointer mt-1"
@@ -207,9 +267,28 @@ export default function MainMenu({
             {/* Scrollable Patch Notes Container */}
             <div className="space-y-5 text-xs text-zinc-300 mb-4 max-h-[50vh] overflow-y-auto pr-2">
               
-              {/* Version 1.3 */}
+              {/* Version 1.4 */}
               <div>
-                <h3 className="text-[10px] text-yellow-400 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.3 Update</h3>
+                <h3 className="text-[10px] text-yellow-400 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.4 Update</h3>
+                <div className="space-y-2.5">
+                  <div className="flex items-start gap-2">
+                    <span className="text-emerald-400 font-bold text-sm">🔋</span>
+                    <p><strong className="text-white">Percentile Battery Bar:</strong> Added a retro battery display on the post-match screen that calculates how your daily score stacks up against the community in real time, Let us hold hands and hope it works lol.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-purple-400 font-bold text-sm">📦</span>
+                    <p><strong className="text-white">Massive Content Expansion:</strong> Stocked up questions across all existing modes with  bounded lists, trying to eliminate false negatives and ensuring infinite replayability.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold text-sm">⏳</span>
+                    <p><strong className="text-white">Upcoming Secret Modes:</strong> Oh Jeez man, I wonder what these new gamemodes are going to be about..👀</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Version 1.3 */}
+              <div className="opacity-80">
+                <h3 className="text-[10px] text-zinc-500 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.3 Update</h3>
                 <div className="space-y-2.5">
                   <div className="flex items-start gap-2">
                     <span className="text-emerald-400 font-bold text-sm">🏆</span>
@@ -227,7 +306,7 @@ export default function MainMenu({
               </div>
 
               {/* Version 1.2 */}
-              <div className="opacity-80">
+              <div className="opacity-70">
                 <h3 className="text-[10px] text-zinc-500 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.2 Update</h3>
                 <div className="space-y-2.5">
                   <div className="flex items-start gap-2">
@@ -241,25 +320,6 @@ export default function MainMenu({
                   <div className="flex items-start gap-2">
                     <span className="text-blue-400 font-bold text-sm">🐛</span>
                     <p><strong className="text-white">Bug Fixes:</strong> Hopefully patched the leaderboard submission glitch, fixed multiple-choice autocorrect bugs-I hope it Glo's, and smoothed out game logic.</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Version 1.1 */}
-              <div className="opacity-70">
-                <h3 className="text-[10px] text-zinc-500 tracking-wider uppercase font-bold mb-2 border-b border-zinc-800 pb-1">Version 1.1 Update</h3>
-                <div className="space-y-2.5">
-                  <div className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold text-sm">🟥</span>
-                    <p><strong className="text-white">2-Card Sudden Death:</strong> Rarity-based spectrum scoring. 3 referee strikes and you're off! VAR challenges enabled.</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-sm">🎙️</span>
-                    <p><strong className="text-white">Press Conference:</strong> Endless survival mode where the clock speeds up the longer you survive.</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-yellow-400 font-bold text-sm">🏆</span>
-                    <p><strong className="text-white">Global Leaderboards:</strong> Submit your initials to the Supabase Arcade Hall of Fame.</p>
                   </div>
                 </div>
               </div>
