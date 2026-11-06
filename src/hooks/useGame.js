@@ -75,7 +75,6 @@ const logContestedAnswer = (questionPrompt, answerText, source = 'VAR') => {
 // BACKGROUND GUESS LOGGER
 // ==========================================
 const logPlayerGuess = async (rawGuess, mode, currentQ) => {
-  // Silent fail catch so if Supabase is down, it doesn't break the game
   try {
     supabase.from('guess_logs').insert([
       {
@@ -204,9 +203,11 @@ export function useGame() {
     }
   }, [readCountdown, gameState, currentKickResult, cardEvent, pendingAutocorrect, hardcoreTransitionEvent]);
 
-  const finishGame = useCallback((finalHistory) => {
+  const finishGame = useCallback((currentHistory, overrideDist = null) => {
     clearCardTimers();
-    const finalDist = finalHistory.reduce((sum, item) => sum + (item.meters || 0), 0);
+    const finalDist = overrideDist !== null 
+      ? overrideDist 
+      : currentHistory.reduce((sum, item) => sum + (item.meters || 0), 0);
     
     if (gameMode === 'daily') {
       let newStreak = saveData.stats.currentStreak;
@@ -226,27 +227,27 @@ export function useGame() {
       const newSave = {
         stats: newStats,
         lastPlayedDay: currentDayNum,
-        todayHistory: finalHistory,
+        todayHistory: currentHistory,
         todayDistance: finalDist
       };
 
       localStorage.setItem('topBinsSave', JSON.stringify(newSave));
       setSaveData(newSave);
 
-      // --- NEW SUPABASE INSERT ---
-      // Silently log the daily score for percentile calculations
-      try {
-        supabase.from('leaderboard').insert([
-          { 
-            mode: 'daily', 
-            score: finalDist 
-          }
-        ]).then(({ error }) => {
-          if (error) console.error("Failed to log daily run to leaderboard:", error);
-        });
-      } catch (err) {
-        console.error("Could not reach Supabase for leaderboard", err);
-      }
+      // --- GUARANTEED SUPABASE INSERT ---
+      console.log("Submitting daily score to Supabase:", finalDist);
+      supabase.from('leaderboard').insert([
+        { 
+          mode: 'daily', 
+          score: finalDist 
+        }
+      ]).then(({ data, error }) => {
+        if (error) {
+          console.error("Failed to log daily run to leaderboard:", error);
+        } else {
+          console.log("Successfully logged daily run!", data);
+        }
+      });
     }
 
     setCardEvent(null);
@@ -519,8 +520,11 @@ export function useGame() {
   const nextFixture = () => {
     sound.playBeep();
     setPendingAutocorrect(null);
+    
     if (gameMode === 'daily' && fixtureIndex + 1 >= TOTAL_FIXTURES) {
-      finishGame(history);
+      const updatedHistory = currentKickResult ? [...history, currentKickResult] : history;
+      const currentTotalDist = updatedHistory.reduce((sum, item) => sum + (item.meters || 0), 0);
+      finishGame(updatedHistory, currentTotalDist);
     } else {
       setCurrentKickResult(null);
       setInvalidAttempt(null);
