@@ -51,7 +51,7 @@ export default function App() {
   const [reportedIndices, setReportedIndices] = useState({});
   
   // Percentile State
-  const [dailyPercentile, setDailyPercentile] = useState(0);
+  const [dailyPercentile, setDailyPercentile] = useState(null);
   
   // Modal states
   const [showHowToPlay, setShowHowToPlay] = useState(false);
@@ -72,23 +72,23 @@ export default function App() {
     const fetchPercentile = async () => {
       if (gameState === 'finished' && gameMode === 'daily' && totalDistance > 0) {
         try {
-          const today = new Date().toISOString().split('T')[0];
-          
+          // South African date, so it matches the game's day
+          const today = new Date().toLocaleDateString('en-CA', {
+            timeZone: 'Africa/Johannesburg',
+          });
           const { data, error } = await supabase.rpc('get_daily_percentile', {
             player_score: totalDistance,
-            target_date: today
+            target_date: today,
           });
-
           if (error) throw error;
-          
-          setDailyPercentile(Math.round(data || 0));
+          // null means "not enough players yet", so the bar shows calibrating
+          setDailyPercentile(data == null ? null : Math.round(data));
         } catch (error) {
           console.error('Error fetching percentile:', error);
-          setDailyPercentile(0);
+          setDailyPercentile(null);
         }
       }
     };
-
     fetchPercentile();
   }, [gameState, gameMode, totalDistance]);
 
