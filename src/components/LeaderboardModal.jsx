@@ -10,6 +10,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
   const [initials, setInitials] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
 
   const isPlayableMode = finalScore !== undefined && finalScore > 0 && (gameMode === 'endless' || gameMode === 'cards');
 
@@ -30,6 +31,7 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
 
     sound.playBeep();
     setSubmitting(true);
+    setErrorMsg('');
     const cleanInitials = initials.trim().toUpperCase().slice(0, 10);
 
     const result = await submitScore(cleanInitials, finalScore, gameMode);
@@ -37,6 +39,10 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
       setSubmitted(true);
       setActiveTab(gameMode);
       fetchScores(gameMode);
+    } else if (result.taken) {
+      setErrorMsg('That name is already taken by another player. Pick a different one.');
+    } else {
+      setErrorMsg('Could not save your score. Please try again.');
     }
     setSubmitting(false);
   };
@@ -79,6 +85,9 @@ export function LeaderboardModal({ finalScore, gameMode, onClose }) {
                 {submitting ? '...' : 'SUBMIT'}
               </button>
             </form>
+            {errorMsg && (
+              <p className="mt-3 text-xs font-bold text-red-400">{errorMsg}</p>
+            )}
           </div>
         )}
 
